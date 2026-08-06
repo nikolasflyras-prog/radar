@@ -1,0 +1,2 @@
+[console_scripts]
+radar = radar.cli:main

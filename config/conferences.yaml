@@ -1,0 +1,14 @@
+# Program URLs change annually. Add current and prior-year public pages; optional
+# item_selector can target a conference-specific paper/session element.
+conferences:
+  - {name: ISSCC, programs: []}
+  - {name: Hot Chips, programs: []}
+  - {name: DAC, programs: []}
+  - {name: VLSI Symposia, programs: []}
+  - {name: IEDM, programs: []}
+  - {name: MICRO, programs: []}
+  - {name: ISCA, programs: []}
+  - {name: HPCA, programs: []}
+  - {name: OFC, programs: []}
+  - {name: ECTC, programs: []}
+

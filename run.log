@@ -1,0 +1,11 @@
+edgar: 2238 rows, 0 new, 1 errors
+uspto: 0 rows, 0 new, 21 errors
+github: 0 rows, 0 new, 0 errors
+hn: 739 rows, 2 new, 0 errors
+WARNING radar.collectors.base: Could not read robots.txt for www.servethehome.com; refusing broad crawl
+rss: 10 rows, 0 new, 3 errors
+conferences: 0 rows, 0 new, 0 errors
+incorporation: 0 rows, 0 new, 1 errors
+domains: 2 rows, 0 new, 0 errors
+Digest: /workspaces/radar/output/weekly-digest.md and /workspaces/radar/output/weekly-digest.html
+Error: 4 collectors reported errors

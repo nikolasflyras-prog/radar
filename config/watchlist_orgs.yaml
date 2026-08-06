@@ -1,0 +1,22 @@
+organizations:
+  - {name: Intel, aliases: [Intel Corporation]}
+  - {name: AMD, aliases: [Advanced Micro Devices]}
+  - {name: NVIDIA, aliases: [Nvidia Corporation]}
+  - {name: Apple, aliases: [Apple Inc.]}
+  - {name: Google, aliases: [Google LLC, Alphabet]}
+  - {name: Meta, aliases: [Meta Platforms, Facebook]}
+  - {name: Qualcomm, aliases: [Qualcomm Incorporated]}
+  - {name: Broadcom, aliases: [Broadcom Inc.]}
+  - {name: Marvell, aliases: [Marvell Technology]}
+  - {name: Micron, aliases: [Micron Technology]}
+  - {name: TSMC North America, aliases: [TSMC NA]}
+  - {name: Samsung Semiconductor, aliases: [Samsung SSI]}
+  - {name: Tenstorrent, aliases: []}
+  - {name: Rivos, aliases: []}
+  - {name: SiFive, aliases: []}
+  - {name: Ampere Computing, aliases: [Ampere]}
+  - {name: Cerebras Systems, aliases: [Cerebras]}
+  - {name: Groq, aliases: [Groq Inc.]}
+  - {name: Microsoft, aliases: [Microsoft Corporation]}
+  - {name: Amazon, aliases: [AWS, Annapurna Labs]}
+

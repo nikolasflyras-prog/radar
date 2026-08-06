@@ -1,0 +1,36 @@
+contact_email: Nikolasflyras@gmail.com
+database: data/radar.db
+rate_limit_seconds: 1.0
+timeout_seconds: 30
+max_collector_failures: 2
+lookback_days: {edgar: 14, uspto: 30, github: 14, hn: 14, rss: 14, incorporation: 30}
+rate_limits:
+  www.sec.gov: 0.12
+  api.github.com: 1.0
+  assignment-api.uspto.gov: 1.0
+scoring:
+  half_life_days: 60
+  cluster_window_days: 90
+  investigate_threshold: 60
+  watching_threshold: 30
+  weights:
+    patent_bigco_to_new: 40
+    form_d_watchlist_officer: 35
+    form_d_keyword_issuer: 25
+    conference_affiliation_change: 25
+    github_keyword_org: 20
+    github_activity_drop: 10
+    domain_hiring: 15
+    domain_registered: 5
+    new_incorporation_keyword: 5
+    news_departure_stealth: 10
+    manual_note: 30
+sources:
+  uspto_assignment_endpoint: https://assignment-api.uspto.gov/patent/basicSearch
+  # Download official assignment XML into this directory for reliable backfills.
+  uspto_bulk_xml_dir: data/uspto-bulk
+feeds:
+  - {name: EE Times, url: "https://www.eetimes.com/feed/"}
+  - {name: The Register Silicon, url: "https://www.theregister.com/headlines.atom"}
+  - {name: ServeTheHome, url: "https://www.servethehome.com/feed/"}
+  - {name: SemiWiki, url: "https://semiwiki.com/feed/"}

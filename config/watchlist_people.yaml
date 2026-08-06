@@ -1,0 +1,4673 @@
+people:
+- name: Jack Gifford
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Maxim Integrated Products
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder/ CEO at Maxim Integrated Products; company acquired by Analog Devices (NAS: ADI)(Vincent Roche).'
+- name: Loi Nguyen
+  known_aliases:
+  - Loi Nguyen Ph.D
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Marvell
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder / Sr. VP of Optical Interconnect at Inphi; company acquired by Marvell Technology (NAS: MRVL).
+    Current role: Executive VP emeritus at Marvell. Still at acquirer: Yes.'
+- name: Gopal Raghavan
+  known_aliases:
+  - Gopal Raghavan Ph.D
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Inphi
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder / CTO at Inphi; company acquired by Marvell Technology (NAS: MRVL).'
+- name: Jalal Bagherli
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Dialog Semiconductor
+  specialty_tags: []
+  notes: 'Previously CEO at Dialog Semiconductor; company acquired by Renesas Electronics (TKS: 6723)(Hidetoshi Shibata).'
+- name: David H. Li
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Ingevity
+  specialty_tags: []
+  notes: 'Previously CEO / President at CMC Materials; company acquired by Entegris (NAS: ENTG)(Bertrand Loy). Current role:
+    CEO & President at Ingevity. Still at acquirer: No.'
+- name: Tony Pialis
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Qualcomm
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously President and CEO at Alphawave Semi; company acquired by Qualcomm (NAS: QCOM)(Cristiano Amon). Current
+    role: EVP & GM, Datacenter & AI at Qualcomm. Still at acquirer: Yes. Previously CEO / Co-founder at Alphawave Semi; company
+    acquired by Qualcomm (NAS: QCOM)(Cristiano Amon).'
+- name: Rahul Mathur
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Alphawave Semi
+  specialty_tags: []
+  notes: 'Previously Chief operating and financial officer at Alphawave Semi; company acquired by Qualcomm (NAS: QCOM)(Cristiano
+    Amon). Still at acquirer: No.'
+- name: Tony Chan Carusone
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Qualcomm
+  specialty_tags: []
+  notes: 'Previously CTO at Alphawave Semi; company acquired by Qualcomm (NAS: QCOM)(Cristiano Amon). Current role: SVP, Technology
+    at Qualcomm. Still at acquirer: Yes.'
+- name: Mohit Gupta
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: TLYsemi
+  specialty_tags: []
+  notes: 'Previously EVP & GM, IP and custom silicon at Alphawave Semi; company acquired by Qualcomm (NAS: QCOM)(Cristiano
+    Amon). Current role: Founder & CEO at TLYsemi. Next venture listed: TYLSEMI. Still at acquirer: No. Source notes: https://www.linkedin.com/company/112772890/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BskDCcpYAQT6v9u0GhE0y5g%3D%3D
+    Previously SVP / GM at OpenFive; company acquired by Alphawave Semi(Antonios Pialis).'
+- name: Jonathan Rogers
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Qualcomm
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder / SVP Engineering at Alphawave Semi; company acquired by Qualcomm (NAS: QCOM)(Cristiano Amon).
+    Current role: SVP Engineering, Mixed signal IP at Qualcomm. Still at acquirer: Yes.'
+- name: Raj Mahadevan
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Alphawave Semi
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder / COO at Alphawave Semi; company acquired by Qualcomm (NAS: QCOM)(Cristiano Amon). Still at
+    acquirer: Unknown.'
+- name: Vera Parker
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Smiths Interconnect
+  specialty_tags: []
+  notes: 'Previously President at Smiths Interconnect; company acquired by Molex (Connectivity Products)(Joe Nelligan). Still
+    at acquirer: No.'
+- name: Tim Phillips
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Empower Semiconductor
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder, CEO & President at Empower Semiconductor; company acquired by Analog Devices (NAS: ADI)(Vincent
+    Roche).'
+- name: Gene Sheridan
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Empower Semiconductor
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder, Executive Chairman at Empower Semiconductor; company acquired by Analog Devices (NAS: ADI)(Vincent
+    Roche).'
+- name: Trey Roessig
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Empower Semiconductor
+  specialty_tags: []
+  notes: 'Previously CTO & SVP Engineering at Empower Semiconductor; company acquired by Analog Devices (NAS: ADI)(Vincent
+    Roche).'
+- name: Kurt Redfield
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Empower Semiconductor
+  specialty_tags: []
+  notes: 'Previously CFO at Empower Semiconductor; company acquired by Analog Devices (NAS: ADI)(Vincent Roche).'
+- name: Oded Tal
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: MAX IEG
+  specialty_tags: []
+  notes: 'Previously CEO at TSI Semiconductors; company acquired by Bosch(Stefan Hartung). Current role: CEO at MAX IEG. Still
+    at acquirer: No.'
+- name: Gerard Williams III
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: NUVACORE
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & CEO at NUVIA (Application Specific Semiconductors); company acquired by Qualcomm (NAS: QCOM)(Cristiano
+    Amon). Current role: Co-founder at NUVACORE. Still at acquirer: No.'
+- name: John Bruno
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: NUVIA (Application Specific Semiconductors)
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder (SVP Eng) at NUVIA (Application Specific Semiconductors); company acquired by Qualcomm (NAS:
+    QCOM)(Cristiano Amon).'
+- name: Manu Gulati
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Velaura AI
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder (SVP Eng) at NUVIA (Application Specific Semiconductors); company acquired by Qualcomm (NAS:
+    QCOM)(Cristiano Amon). Current role: Co-founder & Chief Dev. Officer at Velaura AI. Still at acquirer: No.'
+- name: Rajiv Khemani
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Velaura AI, Upscale AI
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder / CEO at Innovium; company acquired by Marvell Technology (NAS: MRVL). Current role: Co-founder
+    & CEO, Co founder & exec chairman at Velaura AI, Upscale AI. Still at acquirer: No.'
+- name: Puneet Agarwal
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Upscale AI
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder / CTO at Innovium; company acquired by Marvell Technology (NAS: MRVL). Current role: CTO at
+    Upscale AI. Next venture listed: Upscale?. Still at acquirer: No.'
+- name: Mohammad Issa
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Innovium
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder at Innovium; company acquired by Marvell Technology (NAS: MRVL).'
+- name: Tim Jenks
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Powerlight technologies
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Chairman, CEO & President (founder-CEO) at NeoPhotonics; company acquired by Lumentum Holdings (NAS:
+    LITE)(Alan Lowe). Current role: CEO at Powerlight technologies. Still at acquirer: No.'
+- name: Girvan Patterson
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: plaintree systems inc
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & ex-CEO at GaN Systems; company acquired by Infineon Technologies (ETR: IFX)(Jochen Hanebeck).
+    Current role: founder and director at plaintree systems inc. Still at acquirer: No.'
+- name: John Roberts
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Collaite inc
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & CTO at GaN Systems; company acquired by Infineon Technologies (ETR: IFX)(Jochen Hanebeck).
+    Current role: Co-Founder at Collaite inc. Still at acquirer: No.'
+- name: Jim Witham
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Infineon
+  specialty_tags: []
+  notes: 'Previously CEO (at acquisition) at GaN Systems; company acquired by Infineon Technologies (ETR: IFX)(Jochen Hanebeck).
+    Current role: SVP at Infineon. Still at acquirer: Yes.'
+- name: Nigel Toon
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Softbank
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & CEO at Graphcore; company acquired by SoftBank Group (TKS: 9984). Current role: Co-Founder
+    & exec chair at Softbank. Still at acquirer: Yes. Previously Co-Founder (VP Sales/Mktg) at Icera; company acquired by
+    Lancom(Peter Vorstenbos). Still at acquirer: No.'
+- name: Simon Knowles
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Graphcore
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & CTO at Graphcore; company acquired by SoftBank Group (TKS: 9984). Previously Co-Founder
+    (VP Silicon) at Icera; company acquired by Lancom(Peter Vorstenbos).'
+- name: Ofer Elyakim
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: ION PE
+  specialty_tags: []
+  notes: 'Previously CEO (at acquisition) at DSP Group; company acquired by Synaptics (NAS: SYNA)(Michael Hurlston). Current
+    role: Investor at ION PE. Still at acquirer: No.'
+- name: Rob Schoelkopf
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: D Wave
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & Chief Scientist at Quantum Circuits; company acquired by D-Wave Quantum (NYS: QBTS)(Alan
+    Baratz). Current role: chief scientist at D Wave. Still at acquirer: Yes.'
+- name: Michel Devoret
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Quantum Circuits
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder at Quantum Circuits; company acquired by D-Wave Quantum (NYS: QBTS)(Alan Baratz). Still at
+    acquirer: Unknown.'
+- name: Luigi Frunzio
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Quantum Circuits
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder at Quantum Circuits; company acquired by D-Wave Quantum (NYS: QBTS)(Alan Baratz).'
+- name: Andrew Grenville
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Inpria
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder / CEO at Inpria; company acquired by JSR(Eric Johnson). Still at acquirer: No.'
+- name: Douglas A. Keszler
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Inpria
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder at Inpria; company acquired by JSR(Eric Johnson). Still at acquirer: No.'
+- name: Gerry Fan
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Marvell
+  specialty_tags: []
+  notes: 'Previously CEO at XConnTech; company acquired by Marvell Technology (NAS: MRVL)(Matthew Murphy). Current role: SVP
+    AI Scale-up Switching at Marvell. Still at acquirer: Yes.'
+- name: Ran Raichberg
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: GT Advanced Technologies
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder / CEO at GT Advanced Technologies; company acquired by ON Semiconductor (NAS: ON)(Hassane
+    El-Khoury).'
+- name: Dr. Kedar Gupta
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: GT Advanced Technologies
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder at GT Advanced Technologies; company acquired by ON Semiconductor (NAS: ON)(Hassane El-Khoury).'
+- name: Zack Deiri
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Crocus Technology
+  specialty_tags: []
+  notes: 'Previously President & CEO at Crocus Technology; company acquired by Allegro Microsystems (NAS: ALGM)(Vineet Nargolwala).
+    Still at acquirer: No.'
+- name: Subodh Kulkarni
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Cyberoptics
+  specialty_tags: []
+  notes: 'Previously President and CEO at Cyberoptics; company acquired by Nordson (NAS: NDSN).'
+- name: Jefrey Bertelsen
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Cyberoptics
+  specialty_tags: []
+  notes: 'Previously COO/CFO at Cyberoptics; company acquired by Nordson (NAS: NDSN).'
+- name: Primit Parikh
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Transphorm
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder, President & CEO at Transphorm; company acquired by Renesas Electronics (TKS: 6723)(Chris
+    Allexandre).'
+- name: Umesh Mishra
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Transphorm
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & CTO at Transphorm; company acquired by Renesas Electronics (TKS: 6723)(Chris Allexandre).'
+- name: Theodor Nielsen
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: NIL Technology
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder & CEO at NIL Technology; company acquired by Radiant Opto-Electronics (TAI: 6176).'
+- name: Brian Bilenberg
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: NIL Technology
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder & EVP Technology at NIL Technology; company acquired by Radiant Opto-Electronics (TAI: 6176).'
+- name: Thomas Haals Londørf
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: NIL Technology
+  specialty_tags: []
+  notes: 'Previously CFO at NIL Technology; company acquired by Radiant Opto-Electronics (TAI: 6176).'
+- name: Wonyoung Kim
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Lion Semiconductor
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder, CEO at Lion Semiconductor; company acquired by Cirrus Logic (NAS: CRUS)(John Forsyth).'
+- name: Hanh-Phuc Le
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Lion Semiconductor
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-founder CTO at Lion Semiconductor; company acquired by Cirrus Logic (NAS: CRUS)(John Forsyth).'
+- name: John Crossley
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Lion Semiconductor
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder and VP of Technology at Lion Semiconductor; company acquired by Cirrus Logic (NAS: CRUS)(John
+    Forsyth).'
+- name: Ravi Annavajjhala
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: NXP
+  specialty_tags: []
+  notes: 'Previously CEO at Kinara; company acquired by NXP Semiconductors (NAS: NXPI)(Rafael Sotomayor). Current role: VP
+    / GM Neural Processing Unit PL at NXP. Still at acquirer: Yes.'
+- name: Rehan Hameed
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: NXP
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-founder, CTO at Kinara; company acquired by NXP Semiconductors (NAS: NXPI)(Rafael Sotomayor). Current
+    role: Fellow AI Silicon and System Architecture at NXP. Still at acquirer: Yes.'
+- name: Wajahat Qadeer
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: NXP
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-founder, Chief architect at Kinara; company acquired by NXP Semiconductors (NAS: NXPI)(Rafael Sotomayor).
+    Current role: Fellow at NXP. Still at acquirer: Yes.'
+- name: Richard Deranleau
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Self-employed
+  specialty_tags: []
+  notes: 'Previously CFO at Kinara; company acquired by NXP Semiconductors (NAS: NXPI)(Rafael Sotomayor). Current role: Financial
+    Consultant at Self-employed. Still at acquirer: No.'
+- name: Jason Ellsworth
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Clēnera
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & CEO at Clēnera; company acquired by Enlight Renewable Energy (TAE: ENLT)(Gilad Yavetz).
+    Still at acquirer: No.'
+- name: Adam Pishl
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Bear Rock Ventures
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & COO at Clēnera; company acquired by Enlight Renewable Energy (TAE: ENLT)(Gilad Yavetz).
+    Current role: Founder at Bear Rock Ventures. Still at acquirer: No.'
+- name: Nigel Wenden
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: WGNSTAR
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder/CEO at WGNSTAR; company acquired by ABM Industries (NYS: ABM)(Scott Salmirs). Current role: CEO
+    at WGNSTAR. Still at acquirer: Yes.'
+- name: Tim Hare
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: WGNSTAR
+  specialty_tags: []
+  notes: 'Previously COO at WGNSTAR; company acquired by ABM Industries (NYS: ABM)(Scott Salmirs).'
+- name: Ranbir Singh
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: GeneSiC Semiconductor
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder, President & CEO at GeneSiC Semiconductor; company acquired by Navitas Semiconductor (NAS: NVTS)(Gene
+    Sheridan). Still at acquirer: No.'
+- name: Dave Orton
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: GEO Semiconductor
+  specialty_tags: []
+  notes: 'Previously President & CEO (at acquisition) at GEO Semiconductor; company acquired by indie Semiconductor (NAS:
+    INDI).'
+- name: Basil Garabet
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: NKT Photonics
+  specialty_tags: []
+  notes: 'Previously CEO (at acquisition) at NKT Photonics; company acquired by Hamamatsu Photonics (TKS: 6965)(Akira Hiruma).'
+- name: Avigdor Willenz
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Banias Labs
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder at Banias Labs; company acquired by Alphawave Semi(Antonios Pialis).
+- name: Amnon Rom
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Banias Labs
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder / CEO at Banias Labs; company acquired by Alphawave Semi(Antonios Pialis). Still at acquirer:
+    No.'
+- name: Amri Levy
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Banias Labs
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder at Banias Labs; company acquired by Alphawave Semi(Antonios Pialis).
+- name: Alex Shinkar
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Alphawave Semi
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder at Banias Labs; company acquired by Alphawave Semi(Antonios Pialis). Current employer: Alphawave
+    Semi. Still at acquirer: Yes.'
+- name: Or Vidal
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Banias Labs
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder at Banias Labs; company acquired by Alphawave Semi(Antonios Pialis).
+- name: Kamal Dalmia
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Aviva Links
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & CEO at Aviva Links; company acquired by NXP Semiconductors (NAS: NXPI)(Meindert Beld). Still
+    at acquirer: Unknown.'
+- name: Sachin Goel
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: NXP
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder / VP at Aviva Links; company acquired by NXP Semiconductors (NAS: NXPI)(Meindert Beld). Current
+    employer: NXP. Still at acquirer: Yes.'
+- name: Hiok-Tiaq Ng
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: NXP
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder / VP at Aviva Links; company acquired by NXP Semiconductors (NAS: NXPI)(Meindert Beld). Current
+    role: Fellow at NXP. Still at acquirer: Yes.'
+- name: Satya Gupta
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: OpenFive
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder at OpenFive; company acquired by Alphawave Semi(Antonios Pialis).
+- name: Darrell Rinerson
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Unity Semiconductor
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder / CEO at Unity Semiconductor; company acquired by Merck (ETR: MRK)(Kai Beckmann).'
+- name: Jamil Abo-Shaeer
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Vector Atomic
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & CEO at Vector Atomic; company acquired by IonQ (NYS: IONQ)(Niccolo Masi).'
+- name: Mathew Cashen
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Vector Atomic
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & Chief Scientist at Vector Atomic; company acquired by IonQ (NYS: IONQ)(Niccolo Masi).'
+- name: Martin Boyd
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Vector Atomic
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & Chief Engineer at Vector Atomic; company acquired by IonQ (NYS: IONQ)(Niccolo Masi).'
+- name: Rafael García
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Inmos
+  specialty_tags: []
+  notes: 'Previously CEO at Inmos; company acquired by Vishay Intertechnology (NYS: VSH).'
+- name: Dr. Zhou
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Preciseley Microtechnology
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder at Preciseley Microtechnology; company acquired by Hankook & Company (KRX: 000240), Hankook Tire
+    & Technology (KRX: 161390).'
+- name: Bob Patti
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Nhanced Semiconductors
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder, President & CEO at Nhanced Semiconductors; company acquired by Quantum Computing (NAS: QUBT)(Yuping
+    Huang).'
+- name: Renee James
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: ampere
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder, Chairman & CEO at Ampere Computing; company acquired by SoftBank Group (TKS: 9984). Current
+    role: founder at ampere. Next venture listed: Rule42. Still at acquirer: Yes.'
+- name: Atiq Bajwa
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: ampere
+  specialty_tags: []
+  notes: 'Previously Chief Architect at Ampere Computing; company acquired by SoftBank Group (TKS: 9984). Current role: chief
+    architect at ampere. Still at acquirer: Yes.'
+- name: Harish Krishnaswamy
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Sivers semiconductors
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & CTO at MixComm; company acquired by Sivers Semiconductors (STO: SIVE)(Anders Storm). Current
+    role: MD wireless unit at Sivers semiconductors. Still at acquirer: Yes.'
+- name: Frank Lane
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Sivers semiconductors
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder at MixComm; company acquired by Sivers Semiconductors (STO: SIVE)(Anders Storm). Current role:
+    VP of engineering at Sivers semiconductors. Still at acquirer: Yes.'
+- name: Mike Noonen
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: swave photonics
+  specialty_tags: []
+  notes: 'Previously CEO (at acquisition) at MixComm; company acquired by Sivers Semiconductors (STO: SIVE)(Anders Storm).
+    Current role: exec advisor at swave photonics. Still at acquirer: No.'
+- name: Mike Dempsey
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: SecureWISE
+  specialty_tags: []
+  notes: 'Previously VP at SecureWISE; company acquired by PDF Solutions (NAS: PDFS)(John Kibarian).'
+- name: Joyce Adams
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: International Test Solutions
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder / Executive VP at International Test Solutions; company acquired by CMC Materials(David Li).
+- name: Gene Humphrey
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: International Test Solutions
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder / President at International Test Solutions; company acquired by CMC Materials(David Li).
+- name: Iannick Monfils
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Quantifi Photonics
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & CEO at Quantifi Photonics; company acquired by Teradyne (NAS: TER)(Gregory Smith).'
+- name: Nelson Pin
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: ASMPT NEXX
+  specialty_tags: []
+  notes: 'Previously COO / CEO at ASMPT NEXX; company acquired by PDF Solutions (NAS: PDFS).'
+- name: Jarek Pisera
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: ASMPT NEXX
+  specialty_tags: []
+  notes: 'Previously President at ASMPT NEXX; company acquired by PDF Solutions (NAS: PDFS). Still at acquirer: Yes.'
+- name: Stanley Piekos
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: ASMPT NEXX
+  specialty_tags: []
+  notes: 'Previously VP Finance at ASMPT NEXX; company acquired by PDF Solutions (NAS: PDFS). Still at acquirer: No.'
+- name: Travis Kroll
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: ASMPT NEXX
+  specialty_tags: []
+  notes: 'Previously CFO at ASMPT NEXX; company acquired by PDF Solutions (NAS: PDFS).'
+- name: Mackenold Louis
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: ASMPT NEXX
+  specialty_tags: []
+  notes: 'Previously COO at ASMPT NEXX; company acquired by PDF Solutions (NAS: PDFS).'
+- name: Arthur Keigler
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Nexx
+  specialty_tags: []
+  notes: 'Previously CTO / VP at ASMPT NEXX; company acquired by PDF Solutions (NAS: PDFS). Current role: CTO VP Engineering
+    at Nexx. Still at acquirer: Yes.'
+- name: Chris Dries
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: CeeK Capital
+  specialty_tags: []
+  notes: 'Previously President & CEO at UnitedSiC; company acquired by Qorvo (NAS: QRVO). Current role: managing partner at
+    CeeK Capital. Still at acquirer: No.'
+- name: Austin Russell
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Luminar Semiconductor
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder / CEO at Luminar Semiconductor; company acquired by Quantum Computing (NAS: QUBT)(Yuping Huang).'
+- name: Jason Eichenholz
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Luminar Semiconductor
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder at Luminar Semiconductor; company acquired by Quantum Computing (NAS: QUBT)(Yuping Huang).'
+- name: Deepak Ravindra
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Micro-LAM
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder/CEO at Micro-LAM; company acquired by IDEX (NYS: IEX)(Eric Ashleman).'
+- name: Dasaradha Gude
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Invecas
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder / CEO at Invecas; company acquired by Cadence Design Systems (NAS: CDNS)(Boyd Phelps).'
+- name: Ramu Konduri
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Invecas
+  specialty_tags: []
+  notes: 'Previously Senior Director at Invecas; company acquired by Cadence Design Systems (NAS: CDNS)(Boyd Phelps).'
+- name: Ravinder Reddy A
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Invecas
+  specialty_tags: []
+  notes: 'Previously Director at Invecas; company acquired by Cadence Design Systems (NAS: CDNS)(Boyd Phelps).'
+- name: Ramesh Babu Kollipara
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Invecas
+  specialty_tags: []
+  notes: 'Previously Finance Manager at Invecas; company acquired by Cadence Design Systems (NAS: CDNS)(Boyd Phelps).'
+- name: Mohsen Asad
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Hyperlume
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & CEO at Hyperlume; company acquired by Credo Technology Group (NAS: CRDO)(William Brennan).'
+- name: Hossein Fariborzi
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Hyperlume
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder, President & CTO at Hyperlume; company acquired by Credo Technology Group (NAS: CRDO)(William
+    Brennan).'
+- name: Bernd Gessner
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Panthronics
+  specialty_tags: []
+  notes: 'Previously COO / CFO at Panthronics; company acquired by Renesas Electronics (TKS: 6723)(Hidetoshi Shibata).'
+- name: Jakob Jongsma
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Panthronics
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder / CTO at Panthronics; company acquired by Renesas Electronics (TKS: 6723)(Hidetoshi Shibata).'
+- name: Mark Dickson
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Panthronics
+  specialty_tags: []
+  notes: 'Previously CMO at Panthronics; company acquired by Renesas Electronics (TKS: 6723)(Hidetoshi Shibata).'
+- name: Dawoodi Kambiz
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Panthronics
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder at Panthronics; company acquired by Renesas Electronics (TKS: 6723)(Hidetoshi Shibata).'
+- name: David Moser
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: ancosys
+  specialty_tags: []
+  notes: 'Previously Managing Director at ancosys; company acquired by Nova (Israel) (NAS: NVMI)(Eitan Oppenhaim).'
+- name: Jurg Stahl
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: ancosys
+  specialty_tags: []
+  notes: 'Previously Managing Director at ancosys; company acquired by Nova (Israel) (NAS: NVMI)(Eitan Oppenhaim).'
+- name: Arnaud Schleich
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: PLDA Group
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & CEO at PLDA Group; company acquired by Rambus (NAS: RMBS)(Luc Seraphin).'
+- name: Kin Shum
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Kinetic Technologies
+  specialty_tags:
+  - prior_founder
+  notes: Previously Founder & CEO at Kinetic Technologies; company acquired by Cyient Semiconductors (Application Specific
+    Semiconductors).
+- name: David Caron
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Kinetic Technologies
+  specialty_tags: []
+  notes: Previously CFO at Kinetic Technologies; company acquired by Cyient Semiconductors (Application Specific Semiconductors).
+- name: Nitin Jain
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Anokiwave
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder, CTO & Chairman at Anokiwave; company acquired by Qorvo (NAS: QRVO)(Philip Chesley).'
+- name: Deepti Jain
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Anokiwave
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder at Anokiwave; company acquired by Qorvo (NAS: QRVO)(Philip Chesley).'
+- name: Malinda Law
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Anchor Semiconductor
+  specialty_tags: []
+  notes: 'Previously Director of Finance at Anchor Semiconductor; company acquired by KLA (NAS: KLAC).'
+- name: Chenming Hu
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Anchor Semiconductor
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder at Anchor Semiconductor; company acquired by KLA (NAS: KLAC).'
+- name: Ping Zhang
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Anchor Semiconductor
+  specialty_tags: []
+  notes: 'Previously VP at Anchor Semiconductor; company acquired by KLA (NAS: KLAC).'
+- name: Kenneth Wang
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Anchor Semiconductor
+  specialty_tags: []
+  notes: 'Previously VP at Anchor Semiconductor; company acquired by KLA (NAS: KLAC).'
+- name: Murali Dharan
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Perceive (Application Specific Semiconductors)
+  specialty_tags: []
+  notes: 'Previously Co-CEO at Perceive (Application Specific Semiconductors); company acquired by Amazon.com (NAS: AMZN).'
+- name: Steve Teig
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Perceive (Application Specific Semiconductors)
+  specialty_tags: []
+  notes: 'Previously Co-CEO / founding technologist at Perceive (Application Specific Semiconductors); company acquired by
+    Amazon.com (NAS: AMZN).'
+- name: Kurt Levens
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: REC Silicon
+  specialty_tags: []
+  notes: 'Previously President and CEO at REC Silicon; company acquired by Hanwha (KRX: 000880), Hanwha Solutions (KRX: 009830).'
+- name: Mathu Rajan
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: VSI
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder / CEO at VSI; company acquired by Incergo (WBO: ICG)(Darren Taylor).'
+- name: Nicole Maneen
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: VSI
+  specialty_tags: []
+  notes: 'Previously Chief of Staff at VSI; company acquired by Incergo (WBO: ICG)(Darren Taylor).'
+- name: Matt Lo
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: VSI
+  specialty_tags: []
+  notes: 'Previously Chief Sales Engineer at VSI; company acquired by Incergo (WBO: ICG)(Darren Taylor).'
+- name: Paul Huang
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Fortemedia
+  specialty_tags: []
+  notes: 'Previously CEO & Chairman at Fortemedia; company acquired by Diodes (NAS: DIOD).'
+- name: Frans Scheper
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Nexperia
+  specialty_tags: []
+  notes: Previously CEO at Nexperia; company acquired by Government of the Netherlands.
+- name: Jasmine Wallisch
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: BizLink System Integration Solutions (Slovakia)
+  specialty_tags: []
+  notes: 'Previously CFO at BizLink System Integration Solutions (Slovakia); company acquired by BizLink Group (TAI: 3665).'
+- name: Heimo Wallisch
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: BizLink System Integration Solutions (Slovakia)
+  specialty_tags: []
+  notes: 'Previously Managing Director, Chief Executive Officer & Chief Operating Officer at BizLink System Integration Solutions
+    (Slovakia); company acquired by BizLink Group (TAI: 3665).'
+- name: Christian Velez
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Exalos
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder at Exalos; company acquired by indie Semiconductor (NAS: INDI)(Donald McClymont).'
+- name: Udo Oehri
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Exalos
+  specialty_tags: []
+  notes: 'Previously CFO at Exalos; company acquired by indie Semiconductor (NAS: INDI)(Donald McClymont).'
+- name: Marcus Duelk
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Exalos
+  specialty_tags: []
+  notes: 'Previously CTO at Exalos; company acquired by indie Semiconductor (NAS: INDI)(Donald McClymont).'
+- name: Paul Hofemann
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Jetcool
+  specialty_tags: []
+  notes: 'Previously CSO at Jetcool; company acquired by Flex (BPO/Outsource Services) (NAS: FLEX)(Michael Hartung).'
+- name: Jordan Mizerak
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Jetcool
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder /CTO at Jetcool; company acquired by Flex (BPO/Outsource Services) (NAS: FLEX)(Michael Hartung).'
+- name: Bernie Malouin
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Jetcool
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder / CEO at Jetcool; company acquired by Flex (BPO/Outsource Services) (NAS: FLEX)(Michael Hartung).'
+- name: Elizabet Waclawik
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Jetcool
+  specialty_tags: []
+  notes: 'Previously Chief of Staff at Jetcool; company acquired by Flex (BPO/Outsource Services) (NAS: FLEX)(Michael Hartung).'
+- name: Dr. Allen Katz
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Linearizer Technology
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder & President at Linearizer Technology; company acquired by MACOM (NAS: MTSI)(Stephen Daly).'
+- name: Kevin Brady
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Ceres Technologies
+  specialty_tags: []
+  notes: 'Previously Owner, CEO, President at Ceres Technologies; company acquired by Atlas Copco (STO: ATCO A)(Geert Follens).'
+- name: Mohamed Darwish
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: MaxPower Semiconductor
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-founder / CEO at MaxPower Semiconductor; company acquired by Vishay Intertechnology (NYS: VSH)(Gerald
+    Paul).'
+- name: Richard Blanchard
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: MaxPower Semiconductor
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder at MaxPower Semiconductor; company acquired by Vishay Intertechnology (NYS: VSH)(Gerald Paul).'
+- name: Christopher Cuda
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Harbor Electronics
+  specialty_tags: []
+  notes: 'Previously CEO at Harbor Electronics; company acquired by Technoprobe (MIL: TPRO)(Stefano Felici).'
+- name: Julia L.
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Harbor Electronics
+  specialty_tags: []
+  notes: 'Previously Co-CFO at Harbor Electronics; company acquired by Technoprobe (MIL: TPRO)(Stefano Felici).'
+- name: William Downey
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Harbor Electronics
+  specialty_tags: []
+  notes: 'Previously Co-CFO at Harbor Electronics; company acquired by Technoprobe (MIL: TPRO)(Stefano Felici).'
+- name: Michael Inglis
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Harbor Electronics
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder at Harbor Electronics; company acquired by Technoprobe (MIL: TPRO)(Stefano Felici).'
+- name: Ahmed F. Aboul-Ella
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: InfiniLink
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & CEO at InfiniLink; company acquired by GlobalFoundries (NAS: GFS).'
+- name: Botros George
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: InfiniLink
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & CTO at InfiniLink; company acquired by GlobalFoundries (NAS: GFS).'
+- name: Robert Wang
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: AnalogX
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & CEO at AnalogX; company acquired by Rambus (NAS: RMBS)(Luc Seraphin).'
+- name: Navid Yaghini
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: AnalogX
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & CTO at AnalogX; company acquired by Rambus (NAS: RMBS)(Luc Seraphin).'
+- name: Zhuobin (Jake) Li
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: AnalogX
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Former Co-Founder at AnalogX; company acquired by Rambus (NAS: RMBS)(Luc Seraphin).'
+- name: Didirk Bech
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Elmatica
+  specialty_tags: []
+  notes: 'Previously CEO at Elmatica; company acquired by NCAB Group (STO: NCAB)(Peter Kruk).'
+- name: Raymond Goh
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Elmatica
+  specialty_tags: []
+  notes: 'Previously COO at Elmatica; company acquired by NCAB Group (STO: NCAB)(Peter Kruk).'
+- name: Robert Kurti
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Elmatica
+  specialty_tags: []
+  notes: 'Previously CIO at Elmatica; company acquired by NCAB Group (STO: NCAB)(Peter Kruk).'
+- name: Inger Kogstad
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Elmatica
+  specialty_tags: []
+  notes: 'Previously CFO at Elmatica; company acquired by NCAB Group (STO: NCAB)(Peter Kruk).'
+- name: Marc Rocchi
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Ommic
+  specialty_tags: []
+  notes: 'Previously CEO and President at Ommic; company acquired by MACOM (NAS: MTSI)(Stephen Daly).'
+- name: Daniel Bergeron
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: SigmaPoint Technologies
+  specialty_tags:
+  - prior_founder
+  notes: Previously Founder, President & CEO at SigmaPoint Technologies; company acquired by Katek(Rainer Koppitz).
+- name: Jesus Inurrita
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: IKOR Sistemas Electrónicos
+  specialty_tags: []
+  notes: Previously Founding Partner at IKOR Sistemas Electrónicos; company acquired by Connect Group (BPO/Outsource Services)(Jeroen
+    Tuik).
+- name: Miguel Angel Sierra Valle
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: IKOR Sistemas Electrónicos
+  specialty_tags: []
+  notes: Previously CEO and President at IKOR Sistemas Electrónicos; company acquired by Connect Group (BPO/Outsource Services)(Jeroen
+    Tuik).
+- name: Allison Ding
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: HieFo
+  specialty_tags: []
+  notes: 'Previously CEO at HieFo; company acquired by Semtech (NAS: SMTC)(Hong Hou).'
+- name: Genzao Zhang
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: HieFo
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder at HieFo; company acquired by Semtech (NAS: SMTC)(Hong Hou).'
+- name: Harry Moore
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: HieFo
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-FOunder at HieFo; company acquired by Semtech (NAS: SMTC)(Hong Hou).'
+- name: Albert Lu
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: HieFo
+  specialty_tags: []
+  notes: 'Previously Co-CEO at HieFo; company acquired by Semtech (NAS: SMTC)(Hong Hou).'
+- name: Paul Sandberg
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Axign
+  specialty_tags: []
+  notes: 'Previously CEO at Axign; company acquired by Monolithic Power Systems (NAS: MPWR)(Michael Hsing).'
+- name: Jeremy Witzens
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: aiXscale Photonics
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & CEO at aiXscale Photonics; company acquired by Astera Labs (NAS: ALAB)(Sanjay Gajendra).'
+- name: Florian Merget
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: aiXscale Photonics
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder at aiXscale Photonics; company acquired by Astera Labs (NAS: ALAB)(Sanjay Gajendra).'
+- name: Val Marinov
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Uniqarta
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder CTO at Uniqarta; company acquired by Kulicke and Soffa Industries (NAS: KLIC).'
+- name: Ronn Kliger
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Uniqarta
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder CEO at Uniqarta; company acquired by Kulicke and Soffa Industries (NAS: KLIC).'
+- name: John Milios
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Sendyne
+  specialty_tags: []
+  notes: 'Previously CEO at Sendyne; company acquired by Sensata Technologies (NYS: ST)(George Verras).'
+- name: Nicolas Clauvelin
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Sendyne
+  specialty_tags: []
+  notes: 'Previously CTO at Sendyne; company acquired by Sensata Technologies (NYS: ST)(George Verras).'
+- name: Yannis Tsividis
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Sendyne
+  specialty_tags: []
+  notes: 'Previously CTO at Sendyne; company acquired by Sensata Technologies (NYS: ST)(George Verras).'
+- name: Frank Heidemann
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: SET - Smart Embedded Technologies
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder, CEO at SET - Smart Embedded Technologies; company acquired by National Instruments(Ritu Favre).
+- name: Roland Bucher
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: SET - Smart Embedded Technologies
+  specialty_tags: []
+  notes: Previously COO at SET - Smart Embedded Technologies; company acquired by National Instruments(Ritu Favre).
+- name: Rafal Mierzwa
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: TEWA Temperature Sensors
+  specialty_tags: []
+  notes: 'Previously CEO at TEWA Temperature Sensors; company acquired by CTS (Lisle) (NYS: CTS)(Kieran O''Sullivan).'
+- name: Marshall Lewis
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Holaday Circuits
+  specialty_tags: []
+  notes: 'Previously President and CEO at Holaday Circuits; company acquired by Firan Technology Group (TSE: FTG)(Bradley
+    Bourne).'
+- name: Jeff Lewis
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Holaday Circuits
+  specialty_tags: []
+  notes: 'Previously COO at Holaday Circuits; company acquired by Firan Technology Group (TSE: FTG)(Bradley Bourne).'
+- name: Philipp-Immanuel Dietrich
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Keystone Photonics
+  specialty_tags: []
+  notes: 'Previously CEO at Keystone Photonics; company acquired by FormFactor (NAS: FORM)(Michael Slessor).'
+- name: Ashraf Takla
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Mixel
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder & CEO at Mixel; company acquired by Silvaco (NAS: SVCO)(Babak Taheri).'
+- name: Uzi Zangi
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: PLSense
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously CEO (founder) at PLSense; company acquired by NXP Semiconductors (NAS: NXPI).'
+- name: David Tai
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: CTT
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder and President at CTT; company acquired by Kratos Defense & Security Solutions (NAS: KTOS).'
+- name: Barry Barryson
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Barry Industries
+  specialty_tags: []
+  notes: 'Previously CEO at Barry Industries; company acquired by Vishay Intertechnology (NYS: VSH)(Gerald Paul).'
+- name: Richard Barry
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Barry Industries
+  specialty_tags: []
+  notes: 'Previously President at Barry Industries; company acquired by Vishay Intertechnology (NYS: VSH)(Gerald Paul).'
+- name: Ron Schmidt
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Barry Industries
+  specialty_tags: []
+  notes: 'Previously CTO at Barry Industries; company acquired by Vishay Intertechnology (NYS: VSH)(Gerald Paul).'
+- name: Joseph Duigan
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Heyday Integrated Circuits
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder, CEO & CTO at Heyday Integrated Circuits; company acquired by Allegro Microsystems (NAS: ALGM)(Michael
+    Doogue).'
+- name: Andrew Thompson
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Heyday Integrated Circuits
+  specialty_tags: []
+  notes: 'Previously COO at Heyday Integrated Circuits; company acquired by Allegro Microsystems (NAS: ALGM)(Michael Doogue).'
+- name: Karl Rinne
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Heyday Integrated Circuits
+  specialty_tags: []
+  notes: 'Previously CTO at Heyday Integrated Circuits; company acquired by Allegro Microsystems (NAS: ALGM)(Michael Doogue).'
+- name: Ron Hogervorst
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Heyday Integrated Circuits
+  specialty_tags: []
+  notes: 'Previously CTO at Heyday Integrated Circuits; company acquired by Allegro Microsystems (NAS: ALGM)(Michael Doogue).'
+- name: Levon Barseghyan
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Aragio Solutions
+  specialty_tags: []
+  notes: 'Previously President at Aragio Solutions; company acquired by Faraday Technology (TAI: 3035).'
+- name: Glen Haas
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Aragio Solutions
+  specialty_tags: []
+  notes: 'Previously Chief Technologist at Aragio Solutions; company acquired by Faraday Technology (TAI: 3035).'
+- name: Dmitry Yarmolich
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Plasma App (Europe)
+  specialty_tags:
+  - prior_founder
+  notes: Previously Founder & CEO at Plasma App (Europe); company acquired by Meta Materials(George Palikaras).
+- name: Torsten Voigt
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: AutomatisierungsTechnik Voigt
+  specialty_tags: []
+  notes: 'Previously Owner, CEO, President at AutomatisierungsTechnik Voigt; company acquired by MPI Taiwan (ROCO: 6223).'
+- name: Jean-Luc Triouleyre
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: IC'Alps
+  specialty_tags: []
+  notes: 'Previously CEO at IC''Alps; company acquired by Sealsq (NAS: LAES).'
+- name: Anja Boelicke
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Silicon Radar
+  specialty_tags: []
+  notes: 'Previously CEO at Silicon Radar; company acquired by indie Semiconductor (NAS: INDI)(Donald McClymont).'
+- name: Joe Collins
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Grinding and Dicing Services
+  specialty_tags: []
+  notes: Previously President at Grinding and Dicing Services; company acquired by Akoustis Technologies(Jeffrey Shealy).
+- name: Jack Giles
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: ENGIN-IC
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder, CEO at ENGIN-IC; company acquired by MACOM (NAS: MTSI)(Stephen Daly).'
+- name: Chris Ison
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: ENGIN-IC
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder, Prsident at ENGIN-IC; company acquired by MACOM (NAS: MTSI)(Stephen Daly).'
+- name: Stephen Nelson
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: ENGIN-IC
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder, CTO at ENGIN-IC; company acquired by MACOM (NAS: MTSI)(Stephen Daly).'
+- name: John Denovitz
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: ENGIN-IC
+  specialty_tags: []
+  notes: 'Previously Finance Manager at ENGIN-IC; company acquired by MACOM (NAS: MTSI)(Stephen Daly).'
+- name: Thomas Baruch
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Microwave Technology
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder at Microwave Technology; company acquired by CML Microsystems (LON: CML).'
+- name: Nathan Zommer
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Microwave Technology
+  specialty_tags: []
+  notes: 'Previously CEO at Microwave Technology; company acquired by CML Microsystems (LON: CML).'
+- name: Robert Larson
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Spectrum Semiconductor Materials
+  specialty_tags: []
+  notes: 'Previously CEO at Spectrum Semiconductor Materials; company acquired by AmpliTech Group (NAS: AMPG)(Fawad Maqbool).'
+- name: Steve Ochoa
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Spectrum Semiconductor Materials
+  specialty_tags: []
+  notes: 'Previously President, COO at Spectrum Semiconductor Materials; company acquired by AmpliTech Group (NAS: AMPG)(Fawad
+    Maqbool).'
+- name: Miri Dagab
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: 2D Generation
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder VP at 2D Generation; company acquired by Adisyn (ASX: AI1).'
+- name: Arye Kohavi
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: 2D Generation
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder CEO at 2D Generation; company acquired by Adisyn (ASX: AI1).'
+- name: Richard (Rick) Brown
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Odyssey Semiconductor Technologies
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & CEO at Odyssey Semiconductor Technologies; company acquired by Power Integrations (NAS:
+    POWI)(Radu Barsan).'
+- name: Alex Behfar
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Odyssey Semiconductor Technologies
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & original CEO/Chairman at Odyssey Semiconductor Technologies; company acquired by Power Integrations
+    (NAS: POWI)(Radu Barsan).'
+- name: Raouf Halim
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Spectra7 Microsystems
+  specialty_tags: []
+  notes: 'Previously CEO at Spectra7 Microsystems; company acquired by Parade Technologies (ROCO: 4966).'
+- name: Steve Selby
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Spectra7 Microsystems
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder CTO at Spectra7 Microsystems; company acquired by Parade Technologies (ROCO: 4966).'
+- name: Rogerio Nunes
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Zilia Technologies Indústria de Componentes Semicondutores
+  specialty_tags: []
+  notes: Previously CEO and President at Zilia Technologies Indústria de Componentes Semicondutores; company acquired by Lexar.
+- name: Ademilson Magalhaes
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Zilia Technologies Indústria de Componentes Semicondutores
+  specialty_tags: []
+  notes: Previously CFO at Zilia Technologies Indústria de Componentes Semicondutores; company acquired by Lexar.
+- name: Pedro Neto
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Zilia Technologies Indústria de Componentes Semicondutores
+  specialty_tags: []
+  notes: Previously VP at Zilia Technologies Indústria de Componentes Semicondutores; company acquired by Lexar.
+- name: Frederic Rothe
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Infrared Associates
+  specialty_tags: []
+  notes: 'Previously President & CEO at Infrared Associates; company acquired by VIGO Photonics (WAR: VGO)(Adam Piotrowski).'
+- name: Didier Marsan
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Novasic
+  specialty_tags: []
+  notes: 'Previously CEO at Novasic; company acquired by Soitec (PAR: SOI)(Bernard Aspar).'
+- name: Peter Leventopoulos
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Mesta Electronics
+  specialty_tags: []
+  notes: 'Previously GM at Mesta Electronics; company acquired by Hammond Power Solutions (TSE: HPS.A)(Bill Hammond).'
+- name: Bruno Fraga
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Energia Sirius
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder and CEO at Energia Sirius; company acquired by Colibri Capital(Carlos Eduardo Barros).
+- name: Cameron Fisher
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Mobile Semiconductor
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder and CEO at Mobile Semiconductor; company acquired by Nordic Semiconductor (OSL: NOD)(Svein-Egil
+    Nielsen).'
+- name: Gayan Wikum
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Mobile Semiconductor
+  specialty_tags: []
+  notes: 'Previously Owner at Mobile Semiconductor; company acquired by Nordic Semiconductor (OSL: NOD)(Svein-Egil Nielsen).'
+- name: Jim Gobes
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Intrinsix
+  specialty_tags: []
+  notes: 'Previously CEO at Intrinsix; company acquired by Ceva (NAS: CEVA)(Gideon Wertheizer).'
+- name: Russell Cheung
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Intrinsix
+  specialty_tags: []
+  notes: 'Previously CFO at Intrinsix; company acquired by Ceva (NAS: CEVA)(Gideon Wertheizer).'
+- name: Mark Beal
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Intrinsix
+  specialty_tags: []
+  notes: 'Previously CTO at Intrinsix; company acquired by Ceva (NAS: CEVA)(Gideon Wertheizer).'
+- name: Christopher Brown
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Helios Helium
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder CEO at Helios Helium; company acquired by Promino Nutritional Sciences (CNQ: MUSL).'
+- name: Sameer Uplenchwar
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Helios Helium
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder CFO at Helios Helium; company acquired by Promino Nutritional Sciences (CNQ: MUSL).'
+- name: Andreas Haderer
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Inras
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder at Inras; company acquired by Joby Aviation (NYS: JOBY)(JoeBen Bevirt).'
+- name: Andreas Stelzer
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Inras
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder at Inras; company acquired by Joby Aviation (NYS: JOBY)(JoeBen Bevirt).'
+- name: Vincent Dessard
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: VDDTECH
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder and CEO at VDDTECH; company acquired by Navitas Semiconductor (NAS: NVTS)(Gene Sheridan).'
+- name: Milan Mashanovitch
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Quantum computing inc
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & CEO at Freedom Photonics; company acquired by Luminar Technologies. Current role: General
+    Manager at Quantum computing inc. Still at acquirer: No.'
+- name: Leif Johansson
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Freedom Photonics
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder & CTO at Freedom Photonics; company acquired by Luminar Technologies.
+- name: Peter Bigalow
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: IMI (Application Specific Semiconductors)
+  specialty_tags: []
+  notes: 'Previously President and CEO at IMI (Application Specific Semiconductors); company acquired by Firan Technology
+    Group (TSE: FTG)(Bradley Bourne).'
+- name: Pietro Nesci
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Teknoema
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder CEO at Teknoema; company acquired by Ivision Tech (MIL: IVN)(Stefano Fulchir).'
+- name: Barbara Montaari
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Teknoema
+  specialty_tags: []
+  notes: 'Previously Managing Director at Teknoema; company acquired by Ivision Tech (MIL: IVN)(Stefano Fulchir).'
+- name: Joska Broekmaat
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Solmates
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder at Solmates; company acquired by Lam Research (NAS: LRCX).'
+- name: Mattijn Dekkers
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Solmates
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder CTO at Solmates; company acquired by Lam Research (NAS: LRCX).'
+- name: Dave Blank
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Solmates
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder CTO at Solmates; company acquired by Lam Research (NAS: LRCX).'
+- name: Guus Rijnders
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Solmates
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder at Solmates; company acquired by Lam Research (NAS: LRCX).'
+- name: Arjen Janssens
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Solmates
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder CEO at Solmates; company acquired by Lam Research (NAS: LRCX).'
+- name: Glenn George
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Bay Photonics
+  specialty_tags:
+  - prior_founder
+  notes: Previously Founder & CEO at Bay Photonics; company acquired by AMS Technologies(Jan Meise).
+- name: Larry Clarke
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Bay Photonics
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder at Bay Photonics; company acquired by AMS Technologies(Jan Meise).
+- name: Franciscus Van Mierlo
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: 1366 Technologies
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder CEO at 1366 Technologies; company acquired by CubicPV.
+- name: Emanuel Sachs
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: 1366 Technologies
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder at 1366 Technologies; company acquired by CubicPV.
+- name: Boris Danev
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: 3db
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder CEO at 3db; company acquired by Infineon Technologies (ETR: IFX).'
+- name: Divid Barras
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: 3db
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder CTO at 3db; company acquired by Infineon Technologies (ETR: IFX).'
+- name: Srdjan Capkun
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: 3db
+  specialty_tags: []
+  notes: 'Previously Board at 3db; company acquired by Infineon Technologies (ETR: IFX).'
+- name: Rudy Vrielink
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: A1 Electronics Netherlands
+  specialty_tags: []
+  notes: Previously Managing Director at A1 Electronics Netherlands; company acquired by Metis Group (Netherlands)(Reinier
+    Beltman).
+- name: Paul Comerford
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Abrel Products
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder and Co-Owner at Abrel Products; company acquired by Hollybow(Joseph Powell).
+- name: Declan Brosnan
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Abrel Products
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder, Co-Owner at Abrel Products; company acquired by Hollybow(Joseph Powell).
+- name: Didier Pique
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Acerde
+  specialty_tags:
+  - prior_founder
+  notes: Previously CEO and Co-founder at Acerde; company acquired by HEF Groupe(Jean Caubet).
+- name: Qiuting Huang
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: ACP Advanced Circuit Pursuit
+  specialty_tags: []
+  notes: 'Previously CEO at ACP Advanced Circuit Pursuit; company acquired by Sequans Communications (NYS: SQNS)(Georges Karam).'
+- name: Philippe Babin
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Aeponyx
+  specialty_tags: []
+  notes: Previously CEO (since 2014) at Aeponyx; company acquired by Pasqal(Loic Henriet).
+- name: Laszlo Kishonti
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: AImotive
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder & CEO at AImotive; company acquired by Stellantis (MIL: STLAM)(Yves Bonnefont).'
+- name: Romain Stefanini
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Exxelia
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder (CEO/dirigeant) at AirMems; company acquired by MemsWay. Current role: Business development
+    manager at Exxelia. Still at acquirer: No.'
+- name: Pierre Blondy
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Institut universitaire de France (IUF)
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder / scientific originator at AirMems; company acquired by MemsWay. Current role: Professor at
+    Institut universitaire de France (IUF). Still at acquirer: No.'
+- name: Ling Yan
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: AirMems
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder (active in 2013 founding) at AirMems; company acquired by MemsWay. Current role: process engineer
+    at AirMems. Still at acquirer: Yes.'
+- name: Carl Shurboff
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: stealth
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder, COO at Akhan Semiconductor; company acquired by Diamond Technologies(Tech). Current role:
+    General Manager at stealth. Still at acquirer: No.'
+- name: John Thode
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: university of illinois
+  specialty_tags: []
+  notes: 'Previously CEO at Akhan Semiconductor; company acquired by Diamond Technologies(Tech). Current role: professor at
+    university of illinois. Still at acquirer: No.'
+- name: Craig Mitchell
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Adeia
+  specialty_tags: []
+  notes: 'Previously CEO at Akhan Semiconductor; company acquired by Diamond Technologies(Tech). Current role: Chief semiconductor
+    Officer at Adeia. Still at acquirer: No.'
+- name: Adam Khan
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Diamond Quanta
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder, Co-CEO at Akhan Semiconductor; company acquired by Diamond Technologies(Tech). Current role:
+    Founder & CEO at Diamond Quanta. Still at acquirer: No.'
+- name: Altin Fuga
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: AMEC
+  specialty_tags: []
+  notes: 'Previously Co-Founderm CEO at AMEC (Other Commercial Services); company acquired by Zöller-Kipper(Markus Dautermann).
+    Current role: MD at AMEC. Still at acquirer: Yes.'
+- name: Oltjon Sota
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: AMEC
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder, CFO at AMEC (Other Commercial Services); company acquired by Zöller-Kipper(Markus Dautermann).
+    Current role: Executive MD at AMEC. Still at acquirer: Yes.'
+- name: Ian Macbeth
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Anadigm
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder CTO at Anadigm; company acquired by Okika Devices.
+- name: Alan Rogers
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Analog Bits
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously President & CTO (founder figure) at Analog Bits; company acquired by SemiFive (KRX: 490470)(Brandon Cho).'
+- name: Rudy Berhara
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Nordic Semiconductor
+  specialty_tags: []
+  notes: 'Previously CTO at Atlazo; company acquired by Nordic Semiconductor (OSL: NOD). Current role: Product director, smart
+    sensing at Nordic Semiconductor. Still at acquirer: Yes.'
+- name: Hajir Hedayati
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Amazon
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder at Atlazo; company acquired by Nordic Semiconductor (OSL: NOD). Current role: RF/MMW IC Designer
+    at Amazon. Still at acquirer: No.'
+- name: Pradeep Mishra
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Atlazo
+  specialty_tags: []
+  notes: 'Previously President at Atlazo; company acquired by Nordic Semiconductor (OSL: NOD).'
+- name: Karim Arabi
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Atlazo
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder, CEO at Atlazo; company acquired by Nordic Semiconductor (OSL: NOD). Still at acquirer: Unknown.'
+- name: Hermann Schenk
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Arioso Systems
+  specialty_tags:
+  - prior_founder
+  notes: Previously CEO / Managing Director (founder) at Arioso Systems; company acquired by Bosch Sensortec(Stefan Finkbeiner).
+- name: Sam Appleton
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Ausdia
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder, President & CEO at Ausdia; company acquired by Cadence Design Systems (NAS: CDNS).'
+- name: Atul Bhagat
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Ausdia
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder, CTO at Ausdia; company acquired by Cadence Design Systems (NAS: CDNS).'
+- name: Hagai Zyss
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Autotalks
+  specialty_tags: []
+  notes: 'Previously CEO (at acquisition) at Autotalks; company acquired by Qualcomm (NAS: QCOM)(Nakul Duggal).'
+- name: Chilai Huang
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Avery Design Systems
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder, CEO, President at Avery Design Systems; company acquired by Siemens Digital Industries.
+- name: Alex Di Sessa
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Azena Medical
+  specialty_tags: []
+  notes: Previously CEO at Azena Medical; company acquired by Ultradent Products(Dirk Jeffs).
+- name: Elad Alon
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Blue Cheetah Analog Design
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder & CEO at Blue Cheetah Analog Design; company acquired by Tenstorrent(James Keller).
+- name: Jared Silvia
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Deep tech dirt
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & CEO at BlueDot Photonics; company acquired by UbiQD(Hunter McDaniel). Current role: Founder
+    at Deep tech dirt. Still at acquirer: No.'
+- name: Dan Kroupa
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Frontier
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & CTO at BlueDot Photonics; company acquired by UbiQD(Hunter McDaniel). Current role: Diligence
+    Lead at Frontier. Still at acquirer: No.'
+- name: Matt Crane
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Colorado school of mines
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder at BlueDot Photonics; company acquired by UbiQD(Hunter McDaniel). Current role: assistant
+    professor at Colorado school of mines. Still at acquirer: Unknown.'
+- name: Daniel Gamelin
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: BlueDot Photonics
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder / Chief Science Advisor at BlueDot Photonics; company acquired by UbiQD(Hunter McDaniel).
+- name: Apparao V. Mallavarapu
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Centum T&S
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder & Chairman/MD (parent: Centum Electronics) at Centum T&S; company acquired by MBDA France.(Eric
+    Beranger).'
+- name: Francois Cebes
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Centum T&S
+  specialty_tags: []
+  notes: Previously CEO, Centum Adetel / T&S (local) at Centum T&S; company acquired by MBDA France.(Eric Beranger).
+- name: Kartik Hegde
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Cadence
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously CEO, Founder at ChipStack; company acquired by Cadence Design Systems (NAS: CDNS). Current role: Senior
+    Group director, agentic ai and Chipstack at Cadence. Still at acquirer: Yes.'
+- name: Hamid Shojaei
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Cadence
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously CTO, Founder at ChipStack; company acquired by Cadence Design Systems (NAS: CDNS). Current role: Distinguished
+    engineer at Cadence. Still at acquirer: Yes.'
+- name: Leo (Xiong) Fan
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Cysic
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder & CEO at Cysic; company acquired by Tonso(Wal Wal). Current employer: Cysic. Still at acquirer:
+    Yes.'
+- name: Bowen Huang
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Cysic
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder at Cysic; company acquired by Tonso(Wal Wal).
+- name: Emiliano D'Agostino
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Easics
+  specialty_tags: []
+  notes: 'Previously Managing Director & CEO (from 2021) at Easics; company acquired by Keysight Technologies (NYS: KEYS)(Daniel
+    Thomasson).'
+- name: Ramses Valvekens
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Boscant
+  specialty_tags: []
+  notes: 'Previously MBO owner-principal (2004) at Easics; company acquired by Keysight Technologies (NYS: KEYS)(Daniel Thomasson).
+    Current role: Photonics & Semiconductors Business Consultant at Boscant. Still at acquirer: No.'
+- name: Steven Coenen
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Easics
+  specialty_tags: []
+  notes: 'Previously MBO owner-principal (2004) at Easics; company acquired by Keysight Technologies (NYS: KEYS)(Daniel Thomasson).'
+- name: George Apostol
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: SiSys AI
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & CEO at Elastics.cloud; company acquired by Broadcom ( General Purpose Semiconductors). Current
+    role: President, Founder, Chairmain ceo at SiSys AI. Still at acquirer: No.'
+- name: Shreyas Shah
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Elastics.cloud
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder & CTO/Chief Scientist at Elastics.cloud; company acquired by Broadcom ( General Purpose Semiconductors).
+    Still at acquirer: Yes.'
+- name: Dennis Just
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Mistral
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder, CEO at Emmi AI; company acquired by Mistral AI(Arthur Mensch). Current role: Vp manufacturing
+    solutions at Mistral. Still at acquirer: Yes.'
+- name: Johannes Brandstetter
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: mistral
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder, Chief Scientist at Emmi AI; company acquired by Mistral AI(Arthur Mensch). Current role:
+    VP AI4Engineering at mistral. Still at acquirer: Yes.'
+- name: Miks Mikelsons
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Mistral
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder at Emmi AI; company acquired by Mistral AI(Arthur Mensch). Current role: Director, Manufacturing
+    Solutions Ops at Mistral. Still at acquirer: Yes.'
+- name: Matthew Streshinsky
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: AMD
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & CEO at Enosemi; company acquired by Advanced Micro Devices (NAS: AMD). Current role: Sr
+    directror, photonics at AMD. Still at acquirer: Yes.'
+- name: Ari Novack
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: AMD
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & CTO at Enosemi; company acquired by Advanced Micro Devices (NAS: AMD). Current role: Fellow,
+    silicon design engineering at AMD. Still at acquirer: Yes.'
+- name: Shahab Ardalan
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: AMD
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & VP Engineering at Enosemi; company acquired by Advanced Micro Devices (NAS: AMD). Current
+    role: Fellow, silicon design engineering at AMD. Still at acquirer: Yes.'
+- name: Kurt Stieritz
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Evaporated Coatings
+  specialty_tags: []
+  notes: Previously President at Evaporated Coatings; company acquired by Abrisa Technologies(Chantal Germain).
+- name: Himanshu Bhatnagar
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Excellicon
+  specialty_tags:
+  - prior_founder
+  notes: Previously Founder & CEO at Excellicon; company acquired by Siemens Digital Industries(Mike Ellow).
+- name: Eran Steinberg
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: FotoNation
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder at FotoNation; company acquired by Tobii (OTCM: TBIIF)(Anand Srivatsa).'
+- name: Deep Prasad
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: GenMat
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder & CEO at GenMat; company acquired by Comstock (ASE: LODE)(Corrado De Gasperis).'
+- name: Ingolf Held
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Durance, Euclyd
+  specialty_tags: []
+  notes: 'Previously CEO at GrAI Matter Labs; company acquired by Snapchat (NYS: SNAP). Current role: Co-founder&advisor,
+    Co founder vp product at Durance, Euclyd. Still at acquirer: No.'
+- name: Atul Sinha
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: GrAI Matter Labs
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder at GrAI Matter Labs; company acquired by Snapchat (NYS: SNAP).'
+- name: Ryad Benosman
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: TempoCognita Labs
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder at GrAI Matter Labs; company acquired by Snapchat (NYS: SNAP). Current role: Chief research
+    scientist at TempoCognita Labs. Still at acquirer: No.'
+- name: Bernard Gilly
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Brainever
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder at GrAI Matter Labs; company acquired by Snapchat (NYS: SNAP). Current role: CEO at Brainever.
+    Still at acquirer: No.'
+- name: Giacomo Indiveri
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: University of Zurich
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder at GrAI Matter Labs; company acquired by Snapchat (NYS: SNAP). Current role: Professor at
+    University of Zurich. Still at acquirer: Unknown.'
+- name: Predrag Markovic
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Bajkovina, Capgemini
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously President & CEO (founder figure) at HDL Design House; company acquired by Capgemini (PAR: CAP)(William
+    Roze). Current role: CEO, Contract consultant at Bajkovina, Capgemini. Still at acquirer: No.'
+- name: Stan Boland
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Icera
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder, President & CEO at Icera; company acquired by Lancom(Peter Vorstenbos). Still at acquirer:
+    no.'
+- name: Steve Allpress
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Icera
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder (VP/CTO Software) at Icera; company acquired by Lancom(Peter Vorstenbos).
+- name: Ehud (Udi) Shaked
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Inomize
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously CEO / founder figure at Inomize; company acquired by Meta Platforms (NAS: META)(Ofer Shacham).'
+- name: Pim Tuyls
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Intrinsic ID
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & CEO at Intrinsic ID; company acquired by Synopsys (NAS: SNPS)(Joachim Kunkel).'
+- name: Andreas Hugi
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: IRsweep
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & Director at IRsweep; company acquired by Sensirion Holding (SWX: SENS)(Marc Von Waldkirch).'
+- name: Markus Mangold
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: IRsweep
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & Director at IRsweep; company acquired by Sensirion Holding (SWX: SENS)(Marc Von Waldkirch).'
+- name: Markus Geiser
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: IRsweep
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & Director at IRsweep; company acquired by Sensirion Holding (SWX: SENS)(Marc Von Waldkirch).'
+- name: Paul Chamberlain
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Laco Technologies
+  specialty_tags: []
+  notes: Previously President at Laco Technologies; company acquired by Atlas Copco Compressors(Koen Lauwers).
+- name: Moshik Cohen
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: MAISENSE (Application Specific Semiconductors)
+  specialty_tags:
+  - prior_founder
+  notes: Previously Founder (Dr.) at MAISENSE (Application Specific Semiconductors); company acquired by OSR Enterprises(Orit
+    Shifman).
+- name: David Lloyd
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Micro Commercial Components
+  specialty_tags: []
+  notes: 'Previously President at Micro Commercial Components; company acquired by Hong Kong Linkrich Trading Company. Still
+    at acquirer: Yes.'
+- name: Glenn Pasco
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Micro Commercial Components
+  specialty_tags: []
+  notes: Previously Director of Business Development at Micro Commercial Components; company acquired by Hong Kong Linkrich
+    Trading Company.
+- name: Eric Schneider
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Micro Commercial Components
+  specialty_tags: []
+  notes: Previously VP of Digital at Micro Commercial Components; company acquired by Hong Kong Linkrich Trading Company.
+- name: Pamela Cheng
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: MCC
+  specialty_tags: []
+  notes: 'Previously General Manager at Micro Commercial Components; company acquired by Hong Kong Linkrich Trading Company.
+    Current role: General Manager at MCC. Still at acquirer: Yes.'
+- name: Itzik Gilboa
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: AMAT
+  specialty_tags: []
+  notes: 'Previously CEO at minds.ai; company acquired by Applied Materials (NAS: AMAT). Current employer: AMAT. Still at
+    acquirer: Yes.'
+- name: Sumit Sanyal
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: AMAT
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder, COO at minds.ai; company acquired by Applied Materials (NAS: AMAT). Current employer: AMAT.
+    Still at acquirer: Yes.'
+- name: Tijmen Tieleman
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: AMAT
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder, Chief Scientist at minds.ai; company acquired by Applied Materials (NAS: AMAT). Current role:
+    Software engineer MD at AMAT. Still at acquirer: Yes.'
+- name: Anil Hebbar
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Apple
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder (2014) at minds.ai; company acquired by Applied Materials (NAS: AMAT). Current role: Wireless
+    Engineer at Apple. Still at acquirer: No.'
+- name: Tuomas Hollman
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Bosch Sensortec GmbH
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously CEO & Co-Founder at Minima Processor; company acquired by Bosch Home Comfort. Current role: VP at Bosch
+    Sensortec GmbH. Still at acquirer: Yes.'
+- name: Lauri Koskinen
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Kovilta Oy
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously CTO & Co-Founder at Minima Processor; company acquired by Bosch Home Comfort. Current role: Chief product
+    officer at Kovilta Oy. Still at acquirer: No.'
+- name: Sameer Wasson
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: MIPS
+  specialty_tags: []
+  notes: 'Previously CEO at MIPS; company acquired by GlobalFoundries (NAS: GFS).'
+- name: Gary DeBell
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: MLD Technologies
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder and Managing member at MLD Technologies; company acquired by General Atomics(Scott Forney). Still
+    at acquirer: Unknown.'
+- name: Tony Louderback
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: MLD Technologies
+  specialty_tags:
+  - prior_founder
+  notes: Previously Founder at MLD Technologies; company acquired by General Atomics(Scott Forney).
+- name: Len Mott
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: MLD
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder and Managing member at MLD Technologies; company acquired by General Atomics(Scott Forney). Current
+    role: Managing Partner at MLD. Still at acquirer: Yes.'
+- name: Paul Morton
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: claims retired
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder, CEO & CTO at Morton Photonics; company acquired by Infleqtion (NYS: INFQ)(M. Faris). Current
+    employer: claims retired. Still at acquirer: No.'
+- name: Jill Morton
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: claims retired
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder / team at Morton Photonics; company acquired by Infleqtion (NYS: INFQ)(M. Faris). Current
+    employer: claims retired. Still at acquirer: No.'
+- name: Dan Lewis
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Mosys
+  specialty_tags: []
+  notes: 'Previously President & CEO at Mosys; company acquired by Peraso (NAS: PRSO).'
+- name: Martin Devenney
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Nanosys
+  specialty_tags: []
+  notes: Previously CEO (at acquisition) at Nanosys; company acquired by Shoei Chemical(Shuichiro Asada), Tennenbaum Capital
+    Partners.
+- name: Elad Sity
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: NeuroBlade
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder & CEO at NeuroBlade; company acquired by Amazon Web Services.
+- name: Eliad Hillel
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: NeuroBlade
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder & CTO at NeuroBlade; company acquired by Amazon Web Services.
+- name: Raik Brinkmann
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: OneSpin Solutions
+  specialty_tags: []
+  notes: Previously President & CEO at OneSpin Solutions; company acquired by Siemens Digital Industries.
+- name: Dominik Strasser
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: OneSpin Solutions
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder at OneSpin Solutions; company acquired by Siemens Digital Industries.
+- name: Wolfram Buettner
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: OneSpin Solutions
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder at OneSpin Solutions; company acquired by Siemens Digital Industries.
+- name: Russell Childs
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Optoscribe
+  specialty_tags: []
+  notes: 'Previously CEO (from 2020) at Optoscribe; company acquired by Intel (NAS: INTC).'
+- name: Nick Psaila
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Optoscribe
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & CTO (ex-CEO) at Optoscribe; company acquired by Intel (NAS: INTC).'
+- name: Robert Thomson
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Optoscribe
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder (academic, Heriot-Watt prof) at Optoscribe; company acquired by Intel (NAS: INTC).'
+- name: Graeme Brown
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Optoscribe
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder at Optoscribe; company acquired by Intel (NAS: INTC).'
+- name: Sen Lin
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: OURS
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder at OURS; company acquired by Aurora Innovation (NAS: AUR).'
+- name: Metin Ozen
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Ozen Engineering
+  specialty_tags: []
+  notes: Previously President at Ozen Engineering; company acquired by Simutech Group(Rick James).
+- name: Ido Bukspan
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Pliops
+  specialty_tags: []
+  notes: 'Previously CEO at Pliops; company acquired by Astera Labs (NAS: ALAB), Rodrigo Schulz.'
+- name: Uri Beitler
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Pliops
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder, Chief Strategy & BD Officer at Pliops; company acquired by Astera Labs (NAS: ALAB), Rodrigo
+    Schulz.'
+- name: Moshe Twitto
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Pliops
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder, CTO at Pliops; company acquired by Astera Labs (NAS: ALAB), Rodrigo Schulz.'
+- name: Aryeh Mergi
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Pliops
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder, Chairman at Pliops; company acquired by Astera Labs (NAS: ALAB), Rodrigo Schulz.'
+- name: Claudia Hoessbacher
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Polariton Technologies
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder, CEO at Polariton Technologies; company acquired by Marvell Technology (NAS: MRVL)(Sandeep
+    Bharathi).'
+- name: Wolfgang Heni
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Polariton Technologies
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder, co-CTO at Polariton Technologies; company acquired by Marvell Technology (NAS: MRVL)(Sandeep
+    Bharathi).'
+- name: Benedikt Baeuerle
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Polariton Technologies
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder, co-CTO at Polariton Technologies; company acquired by Marvell Technology (NAS: MRVL)(Sandeep
+    Bharathi).'
+- name: Vijay Jayaraman
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Praevium Research
+  specialty_tags:
+  - prior_founder
+  notes: Previously Founder at Praevium Research; company acquired by Thorlabs(Jennifer Cable).
+- name: Christopher Burgner
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Praevium Research
+  specialty_tags: []
+  notes: Previously General Manager at Praevium Research; company acquired by Thorlabs(Jennifer Cable).
+- name: Shailendra Desai
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Provino Technologies
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder & CEO at Provino Technologies; company acquired by Alphabet (NAS: GOOGL).'
+- name: Ana-Maria Vasilescu
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Quest Global Services (Quest Global Romania)
+  specialty_tags: []
+  notes: 'Previously General Manager (retained) at Quest Global Services (Quest Global Romania); company acquired by AROBS
+    Transilvania Software (BSE: AROBS)(Voicu Oprean).'
+- name: Seyed Paransun
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: R&D Altanova
+  specialty_tags: []
+  notes: 'Previously President & CEO at R&D Altanova; company acquired by Advantest (TKS: 6857)(Yoshiaki Yoshida).'
+- name: Sean Hackett
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Radical Semiconductor
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & CEO at Radical Semiconductor; company acquired by BTQ Technologies (NEOE: BTQ).'
+- name: Zach Belateche
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Radical Semiconductor
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder at Radical Semiconductor; company acquired by BTQ Technologies (NEOE: BTQ).'
+- name: Anne Reinders
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Radical Semiconductor
+  specialty_tags: []
+  notes: 'Previously Head of Cryptography at Radical Semiconductor; company acquired by BTQ Technologies (NEOE: BTQ).'
+- name: Mike Krause
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Redstone Technical
+  specialty_tags: []
+  notes: Previously President at Redstone Technical; company acquired by SPS [Production (Semiconductors)](Brett Hofmann).
+- name: Alyssa Kenyon
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Redstone Technical
+  specialty_tags: []
+  notes: Previously Director of Operations at Redstone Technical; company acquired by SPS [Production (Semiconductors)](Brett
+    Hofmann).
+- name: Jayanth Kuppambatti
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Seamless Microsystems
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder & CEO at Seamless Microsystems.
+- name: R. Scott Hills
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Seamless Microsystems
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder at Seamless Microsystems.
+- name: Kazuya Hiraoka
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: SIIX Hungary
+  specialty_tags: []
+  notes: Previously CEO and COO, President and CEO at SIIX Hungary; company acquired by Vipulse Technology.
+- name: Toru Maruyama
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: SIIX Hungary
+  specialty_tags: []
+  notes: Previously COS President and CEO at SIIX Hungary; company acquired by Vipulse Technology.
+- name: Hiroaki Takagi
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: SIIX Hungary
+  specialty_tags: []
+  notes: Previously CTO Director at SIIX Hungary; company acquired by Vipulse Technology.
+- name: Akihisa Kamata
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: SIIX Hungary
+  specialty_tags: []
+  notes: Previously CFO Director at SIIX Hungary; company acquired by Vipulse Technology.
+- name: Michel Van Maercke
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Silex Insight
+  specialty_tags: []
+  notes: Previously CEO at Silex Insight; company acquired by Secure-IC(Hassan Triqui).
+- name: Michael Shebanow
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: SiliconBee
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder at SiliconBee; company acquired by Neurophos.
+- name: Floriberto Lima
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: SiliconGate
+  specialty_tags: []
+  notes: Previously President & CEO at SiliconGate; company acquired by Celera Semiconductor(Patrick Brockett).
+- name: Margarida Sousa
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: SiliconGate
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder, EVP at SiliconGate; company acquired by Celera Semiconductor(Patrick Brockett).
+- name: Marcelino Santos
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: SiliconGate
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder, CTO at SiliconGate; company acquired by Celera Semiconductor(Patrick Brockett).
+- name: Dan Blumenthal
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: SiNoptiq
+  specialty_tags: []
+  notes: 'Previously President & CEO at SiNoptiq; company acquired by Infleqtion (NYS: INFQ).'
+- name: Mahesh Lingareddy
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Soft Machines
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder, CEO & Vice-Chairman at Soft Machines; company acquired by SnapTik.Net.
+- name: Mohammad Abdallah
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Soft Machines
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder, President & CTO at Soft Machines; company acquired by SnapTik.Net.
+- name: Shalesh Thusoo
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Tanzanite Silicon Solutions
+  specialty_tags: []
+  notes: 'Previously CEO at Tanzanite Silicon Solutions; company acquired by Marvell Technology (NAS: MRVL)(Noam Mizrahi).'
+- name: Hesham Taha
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Teramount
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder, CEO at Teramount; company acquired by Molex (Connectivity Products)(Aldo Lopez).
+- name: Avi Israel
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Teramount
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder, CTO at Teramount; company acquired by Molex (Connectivity Products)(Aldo Lopez).
+- name: Meir Gellis
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: TestInsight
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder & CEO at TestInsight; company acquired by Teradyne (NAS: TER)(Gregory Smith).'
+- name: Werner Prusseit
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Theva
+  specialty_tags: []
+  notes: Previously CEO (long-time) at Theva; company acquired by Subra.
+- name: Serge Maginot
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Tiempo Secure
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & CEO at Tiempo Secure; company acquired by Qualcomm (NAS: QCOM).'
+- name: Marc Renaudin
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Tiempo Secure
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & CTO at Tiempo Secure; company acquired by Qualcomm (NAS: QCOM).'
+- name: Ulf Zell
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: TOPAS Electronic
+  specialty_tags: []
+  notes: 'Previously Management Board (Vorstand) at TOPAS Electronic; company acquired by Ryoden (TKS: 8084).'
+- name: Joachim Maass
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: TOPAS Electronic
+  specialty_tags: []
+  notes: 'Previously Management Board (Vorstand) at TOPAS Electronic; company acquired by Ryoden (TKS: 8084).'
+- name: Gert von Engelhardt
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: TOPAS Electronic
+  specialty_tags: []
+  notes: 'Previously Management Board (Vorstand) at TOPAS Electronic; company acquired by Ryoden (TKS: 8084).'
+- name: Thomas Fortmann
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: TOPAS Electronic
+  specialty_tags: []
+  notes: 'Previously Management Board (Vorstand) at TOPAS Electronic; company acquired by Ryoden (TKS: 8084).'
+- name: Sylke Brinckmann
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: TOPAS Electronic
+  specialty_tags: []
+  notes: 'Previously Supervisory Board Chair at TOPAS Electronic; company acquired by Ryoden (TKS: 8084).'
+- name: Martin Snelgrove
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Untether AI
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder at Untether AI; company acquired by Advanced Material Development.
+- name: Darrick Wiebe
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Untether AI
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder at Untether AI; company acquired by Advanced Material Development.
+- name: Raymond Chik
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Untether AI
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder at Untether AI; company acquired by Advanced Material Development.
+- name: Chris Walker
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Untether AI
+  specialty_tags: []
+  notes: Previously CEO at time of deal (to May 2025) at Untether AI; company acquired by Advanced Material Development.
+- name: Gilles Hamou
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: UPMEM
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & CEO at UPMEM; company acquired by Qualcomm (NAS: QCOM).'
+- name: Fabrice Devaux
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: UPMEM
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & CTO at UPMEM; company acquired by Qualcomm (NAS: QCOM).'
+- name: Doug Smith
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Veevx
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder & CEO at Veevx; company acquired by Ainekko(Tanya Dadasheva).
+- name: Balaji Baktha
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Ventana
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder & CEO at Ventana; company acquired by Qualcomm (NAS: QCOM)(Durga Malladi).'
+- name: Greg Favor
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Ventana
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & Chief Architect at Ventana; company acquired by Qualcomm (NAS: QCOM)(Durga Malladi).'
+- name: Jorge Mejia
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Voltage Multipliers
+  specialty_tags: []
+  notes: Previously President at Voltage Multipliers; company acquired by ESOP.
+- name: Mike Ranieri
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Voltage Multipliers
+  specialty_tags: []
+  notes: Previously CFO at Voltage Multipliers; company acquired by ESOP.
+- name: Derek Onstott
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Voltage Multipliers
+  specialty_tags: []
+  notes: Previously CTO at Voltage Multipliers; company acquired by ESOP.
+- name: Greg Knight
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: GT Advanced Technologies
+  specialty_tags: []
+  notes: 'Previously President and CEO at GT Advanced Technologies; company acquired by ON Semiconductor (NAS: ON)(Hassane
+    El-Khoury).'
+- name: Michele Rayos
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: GT Advanced Technologies
+  specialty_tags: []
+  notes: 'Previously VP, CFO at GT Advanced Technologies; company acquired by ON Semiconductor (NAS: ON)(Hassane El-Khoury).'
+- name: Joe Loiselle
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: GT Advanced Technologies
+  specialty_tags: []
+  notes: 'Previously VP, COO at GT Advanced Technologies; company acquired by ON Semiconductor (NAS: ON)(Hassane El-Khoury).'
+- name: P.S. Raghavan
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: GT Advanced Technologies
+  specialty_tags: []
+  notes: 'Previously CTO at GT Advanced Technologies; company acquired by ON Semiconductor (NAS: ON)(Hassane El-Khoury).'
+- name: Andrew Greenville
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Inpria
+  specialty_tags: []
+  notes: Previously CEO at Inpria; company acquired by JSR(Eric Johnson).
+- name: Andrea Zanotti
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Zanotti Energy Group
+  specialty_tags:
+  - prior_founder
+  notes: Previously Founder & CEO at Zanotti Energy Group; company acquired by XIBER Energy Solutions.
+- name: Paul Hart
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Tagore Technology
+  specialty_tags: []
+  notes: 'Previously President and CEO at Tagore Technology; company acquired by GlobalFoundries (NAS: GFS)(Niels Anderskouv).'
+- name: Manish Shah
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Tagore Technology
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-founder and CTO at Tagore Technology; company acquired by GlobalFoundries (NAS: GFS)(Niels Anderskouv).'
+- name: Klaus Buehring
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Tagore Technology
+  specialty_tags: []
+  notes: 'Previously CMO at Tagore Technology; company acquired by GlobalFoundries (NAS: GFS)(Niels Anderskouv).'
+- name: Eric Johnson
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Studio E2
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder at Studio E2; company acquired by Icape Holding (PAR: ALICA)(Yann Duigou).'
+- name: Mathew Apanius
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: SMART Microsystems
+  specialty_tags: []
+  notes: Previously President & Managing director at SMART Microsystems; company acquired by Spirit Electronics(Marti McCurdy).
+- name: William Boyce
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: SMART Microsystems
+  specialty_tags: []
+  notes: Previously Engineering Manager at SMART Microsystems; company acquired by Spirit Electronics(Marti McCurdy).
+- name: Rainer Kallenbach
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Silicon Mobility
+  specialty_tags: []
+  notes: 'Previously President & CEO at Silicon Mobility; company acquired by Intel (NAS: INTC)(Patrick Gelsinger).'
+- name: Bruno Paucard
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Silicon Mobility
+  specialty_tags: []
+  notes: 'Previously Managing Director & COO at Silicon Mobility; company acquired by Intel (NAS: INTC)(Patrick Gelsinger).'
+- name: Pascal Jullien
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Silicon Mobility
+  specialty_tags: []
+  notes: 'Previously VP Hardware at Silicon Mobility; company acquired by Intel (NAS: INTC)(Patrick Gelsinger).'
+- name: Yuri Feinburg
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Silicon Frontline
+  specialty_tags: []
+  notes: 'Previously CEO at Silicon Frontline; company acquired by Synopsys (NAS: SNPS).'
+- name: Dermott Lynch
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Silicon Frontline
+  specialty_tags: []
+  notes: 'Previously COO at Silicon Frontline; company acquired by Synopsys (NAS: SNPS).'
+- name: Theodore Fong
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: SiGen
+  specialty_tags: []
+  notes: Previously President, CEO at SiGen.
+- name: Stefan C. Lauxtermann
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Sensor Creations
+  specialty_tags:
+  - prior_founder
+  notes: Previously Founder & President at Sensor Creations; company acquired by Attollo Engineering(Michael MacDougal).
+- name: Ralf Reusswif
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: SemiMat
+  specialty_tags: []
+  notes: Previously Managing Director at SemiMat; company acquired by Schunk (Germany)(Arno Roth).
+- name: Clint Gouveia
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Scientific Magnetics
+  specialty_tags: []
+  notes: Previously Managing Director at Scientific Magnetics; company acquired by Magnetica(Duncan Stovell).
+- name: Adam Shepheard
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Scientific Magnetics
+  specialty_tags: []
+  notes: Previously Engineering & Manufacturing Manager at Scientific Magnetics; company acquired by Magnetica(Duncan Stovell).
+- name: Nick Shaw
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Scientific Magnetics
+  specialty_tags: []
+  notes: Previously Technical Director at Scientific Magnetics; company acquired by Magnetica(Duncan Stovell).
+- name: Matt Coates
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Scientific Magnetics
+  specialty_tags: []
+  notes: Previously Design and IT Manager at Scientific Magnetics; company acquired by Magnetica(Duncan Stovell).
+- name: Christian Schmid
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Schmid Silicon Technology
+  specialty_tags:
+  - prior_founder
+  notes: Previously Founder, President, MD at Schmid Silicon Technology; company acquired by Group14 Technologies(Rick Luebbe).
+- name: Jochem Hahn
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Schmid Silicon Technology
+  specialty_tags: []
+  notes: Previously COO & MD at Schmid Silicon Technology; company acquired by Group14 Technologies(Rick Luebbe).
+- name: Larry Cain
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Safari Circuits
+  specialty_tags:
+  - prior_founder
+  notes: Previously Founder and CEO at Safari Circuits; company acquired by Waséyabek Development Company(Deidra Mitchell).
+- name: Michael Zoeller
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Riedon
+  specialty_tags: []
+  notes: Previously Co-Owner, President, Executive Officer & Board Member at Riedon; company acquired by Bourns(Al Yost).
+- name: Bernard Lim
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Riedon
+  specialty_tags: []
+  notes: Previously Finance Manager at Riedon; company acquired by Bourns(Al Yost).
+- name: Duane Ebbert
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Riedon
+  specialty_tags: []
+  notes: Previously Co-Owner, Executive Officer & Board Member at Riedon; company acquired by Bourns(Al Yost).
+- name: Tony Boswell
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Retronix Semiconductor
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder at Retronix Semiconductor; company acquired by Celetronix India, Jabil (NYS: JBL).'
+- name: Kathleen Boswell
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Retronix Semiconductor
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder at Retronix Semiconductor; company acquired by Celetronix India, Jabil (NYS: JBL).'
+- name: Julie Boswell
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Retronix Semiconductor
+  specialty_tags: []
+  notes: 'Previously CEO at Retronix Semiconductor; company acquired by Celetronix India, Jabil (NYS: JBL).'
+- name: Brian Fraser
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Retronix Semiconductor
+  specialty_tags: []
+  notes: 'Previously Head of Engineering at Retronix Semiconductor; company acquired by Celetronix India, Jabil (NYS: JBL).'
+- name: Robert B. MacKnight
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Reno (General Purpose Semiconductors)
+  specialty_tags: []
+  notes: 'Previously CEO at Reno (General Purpose Semiconductors); company acquired by Asm International (AMS: ASM).'
+- name: Imran A. Bhutta
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Reno (General Purpose Semiconductors)
+  specialty_tags: []
+  notes: 'Previously CTO at Reno (General Purpose Semiconductors); company acquired by Asm International (AMS: ASM).'
+- name: Rich Mather
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Redlen Technologies
+  specialty_tags: []
+  notes: 'Previously CEO at Redlen Technologies; company acquired by Canon (TKS: 7751)(Eiji Osanai).'
+- name: Jay Dent
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Redlen Technologies
+  specialty_tags: []
+  notes: 'Previously CFO at Redlen Technologies; company acquired by Canon (TKS: 7751)(Eiji Osanai).'
+- name: Jim Balcom
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Redlen Technologies
+  specialty_tags: []
+  notes: 'Previously COO at Redlen Technologies; company acquired by Canon (TKS: 7751)(Eiji Osanai).'
+- name: Robert Redden
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Redlen Technologies
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder, Vp Research at Redlen Technologies; company acquired by Canon (TKS: 7751)(Eiji Osanai).'
+- name: Jeff Ungar
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: QPC Lasers
+  specialty_tags: []
+  notes: Previously CEO- now at Zohar at QPC Lasers.
+- name: Jim Hughins
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Qolibri
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-founder, president, ceo at Qolibri; company acquired by Atlas Copco (STO: ATCO A)(Geert Follens).'
+- name: Imad Mahawili
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Qolibri
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-founder, CTO at Qolibri; company acquired by Atlas Copco (STO: ATCO A)(Geert Follens).'
+- name: Dan Shea
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: QD Solar
+  specialty_tags: []
+  notes: Previously CEO at QD Solar; company acquired by SunDensity.
+- name: Sjoerd Hoogland
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: QD Solar
+  specialty_tags: []
+  notes: Previously CTO at QD Solar; company acquired by SunDensity.
+- name: Armin Fischer
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: QD Solar
+  specialty_tags: []
+  notes: Previously COO, Lead chemist at QD Solar; company acquired by SunDensity.
+- name: Joe Rothstein
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Pyramid Semiconductor
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder, Chief Executive Officer & President at Pyramid Semiconductor; company acquired by 3D Plus(Timothee
+    Dargnies).
+- name: Thomas Longo
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Pyramid Semiconductor
+  specialty_tags: []
+  notes: Previously Chief Executive Officer at Pyramid Semiconductor; company acquired by 3D Plus(Timothee Dargnies).
+- name: Doug Beaubien
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Pyramid Semiconductor
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder & Vice President of Operations at Pyramid Semiconductor; company acquired by 3D Plus(Timothee
+    Dargnies).
+- name: Alexander MacGregor
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Plant Drives And Systems
+  specialty_tags: []
+  notes: Previously Co-Chief Executive Officer and President at Plant Drives And Systems; company acquired by AES Electronic
+    Services(Nicholas Cooke).
+- name: Jussi Rautee
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Picosun
+  specialty_tags: []
+  notes: 'Previously CEO at Picosun; company acquired by Applied Materials (NAS: AMAT)(Gary Dickerson).'
+- name: Tuomas Itkonen
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Picosun
+  specialty_tags: []
+  notes: 'Previously CFO at Picosun; company acquired by Applied Materials (NAS: AMAT)(Gary Dickerson).'
+- name: Greg Engstrom
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: PCB Solutions
+  specialty_tags: []
+  notes: 'Previously President at PCB Solutions; company acquired by Icape Holding (PAR: ALICA)(Yann Duigou).'
+- name: James Brown
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: PCB Solutions
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & Vice President Sales & Marketing at PCB Solutions; company acquired by Icape Holding (PAR:
+    ALICA)(Yann Duigou).'
+- name: Jason Lindfield
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: OHM Energy
+  specialty_tags:
+  - prior_founder
+  notes: Previously Founder, Chief Executive Officer & Managing Director at OHM Energy; company acquired by Upvolt(Alexander
+    Lomax).
+- name: Ben Bodley
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Oclea
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder & CTO at Oclea; company acquired by Resideo Technologies (NYS: REZI).'
+- name: Martin Evans
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Oclea
+  specialty_tags: []
+  notes: 'Previously Head of Engineering at Oclea; company acquired by Resideo Technologies (NYS: REZI).'
+- name: Nesh Dholakia
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Nujay Technologies
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously President, Co-Founder at Nujay Technologies; company acquired by Icape Holding (PAR: ALICA)(Yann Duigou).'
+- name: Simon Van der Jagt
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Nowi
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder & Chief Executive Officer at Nowi; company acquired by Nexperia.
+- name: Omar Link
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Nowi
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder & Chief Operating Officer at Nowi; company acquired by Nexperia.
+- name: André Mansano
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Nowi
+  specialty_tags: []
+  notes: Previously Chief Technology Officer & RF and Hardware Development Executive at Nowi; company acquired by Nexperia.
+- name: Didos van Dam
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Nowi
+  specialty_tags: []
+  notes: Previously CFO at Nowi; company acquired by Nexperia.
+- name: Shahin Sharifzadeh
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: NexGen Power Systems
+  specialty_tags: []
+  notes: 'Previously CEO at NexGen Power Systems; company acquired by ON Semiconductor (NAS: ON).'
+- name: Cliff Drowley
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: NexGen Power Systems
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously CTO & co-founder at NexGen Power Systems; company acquired by ON Semiconductor (NAS: ON).'
+- name: Sonal Chandrasekharan
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: NexGen Power Systems
+  specialty_tags: []
+  notes: 'Previously VP & GM at NexGen Power Systems; company acquired by ON Semiconductor (NAS: ON).'
+- name: Greg Schmergel
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Nantero
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder, Chairman & CEO at Nantero; company acquired by SBM Investors Corporation.
+- name: Thomas Rueckes
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Nantero
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-founder and CTO at Nantero; company acquired by SBM Investors Corporation.
+- name: Harry Luan
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Nantero
+  specialty_tags: []
+  notes: Previously VP of Integration and Device Engineering at Nantero; company acquired by SBM Investors Corporation.
+- name: Lee Cleveland
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Nantero
+  specialty_tags: []
+  notes: Previously VP of design at Nantero; company acquired by SBM Investors Corporation.
+- name: Vegard Wollan
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: MyWo
+  specialty_tags:
+  - prior_founder
+  notes: Previously CEO & Co-founder at MyWo; company acquired by TouchNetix.
+- name: Gaute Myklebust
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: MyWo
+  specialty_tags:
+  - prior_founder
+  notes: Previously CTO & co-founder at MyWo; company acquired by TouchNetix.
+- name: Bill Isaacson
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Muse Semiconductor
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-founder, general manager at Muse Semiconductor; company acquired by GSME(Farhat Jahangir).
+- name: Thomas Russell
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Mesoline
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-founder & CEO at Mesoline; company acquired by Aalberts (Specialty Chemicals) (AMS: AALB).'
+- name: Marnix Rebergen
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Mesoline
+  specialty_tags: []
+  notes: 'Previously CTO at Mesoline; company acquired by Aalberts (Specialty Chemicals) (AMS: AALB).'
+- name: Sven Tanneberger
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Kumkeo
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-founder & managing director at Kumkeo; company acquired by E.battery systems(Michael Leitner).
+- name: Peter Langendam
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: ItoM
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder, Co-Owner & Co-Chief Executive Officer at ItoM; company acquired by Bosch (Automotive)(Jens
+    Fabrowsky).
+- name: Dieter Kasperkovitz
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: ItoM
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder & Chief Technology Officer at ItoM; company acquired by Bosch (Automotive)(Jens Fabrowsky).
+- name: Harry Schoonheijm
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: ItoM
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder & General Counsel at ItoM; company acquired by Bosch (Automotive)(Jens Fabrowsky).
+- name: Harm van Rumpt
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: ItoM
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder, Owner & Chief Executive Officer at ItoM; company acquired by Bosch (Automotive)(Jens Fabrowsky).
+    Still at acquirer: Unknown.'
+- name: Alain Séhan
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Intercept Trégor
+  specialty_tags:
+  - prior_founder
+  notes: Previously Founder at Intercept Trégor; company acquired by AMG Microwave(François Moysan).
+- name: Martin Fox
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Initio (United States)
+  specialty_tags: []
+  notes: Previously CEO at Initio (United States); company acquired by Hong Tong Technology(Thomas Chao).
+- name: Paul Bant
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Industrial Laser Technology Fineworks
+  specialty_tags:
+  - prior_founder
+  notes: Previously Founder & CEO at Industrial Laser Technology Fineworks.
+- name: Andrew Patterson
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Microchip
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & Managing Director at Iconic RF; company acquired by Microchip Technology (NAS: MCHP)(Ganesh
+    Moorthy). Current role: Senior Manager, product line at Microchip. Still at acquirer: yes.'
+- name: Andrew Alexander
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Microchip
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & Senior Design Engineer at Iconic RF; company acquired by Microchip Technology (NAS: MCHP)(Ganesh
+    Moorthy). Current role: Director & Senior design engineer at Microchip. Still at acquirer: yes.'
+- name: Lyndon Pattison
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Microchip
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & Senior Design Engineer at Iconic RF; company acquired by Microchip Technology (NAS: MCHP)(Ganesh
+    Moorthy). Current role: Tech staff engineer at Microchip. Still at acquirer: yes.'
+- name: Sean McAlister
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Iconic RF
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & Senior Prototyping Engineer at Iconic RF; company acquired by Microchip Technology (NAS:
+    MCHP)(Ganesh Moorthy).'
+- name: David Williams
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Microchip
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Executive & Founder at Iconic RF; company acquired by Microchip Technology (NAS: MCHP)(Ganesh Moorthy).
+    Current role: Technical staff engineer at Microchip. Still at acquirer: yes.'
+- name: Jonathon Leckey
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: MMIC-LAB
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & Senior Design Engineer at Iconic RF; company acquired by Microchip Technology (NAS: MCHP)(Ganesh
+    Moorthy). Current role: Founder & CEO at MMIC-LAB. Still at acquirer: No.'
+- name: Fergal Brosnan
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: IC Mask Design
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-founder & CEO at IC Mask Design; company acquired by Apple (NAS: AAPL).'
+- name: Ciaran Whyte
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: IC Mask Design
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-founder & CTO at IC Mask Design; company acquired by Apple (NAS: AAPL).'
+- name: Jörg Ringler
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: IBR Leiterplatten
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-founder at IBR Leiterplatten; company acquired by Fineline Global Group(Dirk Wolter).
+- name: Christian Ringler
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: IBR Leiterplatten
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-founder at IBR Leiterplatten; company acquired by Fineline Global Group(Dirk Wolter).
+- name: Thilo Troller
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: HTV Halbleiter-Test & Vertriebs
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder & Managing Director at HTV Halbleiter-Test & Vertriebs; company acquired by TÜV NORD(Dirk Stenkamp).
+- name: Edbill Grote
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: HTV Halbleiter-Test & Vertriebs
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder & Managing Director at HTV Halbleiter-Test & Vertriebs; company acquired by TÜV NORD(Dirk Stenkamp).
+- name: Steven Morrell
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Glo (Application Specific Semiconductor)
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder & Board Member at Glo (Application Specific Semiconductor); company acquired by Nanosys(Jason
+    Hartlove).
+- name: Jonas Ohlsson
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Glo (Application Specific Semiconductor)
+  specialty_tags:
+  - prior_founder
+  notes: Previously Director of Epitaxy and Co-founder at Glo (Application Specific Semiconductor); company acquired by Nanosys(Jason
+    Hartlove).
+- name: Lars Samuelsson
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Glo (Application Specific Semiconductor)
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder, Chief Scientific Officer & Board Member at Glo (Application Specific Semiconductor); company
+    acquired by Nanosys(Jason Hartlove).
+- name: Jeff Gray
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: indie
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder and CEO at Gain Semiconductor; company acquired by Kinetic Technologies(Kin Shum). Current role:
+    Sr VP of sales and distribution at indie. Still at acquirer: No.'
+- name: Dan Auton
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Gain Semiconductor
+  specialty_tags: []
+  notes: Previously Business Development at Gain Semiconductor; company acquired by Kinetic Technologies(Kin Shum).
+- name: Scott Freeborn
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: SSF Consulting
+  specialty_tags: []
+  notes: 'Previously COO at Gain Semiconductor; company acquired by Kinetic Technologies(Kin Shum). Current role: Director
+    at SSF Consulting. Still at acquirer: no.'
+- name: Geoff Tate
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Flex Logix
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-founder & CEO at Flex Logix; company acquired by Analog Devices (NAS: ADI).'
+- name: Cheng Wang
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Flex Logix
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-founder & CTO, Senior VP softaware at Flex Logix; company acquired by Analog Devices (NAS: ADI).'
+- name: Don Frsechi
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Fenix Advanced Materials
+  specialty_tags: []
+  notes: 'Previously CEO at Fenix Advanced Materials; company acquired by NEXT Lithium. Still at acquirer: yes.'
+- name: Bill Micklethwaite
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Fenix Advanced Materials
+  specialty_tags: []
+  notes: Previously CSO at Fenix Advanced Materials; company acquired by NEXT Lithium.
+- name: Brian Diaz
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Falcon Electronics
+  specialty_tags: []
+  notes: Previously President at Falcon Electronics; company acquired by Brevan Electronics(Aaron Dufoe).
+- name: Jeremie Jean
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Egreen
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder at Egyptian Renewable Energy; company acquired by Enersweet. Current role: Founder at Egreen.
+    Still at acquirer: yes.'
+- name: Irwin Lourtet
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Egreen
+  specialty_tags: []
+  notes: 'Previously Chief Technology Officer at Egyptian Renewable Energy; company acquired by Enersweet. Current role: CTO
+    at Egreen. Still at acquirer: yes.'
+- name: Khaled Gasser
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: EGREEN
+  specialty_tags: []
+  notes: 'Previously Chief Executive Officer & Managing Director at Egyptian Renewable Energy; company acquired by Enersweet.
+    Current role: CEO at EGREEN. Still at acquirer: yes.'
+- name: Maxim Ershov
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Semi Maverick
+  specialty_tags: []
+  notes: 'Previously CEO & CTO at Diakopto; company acquired by Ansys. Current role: Consultant at Semi Maverick. Still at
+    acquirer: no.'
+- name: Oleg Syrel
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Synopsys Inc
+  specialty_tags: []
+  notes: 'Previously VP & Chief software architect at Diakopto; company acquired by Ansys. Current role: R&D Engineering,
+    Scientist at Synopsys Inc. Still at acquirer: no.'
+- name: Kelvin Khoo
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Tipping Point Ventures
+  specialty_tags: []
+  notes: 'Previously COO at Diakopto; company acquired by Ansys. Current role: Managing Partner at Tipping Point Ventures.
+    Still at acquirer: no.'
+- name: Edward Nova
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Custom Rapid Solutions
+  specialty_tags: []
+  notes: Previously President & Founding Partner at Custom Rapid Solutions; company acquired by Artaflex(Gerry Iuliano).
+- name: Abdy Mirzadegan
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Chip Test Solutions
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-founder at Chip Test Solutions; company acquired by EAG Laboratories.
+- name: Bryan Root
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Celadon Systems
+  specialty_tags:
+  - prior_founder
+  notes: Previously Founder at Celadon Systems; company acquired by MPI America(Rob Carter).
+- name: Joel Rubino
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Cartesiam
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & Chief Executive Officer at Cartesiam; company acquired by STMicroelectronics (PAR: STMPA)(Claude
+    Dardanne).'
+- name: Michel Rubino
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Michel rubino consulting
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & President at Cartesiam; company acquired by STMicroelectronics (PAR: STMPA)(Claude Dardanne).
+    Current role: President, senior advisor at Michel rubino consulting. Still at acquirer: no.'
+- name: François Rochebouet
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: STMicroelectronics
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & Chief Technology Officer at Cartesiam; company acquired by STMicroelectronics (PAR: STMPA)(Claude
+    Dardanne). Current role: R&D Manager at STMicroelectronics. Still at acquirer: yes.'
+- name: Marc Dupaquier
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: STMicroelectronics
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & Managing Director at Cartesiam; company acquired by STMicroelectronics (PAR: STMPA)(Claude
+    Dardanne). Current role: MD AI Solutions at STMicroelectronics. Still at acquirer: yes.'
+- name: Brett Goldsmith
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: NWIC Pacific
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder, Chief Technology Officer & Board Member at Cardea; company acquired by Paragraf(Simon Thomas).
+    Current role: Advisor to CTO at NWIC Pacific. Still at acquirer: no.'
+- name: Michael Heltzen
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: eXoXymes
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & Chief Executive Officer at Cardea; company acquired by Paragraf(Simon Thomas). Current role:
+    CEO at eXoXymes. Still at acquirer: no.'
+- name: Kiana Aran
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: CRISPR QC / Paragraf
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & Chief Scientific Officer at Cardea; company acquired by Paragraf(Simon Thomas). Current
+    role: co founder, innovation advisor at CRISPR QC / Paragraf. Still at acquirer: yes.'
+- name: Ross Bundy
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: CRISPR QC
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder, Chief Entrepreneur & Board Member at Cardea; company acquired by Paragraf(Simon Thomas).
+    Current role: CEO at CRISPR QC. Still at acquirer: no.'
+- name: Ron Grubman
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Blue Sky Research
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-founder, General counsel, Vice chairman at Blue Sky Research; company acquired by Necsel Intellectual
+    Property(William Mackenzie).
+- name: Robert Simon
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Ustek
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder, President & Chief Executive Officer at Ustek; company acquired by Icape Holding (PAR: ALICA)(Yann
+    Duigou).'
+- name: Nicolo Savalli
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: WiSNAM
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder & Chief Executive Officer at WiSNAM; company acquired by Yokogawa Electric (TKS: 6841)(Simone
+    Massaro).'
+- name: Simone Massaro
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: WiSNAM
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Chief Executive Officer & Founder at WiSNAM; company acquired by Yokogawa Electric (TKS: 6841)(Simone
+    Massaro).'
+- name: Alan Penfold
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Telic
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder at Telic; company acquired by HEF Groupe(Jean MARAN).
+- name: David Masson
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Telic
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder at Telic; company acquired by HEF Groupe(Jean MARAN).
+- name: John Thornton
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Telic
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder at Telic; company acquired by HEF Groupe(Jean MARAN).
+- name: Rolf de Boer
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Smartec (Semiconductors)
+  specialty_tags: []
+  notes: Previously Chief Executive Officer & Managing Director at Smartec (Semiconductors); company acquired by Angst + Pfister
+    Sensors and Power(Thomas Röttinger).
+- name: Viny Mulani
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Multilayer Technology
+  specialty_tags:
+  - prior_founder
+  notes: Previously Founder & President at Multilayer Technology; company acquired by Ampel.
+- name: Gopa Periyaden
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Mobiveil
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder, Chief Operating Officer & Board Member at Mobiveil; company acquired by GlobalLogic(Nitesh
+    Banga).
+- name: Durai Srinivasan
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Mobiveil
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder & Managing Director, India at Mobiveil; company acquired by GlobalLogic(Nitesh Banga).
+- name: Amit Saxena
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Mobiveil
+  specialty_tags:
+  - prior_founder
+  notes: Previously Co-Founder, Vice President of Engineering & Board Member at Mobiveil; company acquired by GlobalLogic(Nitesh
+    Banga).
+- name: Gaetan Monari
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Meteoptim
+  specialty_tags:
+  - prior_founder
+  notes: Previously Founder at Meteoptim; company acquired by DualSun(Jérôme Mouterde).
+- name: Hans Mortel
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Metafas Group
+  specialty_tags:
+  - prior_founder
+  notes: Previously Founder at Metafas Group.
+- name: Allen Lu
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Mattson Technology
+  specialty_tags: []
+  notes: Previously President and CEO at Mattson Technology.
+- name: Subhash Deshmukh
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Mattson Technology
+  specialty_tags: []
+  notes: Previously Chief business officer at Mattson Technology.
+- name: Schubert Chu
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Mattson Technology
+  specialty_tags: []
+  notes: Previously Chief product officer at Mattson Technology.
+- name: Mike Myo
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Mattson Technology
+  specialty_tags: []
+  notes: Previously COO at Mattson Technology.
+- name: Kam Pasha
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Integrated Manufacturing Group
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Chief Executive Officer & Founder at Integrated Manufacturing Group; company acquired by Ichor Holdings
+    (NAS: ICHR)(Jeffrey Andreson).'
+- name: Mahesh Kumar
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Integrated Manufacturing Group
+  specialty_tags: []
+  notes: 'Previously Chief Operating Officer at Integrated Manufacturing Group; company acquired by Ichor Holdings (NAS: ICHR)(Jeffrey
+    Andreson).'
+- name: Zvi Topaz
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Ham-Let Group
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder at Ham-Let Group; company acquired by Ultra Clean Holdings (NAS: UCTT)(James Scholhamer).'
+- name: Shmuel Topaz
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Ham-Let Group
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder at Ham-Let Group; company acquired by Ultra Clean Holdings (NAS: UCTT)(James Scholhamer).'
+- name: Dan Topaz
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Ham-Let Group
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder at Ham-Let Group; company acquired by Ultra Clean Holdings (NAS: UCTT)(James Scholhamer).'
+- name: Uri Oliner
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Ham-Let Group
+  specialty_tags: []
+  notes: 'Previously CEO at Ham-Let Group; company acquired by Ultra Clean Holdings (NAS: UCTT)(James Scholhamer).'
+- name: Amir Widmann
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Ham-Let Group
+  specialty_tags: []
+  notes: 'Previously CEO at Ham-Let Group; company acquired by Ultra Clean Holdings (NAS: UCTT)(James Scholhamer).'
+- name: Eliezer Parnafes
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Ham-Let Group
+  specialty_tags: []
+  notes: 'Previously CFO at Ham-Let Group; company acquired by Ultra Clean Holdings (NAS: UCTT)(James Scholhamer).'
+- name: Gregory Rubinsly
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Ham-Let Group
+  specialty_tags: []
+  notes: 'Previously COO at Ham-Let Group; company acquired by Ultra Clean Holdings (NAS: UCTT)(James Scholhamer).'
+- name: Marianna Rabinovitch
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: ECI Technology
+  specialty_tags: []
+  notes: 'Previously CEO & President at ECI Technology; company acquired by KLA (NAS: KLAC).'
+- name: James Abramson
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: ECI Technology
+  specialty_tags: []
+  notes: 'Previously CFO at ECI Technology; company acquired by KLA (NAS: KLAC).'
+- name: Eran Basis
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: ECI Technology
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder, COO, VP Engineering at ECI Technology; company acquired by KLA (NAS: KLAC).'
+- name: Joost Smits
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Muon Group
+  specialty_tags: []
+  notes: 'Previously Chief Executive Officer, board member at Muon Group; company acquired by IDEX (NYS: IEX)(Eric Ashleman).'
+- name: Sjoerd van den Cruijsem
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Muon Group
+  specialty_tags: []
+  notes: 'Previously Group Director, at Muon Group; company acquired by IDEX (NYS: IEX)(Eric Ashleman).'
+- name: Han Nuesink
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Muon Group
+  specialty_tags: []
+  notes: 'Previously Chief Financial Officer, board member at Muon Group; company acquired by IDEX (NYS: IEX)(Eric Ashleman).'
+- name: Michiel Barendse
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Muon Group
+  specialty_tags: []
+  notes: 'Previously Chief Executive Officer, board member at Muon Group; company acquired by IDEX (NYS: IEX)(Eric Ashleman).
+    Previously CEO / Platform Formation Leader at Muon Group; company acquired by IDEX (NYS: IEX)(Eric Ashleman).'
+- name: Neil Thompson
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Muon Group
+  specialty_tags: []
+  notes: 'Previously President at Muon Group; company acquired by IDEX (NYS: IEX)(Eric Ashleman).'
+- name: Marco Kuster
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Muon Group
+  specialty_tags: []
+  notes: 'Previously Vice President, Finance & IT Executive at Muon Group; company acquired by IDEX (NYS: IEX)(Eric Ashleman).'
+- name: Barry Vree
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Muon Group
+  specialty_tags: []
+  notes: 'Previously Vice President, Finance & IT Executive at Muon Group; company acquired by IDEX (NYS: IEX)(Eric Ashleman).'
+- name: Jackson Chao
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: NxEdge
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Founder, Chief Executive Officer & president at NxEdge; company acquired by Enpro (NYS: NPO)(Eric Vaillancourt).'
+- name: Nicholas Xydas
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: NxEdge
+  specialty_tags: []
+  notes: 'Previously Director of Engineering & Quality at NxEdge; company acquired by Enpro (NYS: NPO)(Eric Vaillancourt).'
+- name: John Esposito
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: NxEdge
+  specialty_tags: []
+  notes: 'Previously Director, Engineering at NxEdge; company acquired by Enpro (NYS: NPO)(Eric Vaillancourt).'
+- name: Roland Shields
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: NxEdge
+  specialty_tags: []
+  notes: 'Previously Director, Quality management engineering at NxEdge; company acquired by Enpro (NYS: NPO)(Eric Vaillancourt).'
+- name: James Mitchell
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: NxEdge
+  specialty_tags: []
+  notes: 'Previously CFO at NxEdge; company acquired by Enpro (NYS: NPO)(Eric Vaillancourt).'
+- name: David Harris
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Ovivo (Electronic division)
+  specialty_tags: []
+  notes: 'Previously GM at Ovivo (Electronic division); company acquired by Ecolab (NYS: ECL)(Christophe Beck).'
+- name: Ross Freeman
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Xilinx
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder (no operating role at acquisition) at Xilinx; company acquired by Advanced Micro Devices (NAS:
+    AMD)(Lisa Su).'
+- name: Bernard Vonderschmitt
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Xilinx
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder (no operating role at acquisition) at Xilinx; company acquired by Advanced Micro Devices (NAS:
+    AMD)(Lisa Su).'
+- name: James V. Barnett II
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Xilinx
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder (no operating role at acquisition) at Xilinx; company acquired by Advanced Micro Devices (NAS:
+    AMD)(Lisa Su).'
+- name: Fred Beck
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Maxim Integrated Products
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder (no operating role at acquisition) at Maxim Integrated Products; company acquired by Analog
+    Devices (NAS: ADI)(Vincent Roche).'
+- name: Dave Bingham
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Maxim Integrated Products
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder (no operating role at acquisition) at Maxim Integrated Products; company acquired by Analog
+    Devices (NAS: ADI)(Vincent Roche).'
+- name: Steve Combs
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Maxim Integrated Products
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder (no operating role at acquisition) at Maxim Integrated Products; company acquired by Analog
+    Devices (NAS: ADI)(Vincent Roche).'
+- name: Lee Evans
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Maxim Integrated Products
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder (no operating role at acquisition) at Maxim Integrated Products; company acquired by Analog
+    Devices (NAS: ADI)(Vincent Roche).'
+- name: Dave Fullagar
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Maxim Integrated Products
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder (no operating role at acquisition) at Maxim Integrated Products; company acquired by Analog
+    Devices (NAS: ADI)(Vincent Roche).'
+- name: Roger Fuller
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Maxim Integrated Products
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder (no operating role at acquisition) at Maxim Integrated Products; company acquired by Analog
+    Devices (NAS: ADI)(Vincent Roche).'
+- name: Rich Hood
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Maxim Integrated Products
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder (no operating role at acquisition) at Maxim Integrated Products; company acquired by Analog
+    Devices (NAS: ADI)(Vincent Roche).'
+- name: Dick Wilenken
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Maxim Integrated Products
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder (no operating role at acquisition) at Maxim Integrated Products; company acquired by Analog
+    Devices (NAS: ADI)(Vincent Roche).'
+- name: Timothy Semones
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Inphi
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder (no operating role at acquisition) at Inphi; company acquired by Marvell Technology (NAS:
+    MRVL).'
+- name: Ashok Dhawan
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Inphi
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder (no operating role at acquisition) at Inphi; company acquired by Marvell Technology (NAS:
+    MRVL).'
+- name: Robert Crooke
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Solidigm
+  specialty_tags: []
+  notes: 'Previously Founding CEO at Solidigm; company acquired by SK Hynix (KRX: 000660)(Seok-hee Lee).'
+- name: Seok-hee Lee
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Solidigm
+  specialty_tags: []
+  notes: 'Previously Founding Executive Chairman at Solidigm; company acquired by SK Hynix (KRX: 000660)(Seok-hee Lee).'
+- name: Jeff Woolard
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Solidigm
+  specialty_tags: []
+  notes: 'Previously Founding CFO at Solidigm; company acquired by SK Hynix (KRX: 000660)(Seok-hee Lee).'
+- name: Katie Watson
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Solidigm
+  specialty_tags: []
+  notes: 'Previously Founding CHRO at Solidigm; company acquired by SK Hynix (KRX: 000660)(Seok-hee Lee). Previously Founding
+    Chief Human Resources Officer at Solidigm; company acquired by SK Hynix (KRX: 000660)(Seok-hee Lee).'
+- name: Steve Phillpott
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Solidigm
+  specialty_tags: []
+  notes: 'Previously Founding CIO at Solidigm; company acquired by SK Hynix (KRX: 000660)(Seok-hee Lee). Previously Founding
+    Chief Information Officer at Solidigm; company acquired by SK Hynix (KRX: 000660)(Seok-hee Lee).'
+- name: Roland Pudelko
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Dialog Semiconductor
+  specialty_tags: []
+  notes: 'Previously Management-Buyout Leader / Former CEO at Dialog Semiconductor; company acquired by Renesas Electronics
+    (TKS: 6723)(Hidetoshi Shibata). Previously Management Buyout Leader / CEO & President at Dialog Semiconductor; company
+    acquired by Renesas Electronics (TKS: 6723)(Hidetoshi Shibata).'
+- name: Matthew Neville
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: CMC Materials
+  specialty_tags: []
+  notes: 'Previously Initial Spinout CEO (former) at CMC Materials; company acquired by Entegris (NAS: ENTG)(Bertrand Loy).
+    Previously Spinout President & CEO at CMC Materials; company acquired by Entegris (NAS: ENTG)(Bertrand Loy).'
+- name: William C. McCarthy
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: CMC Materials
+  specialty_tags: []
+  notes: 'Previously Initial Spinout CFO (former) at CMC Materials; company acquired by Entegris (NAS: ENTG)(Bertrand Loy).
+    Previously Spinout VP, CFO, Treasurer & Secretary at CMC Materials; company acquired by Entegris (NAS: ENTG)(Bertrand
+    Loy).'
+- name: Daniel J. Pike
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: CMC Materials
+  specialty_tags: []
+  notes: 'Previously Initial Spinout VP, Operations (former) at CMC Materials; company acquired by Entegris (NAS: ENTG)(Bertrand
+    Loy). Previously Spinout VP, Operations at CMC Materials; company acquired by Entegris (NAS: ENTG)(Bertrand Loy).'
+- name: J. Michael Jenkins
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: CMC Materials
+  specialty_tags: []
+  notes: 'Previously Initial Spinout VP, Human Resources (former) at CMC Materials; company acquired by Entegris (NAS: ENTG)(Bertrand
+    Loy). Previously Spinout VP, Human Resources at CMC Materials; company acquired by Entegris (NAS: ENTG)(Bertrand Loy).'
+- name: Bruce M. Zwicker
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: CMC Materials
+  specialty_tags: []
+  notes: 'Previously Initial Spinout VP, Sales & Marketing (former) at CMC Materials; company acquired by Entegris (NAS: ENTG)(Bertrand
+    Loy). Previously Spinout VP, Sales & Marketing at CMC Materials; company acquired by Entegris (NAS: ENTG)(Bertrand Loy).'
+- name: John Lofton Holt
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Alphawave Semi
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder / Former Executive Chairman at Alphawave Semi; company acquired by Qualcomm (NAS: QCOM)(Cristiano
+    Amon).'
+- name: Roland Carter
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Smiths Interconnect
+  specialty_tags: []
+  notes: Previously Formation Leader / Former President at Smiths Interconnect; company acquired by Molex (Connectivity Products)(Joe
+    Nelligan).
+- name: Laurent Verreault
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Ovivo (Electronic division)
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder of Corporate Predecessor at Ovivo (Electronic division); company acquired by Ecolab (NYS:
+    ECL)(Christophe Beck).'
+- name: Louis Laperrière
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Ovivo (Electronic division)
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder of Corporate Predecessor at Ovivo (Electronic division); company acquired by Ecolab (NYS:
+    ECL)(Christophe Beck).'
+- name: Marc Barbeau
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Ovivo (Electronic division)
+  specialty_tags: []
+  notes: 'Previously President & CEO at Ovivo (Electronic division); company acquired by Ecolab (NYS: ECL)(Christophe Beck).'
+- name: David Lidsky
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Empower Semiconductor
+  specialty_tags:
+  - prior_founder
+  notes: 'Previously Co-Founder at Empower Semiconductor; company acquired by Analog Devices (NAS: ADI)(Vincent Roche).'
+- name: Sagar Pushpala
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: TSI Semiconductors
+  specialty_tags: []
+  notes: Previously Formation-Era CEO (former) at TSI Semiconductors; company acquired by Bosch(Stefan Hartung).
+- name: Roger Lee
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: TSI Semiconductors
+  specialty_tags: []
+  notes: Previously Formation-Era COO (former) at TSI Semiconductors; company acquired by Bosch(Stefan Hartung).
+- name: David Bridgeford
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: TSI Semiconductors
+  specialty_tags: []
+  notes: Previously Formation-Era CFO (former) at TSI Semiconductors; company acquired by Bosch(Stefan Hartung).
+- name: John Doricko
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: TSI Semiconductors
+  specialty_tags: []
+  notes: Previously Formation-Era VP, Sales & Marketing (former) at TSI Semiconductors; company acquired by Bosch(Stefan Hartung).
+- name: Michael Gontar
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: TSI Semiconductors
+  specialty_tags: []
+  notes: Previously Formation-Era Chairman (former) at TSI Semiconductors; company acquired by Bosch(Stefan Hartung).
+- name: Rob Crooke
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Solidigm
+  specialty_tags: []
+  notes: 'Previously Founding CEO at Solidigm; company acquired by SK Hynix (KRX: 000660)(Seok-hee Lee).'
+- name: Benoît Bazire
+  known_aliases: []
+  github_usernames: []
+  personal_site: null
+  last_known_employer: Teledyne Qioptiq
+  specialty_tags: []
+  notes: 'Previously Formation CEO at Teledyne Qioptiq; company acquired by Teledyne Technologies (NYS: TDY)(Robert Mehrabian).'

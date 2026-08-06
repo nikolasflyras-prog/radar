@@ -1,0 +1,23 @@
+terms:
+  - semiconductor
+  - silicon photonics
+  - photonics
+  - interconnect
+  - chiplet
+  - RISC-V
+  - EDA
+  - ASIC
+  - SerDes
+  - HBM
+  - advanced packaging
+  - analog
+  - RF semiconductor
+  - power electronics
+  - quantum computing
+  - lithography
+  - inference accelerator
+  - optical networking
+hn_terms: [chiplet, RISC-V, silicon photonics, semiconductor startup, ASIC, SerDes, HBM]
+entity_morphemes: [silicon, semi, chip, photon, tensor, fab, logic, volt, lattice, wafer, core, risc, quantum, optic]
+departure_language: [has left, departed, stealth startup, quietly working on, founded, co-founder]
+

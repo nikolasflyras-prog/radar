@@ -1,0 +1,36 @@
+name: Weekly Spinout Radar
+on:
+  schedule:
+    - cron: "0 11 * * 1"
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11", cache: pip}
+      - run: pip install -e .
+      - name: Configure contact email
+        env: {RADAR_CONTACT_EMAIL: "${{ secrets.RADAR_CONTACT_EMAIL }}"}
+        run: python -c "from pathlib import Path; import yaml,os; p=Path('config/config.yaml'); d=yaml.safe_load(p.read_text()); d['contact_email']=os.environ['RADAR_CONTACT_EMAIL']; p.write_text(yaml.safe_dump(d,sort_keys=False))"
+      - name: Run radar
+        env:
+          GITHUB_TOKEN: "${{ secrets.RADAR_GITHUB_TOKEN }}"
+          OPENCORPORATES_TOKEN: "${{ secrets.OPENCORPORATES_TOKEN }}"
+        run: radar init && radar run
+      - name: Commit updated intelligence
+        run: |
+          git config user.name "spinout-radar-bot"
+          git config user.email "spinout-radar-bot@users.noreply.github.com"
+          git add data/radar.db output/weekly-digest.md output/weekly-digest.html
+          git diff --cached --quiet || git commit -m "chore: weekly radar update"
+          git push
+      - name: Open failure issue
+        if: failure()
+        env: {GH_TOKEN: "${{ github.token }}"}
+        run: gh issue create --title "Spinout Radar weekly run failed" --body "The weekly collector run failed. Review the Actions log and source-health errors."
+
