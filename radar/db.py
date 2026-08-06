@@ -6,8 +6,8 @@ import sqlite3
 from contextlib import contextmanager
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Iterable
 
+from .relevance import looks_like_person
 from .models import CollectorResult, Signal
 
 SCHEMA_VERSION = 1
@@ -84,8 +84,6 @@ class Database:
         normalized = normalize_name(name)
         row = con.execute("SELECT id, raw_names FROM entities WHERE normalized_name=?", (normalized,)).fetchone()
         if not row:
-            # High-confidence fuzzy matches merge into the existing canonical
-            # entity while every raw source spelling remains preserved.
             from rapidfuzz import fuzz
             for candidate in con.execute("SELECT id, normalized_name, raw_names FROM entities"):
                 similarity = fuzz.token_sort_ratio(normalized, candidate["normalized_name"])
@@ -132,7 +130,7 @@ class Database:
                      json.dumps(signal.raw, default=str), signal.base_weight, int(signal.manually_entered), datetime.now(timezone.utc).isoformat()))
             except sqlite3.IntegrityError:
                 return False
-            person_ids = [self.ensure_person(con, n, observed) for n in dict.fromkeys(signal.person_names) if n.strip()]
+            person_ids = [self.ensure_person(con, n, observed) for n in dict.fromkeys(signal.person_names) if looks_like_person(n)]
             for pid in person_ids:
                 con.execute("INSERT OR IGNORE INTO signal_people(signal_id,person_id) VALUES (?,?)", (cur.lastrowid, pid))
             for i, left in enumerate(person_ids):

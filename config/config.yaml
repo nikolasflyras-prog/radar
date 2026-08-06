@@ -2,7 +2,7 @@ contact_email: Nikolasflyras@gmail.com
 database: data/radar.db
 rate_limit_seconds: 1.0
 timeout_seconds: 30
-max_collector_failures: 2
+max_collector_failures: 6
 lookback_days: {edgar: 14, uspto: 30, github: 14, hn: 14, rss: 14, incorporation: 30}
 rate_limits:
   www.sec.gov: 0.12
@@ -12,11 +12,13 @@ scoring:
   half_life_days: 60
   cluster_window_days: 90
   investigate_threshold: 60
-  watching_threshold: 30
+  watching_threshold: 25
+  discovery_threshold: 8
   weights:
     patent_bigco_to_new: 40
     form_d_watchlist_officer: 35
-    form_d_keyword_issuer: 25
+    form_d_keyword_issuer: 20
+    form_d_discovery: 8
     conference_affiliation_change: 25
     github_keyword_org: 20
     github_activity_drop: 10
@@ -24,11 +26,21 @@ scoring:
     domain_registered: 5
     new_incorporation_keyword: 5
     news_departure_stealth: 10
+    hn_watchlist_person: 8
     manual_note: 30
+display:
+  spinout_inbox_limit: 20
+  spinout_inbox_min_score: 6
+  industry_intelligence_limit: 15
+  industry_intelligence_min_score: 3
+  signal_review_limit: 10
+  routine_review_limit: 5
+  manual_review_limit: 15
+  new_entity_limit: 20
 sources:
   uspto_assignment_endpoint: https://assignment-api.uspto.gov/patent/basicSearch
-  # Download official assignment XML into this directory for reliable backfills.
   uspto_bulk_xml_dir: data/uspto-bulk
+  hn_watchlist_query_limit: 25
 feeds:
   - {name: EE Times, url: "https://www.eetimes.com/feed/"}
   - {name: The Register Silicon, url: "https://www.theregister.com/headlines.atom"}

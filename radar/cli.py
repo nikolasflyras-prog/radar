@@ -42,14 +42,14 @@ def run_cmd(source, since_days):
         started = datetime.now(timezone.utc); result = COLLECTORS[name](cfg, db).result(since)
         new = sum(db.insert_signal(s) for s in result.signals); db.record_run(result, started, new)
         failures += bool(result.errors); click.echo(f"{name}: {result.rows_fetched} rows, {new} new, {len(result.errors)} errors")
-    queue_possible_merges(db); score_all(db, cfg); md, html = generate(db, root)
+    queue_possible_merges(db); score_all(db, cfg); md, html = generate(db, root, cfg)
     click.echo(f"Digest: {md} and {html}")
     if failures > int(cfg.get("max_collector_failures", 2)): raise click.ClickException(f"{failures} collectors reported errors")
 
 @main.command("digest")
 @click.option("--regenerate", is_flag=True, help="Accepted for an explicit regeneration workflow.")
 def digest_cmd(regenerate):
-    root,cfg,db=context(); db.initialize(); score_all(db,cfg); md,html=generate(db,root); click.echo(f"Generated {md} and {html}")
+    root,cfg,db=context(); db.initialize(); score_all(db,cfg); md,html=generate(db,root,cfg); click.echo(f"Generated {md} and {html}")
 
 @main.command("add-person")
 @click.argument("name")
@@ -98,5 +98,33 @@ def undo_merge(merge_id):
     try: entity_id = db.undo_merge(merge_id)
     except ValueError as exc: raise click.ClickException(str(exc)) from exc
     click.echo(f"Reversed merge {merge_id}; restored entity {entity_id}")
+
+@main.command("reset-data")
+@click.option("--yes", is_flag=True, help="Skip confirmation.")
+def reset_data(yes):
+    root, cfg, db = context()
+    if db.path.exists():
+        if not yes and not click.confirm(f"Back up and reset {db.path}?"):
+            raise click.Abort()
+        stamp = datetime.now(timezone.utc).strftime("%Y%m%d-%H%M%S")
+        backup = db.path.with_name(f"radar-backup-{stamp}.db")
+        shutil.copy2(db.path, backup)
+        db.path.unlink()
+        click.echo(f"Reset {db.path}; backup saved to {backup}")
+    else:
+        click.echo(f"No database found at {db.path}; creating a new one")
+    db.initialize(); db.seed_people(cfg.get("people", []))
+
+@main.command("stats")
+def stats():
+    root, cfg, db = context(); db.initialize()
+    click.echo("Signals by source/type:")
+    rows = db.rows("SELECT source,signal_type,COUNT(*) n,SUM(CASE WHEN entity_id IS NULL THEN 1 ELSE 0 END) unresolved FROM signals GROUP BY source,signal_type ORDER BY n DESC")
+    if not rows:
+        click.echo("  No signals stored.")
+    for row in rows:
+        click.echo(f"  {row['source']:<12} {row['signal_type']:<30} {row['n']:>5} total  {row['unresolved']:>5} unresolved")
+    click.echo(f"Named entities: {db.rows('SELECT COUNT(*) n FROM entities')[0]['n']}")
+    click.echo(f"Watchlist/people rows: {db.rows('SELECT COUNT(*) n FROM people')[0]['n']}")
 
 if __name__ == "__main__": main()

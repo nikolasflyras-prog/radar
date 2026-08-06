@@ -1,14 +1,65 @@
+from datetime import datetime, timezone
 from pathlib import Path
+
 from radar.db import Database
 from radar.digest import generate
+from radar.models import Signal
 
 
-def test_empty_digest_is_generated(tmp_path: Path):
+def _template(tmp_path: Path):
     (tmp_path / "templates").mkdir()
     source = Path(__file__).parents[1] / "templates" / "digest.html.j2"
     (tmp_path / "templates" / "digest.html.j2").write_text(source.read_text())
-    db = Database(tmp_path / "data/radar.db"); db.initialize()
-    md, html = generate(db, tmp_path)
-    assert "Manual LinkedIn review sheet" in md.read_text()
+
+
+def _cfg():
+    return {
+        "keywords": {
+            "strong_terms": ["silicon photonics", "ASIC", "semiconductor"],
+            "contextual_terms": ["interconnect", "core"],
+            "startup_language": ["startup", "launch hn", "founded"],
+        },
+        "people": [{"name": "Jane Chen", "specialty_tags": ["prior_founder"], "last_known_employer": "Marvell"}],
+        "display": {"routine_review_limit": 5, "signal_review_limit": 10},
+    }
+
+
+def test_empty_digest_is_generated(tmp_path: Path):
+    _template(tmp_path)
+    db = Database(tmp_path / "data/radar.db")
+    db.initialize()
+    md, html = generate(db, tmp_path, _cfg())
+    text = md.read_text()
+    assert "Spinout discovery inbox" in text
+    assert "Industry intelligence" in text
+    assert "Routine founder rotation" in text
+    assert "Jane Chen" in text
     assert "Spinout Radar" in html.read_text()
 
+
+def test_spinout_and_industry_are_separated(tmp_path: Path):
+    _template(tmp_path)
+    db = Database(tmp_path / "data/radar.db")
+    db.initialize()
+    now = datetime.now(timezone.utc)
+    db.insert_signal(Signal(
+        source="hn", signal_type="spinout_discovery", title="Launch HN: New silicon photonics startup",
+        observed_at=now, url="https://example.com/spinout",
+        summary="HN spinout; domain terms: silicon photonics", raw={
+            "classification": "spinout", "matched_strong_terms": ["silicon photonics"],
+            "startup_language": ["startup", "launch hn"], "points": 20,
+        }, source_key="fixture:spinout",
+    ))
+    db.insert_signal(Signal(
+        source="rss", signal_type="industry_intelligence", title="New silicon photonics interconnect research",
+        observed_at=now, url="https://example.com/industry",
+        summary="Industry research", raw={
+            "classification": "industry", "matched_strong_terms": ["silicon photonics"],
+            "matched_contextual_terms": ["interconnect"],
+        }, source_key="fixture:industry",
+    ))
+    md, _ = generate(db, tmp_path, _cfg())
+    text = md.read_text()
+    assert "New silicon photonics startup" in text
+    assert "New silicon photonics interconnect research" in text
+    assert text.index("New silicon photonics startup") < text.index("New silicon photonics interconnect research")
