@@ -79,7 +79,7 @@ def note(kind,name,observation):
     db.insert_signal(sig); click.echo("Observation recorded")
 
 @main.command("backfill")
-@click.option("--source", required=True, type=click.Choice(["uspto","edgar","hn"]))
+@click.option("--source", required=True, type=click.Choice(["uspto","edgar","hn","gdelt","rss"]))
 @click.option("--months", default=6, type=click.IntRange(1,36))
 def backfill(source, months):
     ctx=click.get_current_context(); ctx.invoke(run_cmd, source=source, since_days=months*30)
@@ -90,6 +90,41 @@ def top(limit):
     root,cfg,db=context(); db.initialize(); score_all(db,cfg)
     rows=db.rows("SELECT e.canonical_name,s.score,s.tier FROM scores s JOIN entities e ON e.id=s.entity_id ORDER BY score DESC LIMIT ?",(limit,))
     for row in rows: click.echo(f"{row['score']:6.1f}  {row['tier']:<15} {row['canonical_name']}")
+
+
+@main.command("confirm-github")
+@click.argument("name")
+@click.argument("username")
+def confirm_github(name, username):
+    path = root_path() / "config/watchlist_people.yaml"
+    data = yaml.safe_load(path.read_text(encoding="utf-8")) or {"people": []}
+    from .db import normalize_name
+    target = normalize_name(name)
+    for person in data.get("people", []):
+        if normalize_name(person.get("name", "")) != target:
+            continue
+        handles = person.setdefault("github_usernames", [])
+        if username not in handles:
+            handles.append(username)
+        path.write_text(yaml.safe_dump(data, sort_keys=False, allow_unicode=True), encoding="utf-8")
+        click.echo(f"Confirmed @{username} for {person['name']}")
+        return
+    raise click.ClickException(f"Watchlist person not found: {name}")
+
+@main.command("github-candidates")
+@click.option("--limit", default=20, type=click.IntRange(1, 100))
+def github_candidates(limit):
+    root, cfg, db = context(); db.initialize()
+    rows = db.rows("""SELECT s.title,s.url,s.summary,s.raw_json,p.canonical_name person
+        FROM signals s JOIN signal_people sp ON sp.signal_id=s.id JOIN people p ON p.id=sp.person_id
+        WHERE s.signal_type='github_identity_candidate' ORDER BY s.observed_at DESC LIMIT ?""", (limit,))
+    if not rows:
+        click.echo("No GitHub identity candidates stored. Run `radar run --source github`.")
+        return
+    import json
+    for row in rows:
+        raw = json.loads(row["raw_json"] or "{}")
+        click.echo(f"{raw.get('confidence', 0):>2}/10  {row['person']} -> @{raw.get('candidate_username')}  {row['url']}")
 
 @main.command("undo-merge")
 @click.argument("merge_id", type=int)

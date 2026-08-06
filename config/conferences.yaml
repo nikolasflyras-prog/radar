@@ -1,14 +1,34 @@
-# Program URLs change annually. Add current and prior-year public pages; optional
-# item_selector can target a conference-specific paper/session element.
+# Official public program pages verified for the current conference cycle.
+# The collector primarily looks for exact watchlist-name mentions and then
+# infers a nearby affiliation conservatively.
 conferences:
-  - {name: ISSCC, programs: []}
-  - {name: Hot Chips, programs: []}
-  - {name: DAC, programs: []}
+  - name: ISSCC
+    programs:
+      - year: 2026
+        date: 2026-02-15
+        url: https://www.isscc.org/program-overview
+        item_selector: "main, article, section, li"
+  - name: Hot Chips
+    programs:
+      - year: 2026
+        date: 2026-08-23
+        url: https://hotchips.org/advance-program/
+        item_selector: "tr"
+  - name: DAC
+    programs:
+      - year: 2026
+        date: 2026-07-26
+        url: https://dac.com/2026/program
+        item_selector: "main, article, section, tr, li"
+  - name: IEDM
+    programs:
+      - year: 2026
+        date: 2026-12-12
+        url: https://ieee-iedm.org/program/
+        item_selector: "main, article, section, tr, li"
   - {name: VLSI Symposia, programs: []}
-  - {name: IEDM, programs: []}
   - {name: MICRO, programs: []}
   - {name: ISCA, programs: []}
   - {name: HPCA, programs: []}
   - {name: OFC, programs: []}
   - {name: ECTC, programs: []}
-

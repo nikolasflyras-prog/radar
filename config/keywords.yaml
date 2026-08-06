@@ -81,6 +81,19 @@ hn_terms:
   - HBM
   - EDA
 
+hn_formation_terms:
+  - semiconductor startup
+  - chip startup
+  - stealth chip
+  - silicon photonics startup
+  - chiplet startup
+  - RISC-V startup
+  - AI accelerator startup
+  - former Nvidia
+  - former Intel
+  - left Nvidia
+  - left Intel
+
 entity_morphemes:
   - silicon
   - semi
@@ -154,3 +167,50 @@ departure_language:
   - quietly working on
   - founded
   - co-founder
+
+# High-intent combinations for GDELT and HN discovery. Generic technical
+# articles remain in Industry Intelligence unless they also contain formation
+# or personnel-movement language.
+news_query_domain_terms:
+  - semiconductor startup
+  - chip startup
+  - silicon photonics
+  - optical interconnect
+  - chiplet
+  - RISC-V
+  - AI accelerator
+  - ASIC
+  - EDA startup
+  - advanced packaging
+news_query_movement_terms:
+  - startup
+  - stealth
+  - founder
+  - spinout
+  - launched
+  - raises seed
+  - has left
+  - former
+formation_queries:
+  - '"semiconductor startup" (founder OR stealth OR launched OR raises OR spinout)'
+  - '"chip startup" (founder OR stealth OR launched OR raises OR spinout)'
+  - '"silicon photonics" (startup OR founder OR stealth OR spinout)'
+  - '"optical interconnect" (startup OR founder OR stealth OR spinout)'
+  - '"RISC-V" (startup OR founder OR stealth OR spinout)'
+  - 'chiplet (startup OR founder OR stealth OR spinout)'
+  - 'ASIC (startup OR founder OR stealth OR spinout)'
+  - '"AI accelerator" (startup OR founder OR stealth OR spinout)'
+  - '"advanced packaging" (startup OR founder OR stealth OR spinout)'
+  - 'EDA (startup OR founder OR stealth OR spinout)'
+
+movement_language:
+  - former
+  - ex-
+  - left
+  - has left
+  - departed
+  - resigned
+  - joins startup
+  - launching a startup
+  - starts new venture
+  - founding team

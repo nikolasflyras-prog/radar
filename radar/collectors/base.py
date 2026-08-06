@@ -21,7 +21,7 @@ class BaseCollector(ABC):
         self.config, self.db = config, db
         self.session = requests.Session()
         contact = config.get("contact_email", "replace-me@example.com")
-        self.session.headers.update({"User-Agent": f"SpinoutRadar/0.1 research-contact={contact}"})
+        self.session.headers.update({"User-Agent": f"SpinoutRadar/0.5 research-contact={contact}"})
         self._last_request = defaultdict(float)
         self._robots: dict[str, RobotFileParser] = {}
 
