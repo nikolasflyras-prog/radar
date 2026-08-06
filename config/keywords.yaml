@@ -10,14 +10,147 @@ terms:
   - SerDes
   - HBM
   - advanced packaging
-  - analog
+  - analog semiconductor
   - RF semiconductor
   - power electronics
   - quantum computing
   - lithography
   - inference accelerator
   - optical networking
-hn_terms: [chiplet, RISC-V, silicon photonics, semiconductor startup, ASIC, SerDes, HBM]
-entity_morphemes: [silicon, semi, chip, photon, tensor, fab, logic, volt, lattice, wafer, core, risc, quantum, optic]
-departure_language: [has left, departed, stealth startup, quietly working on, founded, co-founder]
 
+strong_terms:
+  - semiconductor
+  - silicon photonics
+  - chiplet
+  - RISC-V
+  - EDA
+  - ASIC
+  - SerDes
+  - HBM
+  - advanced packaging
+  - analog semiconductor
+  - RF semiconductor
+  - lithography
+  - inference accelerator
+  - optical networking
+  - optical interconnect
+  - wafer
+  - foundry
+  - GPU
+  - NPU
+
+contextual_terms:
+  - photonics
+  - interconnect
+  - analog
+  - RF
+  - power
+  - power electronics
+  - memory
+  - logic
+  - core
+  - processor
+  - quantum computing
+
+sec_strong_terms:
+  - semiconductor
+  - silicon photonics
+  - chiplet
+  - RISC-V
+  - EDA
+  - ASIC
+  - SerDes
+  - HBM
+  - advanced packaging
+  - analog semiconductor
+  - RF semiconductor
+  - lithography
+  - inference accelerator
+  - optical networking
+  - optical interconnect
+  - wafer
+  - foundry
+
+hn_terms:
+  - chiplet
+  - RISC-V
+  - silicon photonics
+  - semiconductor startup
+  - ASIC
+  - SerDes
+  - HBM
+  - EDA
+
+entity_morphemes:
+  - silicon
+  - semi
+  - chip
+  - photon
+  - tensor
+  - wafer
+  - risc
+  - optic
+
+startup_language:
+  - stealth
+  - startup
+  - founded
+  - founder
+  - co-founder
+  - launches
+  - launched
+  - formed
+  - incorporated
+  - spinout
+  - spin-off
+  - has left
+  - departed
+  - comes out of stealth
+  - emerged from stealth
+  - emerging from stealth
+  - hiring founding
+  - founding team
+  - quietly working on
+  - launch hn
+  - show hn
+  - raises
+  - raised
+  - seed round
+  - series a
+
+exclude_entity_terms:
+  - investment fund
+  - credit fund
+  - private equity
+  - real estate
+  - hotel
+  - healthcare
+  - health care
+  - biologics
+  - biotechnology
+  - pharmaceutical
+  - film
+  - minerals
+  - mining
+  - cannabis
+  - restaurant
+  - oil and gas
+  - hedge fund
+  - clo fund
+  - general partner
+  - capital partners fund
+  - fixed income
+  - income trust
+  - investment trust
+  - debt fund
+  - asset management
+  - investment management
+  - securities fund
+
+departure_language:
+  - has left
+  - departed
+  - stealth startup
+  - quietly working on
+  - founded
+  - co-founder
