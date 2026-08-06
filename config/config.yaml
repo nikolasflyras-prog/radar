@@ -2,12 +2,13 @@ contact_email: Nikolasflyras@gmail.com
 database: data/radar.db
 rate_limit_seconds: 1.0
 timeout_seconds: 30
-max_collector_failures: 6
-lookback_days: {edgar: 14, uspto: 30, github: 14, hn: 14, rss: 14, incorporation: 30}
+max_collector_failures: 7
+lookback_days: {edgar: 14, uspto: 30, github: 14, hn: 14, rss: 14, gdelt: 14, incorporation: 30}
 rate_limits:
   www.sec.gov: 0.12
   api.github.com: 1.0
   assignment-api.uspto.gov: 1.0
+  api.gdeltproject.org: 2.0
 scoring:
   half_life_days: 60
   cluster_window_days: 90
@@ -20,29 +21,47 @@ scoring:
     form_d_keyword_issuer: 20
     form_d_discovery: 8
     conference_affiliation_change: 25
+    conference_watchlist_mention: 4
     github_keyword_org: 20
     github_activity_drop: 10
+    github_profile_change: 10
+    github_identity_candidate: 2
     domain_hiring: 15
     domain_registered: 5
     new_incorporation_keyword: 5
     news_departure_stealth: 10
-    hn_watchlist_person: 8
+    news_watchlist_person: 14
+    watchlist_public_mention: 4
+    spinout_discovery: 10
+    hn_watchlist_person: 12
     manual_note: 30
 display:
-  spinout_inbox_limit: 20
+  spinout_inbox_limit: 25
   spinout_inbox_min_score: 6
   industry_intelligence_limit: 15
   industry_intelligence_min_score: 3
-  signal_review_limit: 10
+  watchlist_mention_limit: 25
+  github_candidate_limit: 15
+  github_candidate_days: 90
+  signal_review_limit: 12
   routine_review_limit: 5
-  manual_review_limit: 15
   new_entity_limit: 20
+news_search:
+  max_queries: 36
+  records_per_query: 75
+  max_employer_queries: 12
+  watchlist_people_queries: 12
+  hn_max_queries: 60
+  hn_watchlist_query_limit: 20
+github_discovery:
+  enabled: true
+  people_per_run: 20
+  minimum_confidence: 5
 sources:
   uspto_assignment_endpoint: https://assignment-api.uspto.gov/patent/basicSearch
   uspto_bulk_xml_dir: data/uspto-bulk
-  hn_watchlist_query_limit: 25
 feeds:
   - {name: EE Times, url: "https://www.eetimes.com/feed/"}
-  - {name: The Register Silicon, url: "https://www.theregister.com/headlines.atom"}
-  - {name: ServeTheHome, url: "https://www.servethehome.com/feed/"}
   - {name: SemiWiki, url: "https://semiwiki.com/feed/"}
+  - {name: Crunchbase News, url: "https://news.crunchbase.com/feed/"}
+  - {name: TechCrunch, url: "https://techcrunch.com/feed/"}

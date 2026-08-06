@@ -63,3 +63,32 @@ def test_spinout_and_industry_are_separated(tmp_path: Path):
     assert "New silicon photonics startup" in text
     assert "New silicon photonics interconnect research" in text
     assert text.index("New silicon photonics startup") < text.index("New silicon photonics interconnect research")
+
+
+def test_watchlist_mentions_and_github_candidates_are_rendered(tmp_path: Path):
+    _template(tmp_path)
+    db = Database(tmp_path / "data/radar.db")
+    db.initialize()
+    db.seed_people([{"name": "Jane Chen", "last_known_employer": "Marvell", "specialty_tags": ["prior_founder"]}])
+    now = datetime.now(timezone.utc)
+    db.insert_signal(Signal(
+        source="gdelt", signal_type="watchlist_public_mention", title="Jane Chen speaks about chiplets",
+        observed_at=now, person_names=["Jane Chen"], url="https://example.com/jane",
+        summary="Public watchlist mention", raw={"classification": "watchlist"}, source_key="fixture:mention",
+    ))
+    db.insert_signal(Signal(
+        source="github", signal_type="github_identity_candidate", title="Possible GitHub identity",
+        observed_at=now, person_names=["Jane Chen"], url="https://github.com/janechen",
+        summary="Confidence 8/10", raw={
+            "candidate_username": "janechen", "confidence": 8,
+            "reasons": ["exact profile-name match", "company matches last known employer"],
+            "company": "Marvell",
+        }, source_key="fixture:github-candidate",
+    ))
+    md, html = generate(db, tmp_path, _cfg())
+    text = md.read_text()
+    assert "Watchlist people mentioned publicly" in text
+    assert "Jane Chen speaks about chiplets" in text
+    assert "GitHub identity candidates" in text
+    assert "@janechen" in text
+    assert "@janechen" in html.read_text()

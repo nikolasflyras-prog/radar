@@ -105,8 +105,13 @@ class Database:
 
     def ensure_person(self, con: sqlite3.Connection, name: str, seen: str, **meta) -> int:
         normalized = normalize_name(name)
-        row = con.execute("SELECT id FROM people WHERE normalized_name=?", (normalized,)).fetchone()
+        row = con.execute("SELECT id,last_employer,tags,notes FROM people WHERE normalized_name=?", (normalized,)).fetchone()
         if row:
+            last_employer = meta.get("last_employer") or row["last_employer"]
+            tags = meta.get("tags") if meta.get("tags") is not None else json.loads(row["tags"] or "[]")
+            notes = meta.get("notes") if meta.get("notes") is not None else row["notes"]
+            con.execute("UPDATE people SET last_employer=?,tags=?,notes=? WHERE id=?",
+                        (last_employer, json.dumps(tags), notes, row["id"]))
             return int(row["id"])
         cur = con.execute("INSERT INTO people(canonical_name, normalized_name, last_employer, tags, notes, first_seen) VALUES (?,?,?,?,?,?)",
                           (name, normalized, meta.get("last_employer"), json.dumps(meta.get("tags", [])), meta.get("notes"), seen))
@@ -144,7 +149,8 @@ class Database:
         now = datetime.now(timezone.utc).isoformat()
         with self.connect() as con:
             merge = con.execute("SELECT * FROM entity_merge_log WHERE id=? AND reversed_at IS NULL", (merge_id,)).fetchone()
-            if not merge: raise ValueError("Active merge not found")
+            if not merge:
+                raise ValueError("Active merge not found")
             cur = con.execute("INSERT INTO entities(canonical_name,normalized_name,first_seen,last_seen,raw_names) VALUES (?,?,?,?,?)",
                               (merge["raw_name"], merge["normalized_name"], now, now, json.dumps([merge["raw_name"]])))
             con.execute("UPDATE signals SET entity_id=? WHERE entity_id=? AND raw_entity_name=?", (cur.lastrowid, merge["surviving_entity_id"], merge["raw_name"]))
