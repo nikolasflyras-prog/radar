@@ -79,6 +79,25 @@ def test_render_html_report_marks_quiet_findings_with_their_reason():
     assert "No matching news coverage found" in page
 
 
+def test_quiet_section_keeps_the_finding_summary_alongside_the_reason():
+    # A source's quiet_reason states the category of thing that happened (e.g.
+    # "registration" vs "change" for domain_whois); the specifics — dates, etc. —
+    # live in .summary and must not be dropped just because a finding is quiet.
+    quiet = _finding(source="domain_whois", title="Domain WHOIS: acme.com — recent change", dedupe_key="dw",
+                      summary="Registered 2010-01-01 (5000 days ago); registrant/registrar last changed 2026-07-24 (14 days ago)",
+                      quiet=True, quiet_reason="Recent domain change with no matching news found")
+    target = Target(mode="company", query="Acme")
+    ctx = build_report_context(target, [SourceResult(source="domain_whois", findings=[quiet])], {})
+
+    markdown = compile_report(target, [SourceResult(source="domain_whois", findings=[quiet])], {})
+    assert "Recent domain change with no matching news found" in markdown
+    assert "registrant/registrar last changed 2026-07-24" in markdown
+
+    page = render_html_report(target, ctx)
+    assert "Recent domain change with no matching news found" in page
+    assert "registrant/registrar last changed 2026-07-24" in page
+
+
 def test_write_reports_produces_a_matching_md_and_html_pair(tmp_path: Path):
     target = Target(mode="company", query="Acme")
     results = [SourceResult(source="news_gdelt", findings=[_finding(dedupe_key="a")])]

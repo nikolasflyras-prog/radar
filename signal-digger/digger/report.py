@@ -48,6 +48,12 @@ def _finding_line(finding: Finding) -> str:
     return f"- **{_date(finding)}** — {_link(finding)} — _{finding.source}_{who}{summary}"
 
 
+def _quiet_line(finding: Finding) -> str:
+    reason = finding.quiet_reason or "flagged quiet"
+    detail = f" — {finding.summary}" if finding.summary else ""
+    return f"- **{_date(finding)}** — {_link(finding)} — _{finding.source}_ — {reason}{detail}"
+
+
 def build_report_context(target: Target, results: list[SourceResult], config: dict) -> dict[str, Any]:
     """Dedupe findings, run the quiet-signal correlation once, and bucket everything
     by category — the shared computation behind both the Markdown and HTML
@@ -73,7 +79,7 @@ def render_markdown_report(target: Target, ctx: dict[str, Any]) -> str:
     ]
     quiet = ctx["quiet"]
     if quiet:
-        lines += [f"- **{_date(f)}** — {_link(f)} — _{f.source}_ — {f.quiet_reason or 'flagged quiet'}" for f in quiet]
+        lines += [_quiet_line(f) for f in quiet]
     else:
         lines.append("- None this run.")
     lines.append("")
@@ -161,11 +167,17 @@ def _esc(value: str) -> str:
 def _html_finding_item(finding: Finding, *, with_reason: bool = False) -> str:
     label = f'<a href="{_esc(finding.url)}">{_esc(finding.title)}</a>' if finding.url else _esc(finding.title)
     who = f" &middot; people: {_esc(', '.join(finding.people))}" if finding.people else ""
-    summary_text = finding.quiet_reason if with_reason else finding.summary
-    summary_html = f'<span class="{"quiet-reason" if with_reason else "summary"}">{_esc(summary_text)}</span>' if summary_text else ""
+    detail_html = ""
+    if with_reason:
+        reason = finding.quiet_reason or "flagged quiet"
+        detail_html = f'<span class="quiet-reason">{_esc(reason)}</span>'
+        if finding.summary:
+            detail_html += f'<span class="summary">{_esc(finding.summary)}</span>'
+    elif finding.summary:
+        detail_html = f'<span class="summary">{_esc(finding.summary)}</span>'
     return (
         f"<li><span class=\"date\">{_date(finding)}</span> {label}"
-        f"<span class=\"tag\">{_esc(finding.source)}</span>{who}{summary_html}</li>"
+        f"<span class=\"tag\">{_esc(finding.source)}</span>{who}{detail_html}</li>"
     )
 
 

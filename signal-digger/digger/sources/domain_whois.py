@@ -30,6 +30,15 @@ def rdap_event_date(events: list[dict], action: str) -> datetime | None:
     return None
 
 
+def classify_event(is_recent_registration: bool, is_recent_change: bool) -> str:
+    """Which of the two RDAP events actually triggered this finding — so the report
+    can say "registration" or "change" instead of the ambiguous "registration/change".
+    Pure function for tests."""
+    if is_recent_registration and is_recent_change:
+        return "registration and change"
+    return "change" if is_recent_change else "registration"
+
+
 class DomainWhoisSource(BaseSource):
     """RDAP (WHOIS successor) lookups on domains guessed from the target name.
     Flags recent registrations and recent registrant/registrar changes — these
@@ -62,19 +71,21 @@ class DomainWhoisSource(BaseSource):
             recent_change = bool(changed and (self.utcnow() - changed).days <= max_age_days and changed != registered)
             if not is_recent and not recent_change:
                 continue
+            kind = classify_event(is_recent, recent_change)
             summary = f"Registered {registered.date().isoformat()} ({age_days} days ago)"
             if recent_change:
-                summary += f"; last changed {changed.date().isoformat()}"
+                change_age = (self.utcnow() - changed).days
+                summary += f"; registrant/registrar last changed {changed.date().isoformat()} ({change_age} days ago)"
             result.findings.append(self.finding(
                 source=self.name, category="general_signal",
-                title=f"Domain WHOIS: {domain}",
+                title=f"Domain WHOIS: {domain} — recent {kind}",
                 observed_at=changed if recent_change else registered,
                 url=f"https://{domain}",
                 summary=summary,
                 entities=[target.query],
-                raw={"domain": domain, "registered": registered.isoformat(), "changed": changed.isoformat() if changed else None},
+                raw={"domain": domain, "kind": kind, "registered": registered.isoformat(), "changed": changed.isoformat() if changed else None},
                 quiet=True,
-                quiet_reason="Recent domain registration/change" + (" with no matching news" if recent_change else ""),
+                quiet_reason=f"Recent domain {kind} with no matching news found",
                 dedupe_key=f"rdap:{domain}:{registered.date().isoformat()}",
             ))
         return result
