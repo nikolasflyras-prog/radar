@@ -24,7 +24,7 @@ def _category(row, keywords: dict) -> str:
     value = raw.get("classification")
     if value in {"spinout", "industry", "watchlist", "suppressed"}:
         return value
-    if row["signal_type"] in {"spinout_discovery", "news_departure_stealth", "hn_watchlist_person", "news_watchlist_person"}:
+    if row["signal_type"] in {"spinout_discovery", "news_departure_stealth", "hn_watchlist_person", "news_watchlist_person", "hiring_board_founding"}:
         return "spinout"
     if row["signal_type"] in {"watchlist_public_mention", "conference_watchlist_mention", "github_identity_candidate"}:
         return "watchlist"
@@ -161,7 +161,7 @@ def _data(db: Database, config: dict) -> dict[str, Any]:
     qualifying = {
         "spinout_discovery", "form_d_watchlist_officer", "patent_bigco_to_new", "conference_affiliation_change",
         "github_profile_change", "github_keyword_org", "domain_hiring", "manual_note", "news_departure_stealth",
-        "news_watchlist_person", "hn_watchlist_person", "watchlist_public_mention",
+        "news_watchlist_person", "hn_watchlist_person", "watchlist_public_mention", "hiring_board_founding",
     }
     signal_review: list[dict[str, Any]] = []
     for row in db.rows("""SELECT p.canonical_name,p.normalized_name,COUNT(DISTINCT s.id) activity,

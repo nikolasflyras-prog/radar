@@ -202,6 +202,14 @@ formation_queries:
   - '"advanced packaging" (startup OR founder OR stealth OR spinout)'
   - 'EDA (startup OR founder OR stealth OR spinout)'
 
+founding_hire_titles:
+  - founding engineer
+  - founding scientist
+  - founding team member
+  - "employee #1"
+  - first engineering hire
+  - founding member
+
 movement_language:
   - former
   - ex-

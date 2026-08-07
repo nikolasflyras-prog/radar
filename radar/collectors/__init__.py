@@ -8,6 +8,7 @@ from .google_news_rss import GoogleNewsRSSCollector
 from .conference_programs import ConferenceProgramsCollector
 from .incorporation_records import IncorporationRecordsCollector
 from .domains_whois import DomainsRdapCollector
+from .job_boards import JobBoardsCollector
 
 COLLECTORS = {
     "edgar": SecFormDCollector, "uspto": UsptoAssignmentsCollector,
@@ -15,4 +16,5 @@ COLLECTORS = {
     "rss": NewsRSSCollector, "gdelt": GdeltNewsCollector, "googlenews": GoogleNewsRSSCollector,
     "conferences": ConferenceProgramsCollector,
     "incorporation": IncorporationRecordsCollector, "domains": DomainsRdapCollector,
+    "jobboards": JobBoardsCollector,
 }

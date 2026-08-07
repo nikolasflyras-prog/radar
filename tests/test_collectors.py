@@ -1,8 +1,12 @@
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
 
 import responses
 
 from radar.collectors.google_news_rss import GoogleNewsRSSCollector
+from radar.collectors.job_boards import JobBoardsCollector
+from radar.db import Database
+from radar.models import Signal
 
 
 def _feed(items: str) -> str:
@@ -109,3 +113,90 @@ def test_google_news_collector_fails_soft_when_robots_disallow():
 
     assert result.signals == []
     assert result.errors
+
+
+def _job_cfg():
+    return {
+        "contact_email": "test@example.com",
+        "rate_limit_seconds": 0,
+        "timeout_seconds": 30,
+        "rate_limits": {},
+        "keywords": {
+            "strong_terms": ["chiplet", "silicon photonics", "semiconductor"],
+            "founding_hire_titles": ["founding engineer", "founding scientist"],
+        },
+    }
+
+
+def _seeded_db(tmp_path: Path, entity_name: str) -> Database:
+    db = Database(tmp_path / "radar.db")
+    db.initialize()
+    db.insert_signal(Signal(
+        source="gdelt", signal_type="spinout_discovery", title=f"{entity_name} raises seed",
+        observed_at=datetime.now(timezone.utc), entity_name=entity_name, source_key=f"fixture:{entity_name}",
+    ))
+    return db
+
+
+@responses.activate
+def test_job_boards_flags_founding_role_with_domain_relevance(tmp_path: Path):
+    db = _seeded_db(tmp_path, "Photon Forge")
+    responses.add(responses.GET, "https://boards-api.greenhouse.io/v1/boards/photonforge/jobs", status=404)
+    responses.add(responses.GET, "https://api.lever.co/v0/postings/photonforge", status=404)
+    responses.add(responses.GET, "https://boards-api.greenhouse.io/v1/boards/photon-forge/jobs", json={
+        "jobs": [{
+            "id": 1, "title": "Founding Engineer - Chiplet Interconnect",
+            "content": "Join us building next-gen chiplet interconnect silicon.",
+            "absolute_url": "https://boards.greenhouse.io/photon-forge/jobs/1",
+        }],
+    }, status=200)
+    responses.add(responses.GET, "https://api.lever.co/v0/postings/photon-forge", status=404)
+
+    collector = JobBoardsCollector(_job_cfg(), db)
+    result = collector.collect()
+
+    assert len(result.signals) == 1
+    signal = result.signals[0]
+    assert signal.signal_type == "hiring_board_founding"
+    assert signal.entity_name == "Photon Forge"
+    assert "chiplet" in signal.raw["domain_terms"]
+
+
+@responses.activate
+def test_job_boards_ignores_founding_role_without_domain_relevance(tmp_path: Path):
+    db = _seeded_db(tmp_path, "Photon Forge")
+    responses.add(responses.GET, "https://boards-api.greenhouse.io/v1/boards/photonforge/jobs", status=404)
+    responses.add(responses.GET, "https://api.lever.co/v0/postings/photonforge", status=404)
+    responses.add(responses.GET, "https://boards-api.greenhouse.io/v1/boards/photon-forge/jobs", json={
+        "jobs": [{
+            "id": 2, "title": "Founding Engineer - Marketing Ops",
+            "content": "Join us building our brand and growth funnel.",
+            "absolute_url": "https://boards.greenhouse.io/photon-forge/jobs/2",
+        }],
+    }, status=200)
+    responses.add(responses.GET, "https://api.lever.co/v0/postings/photon-forge", status=404)
+
+    collector = JobBoardsCollector(_job_cfg(), db)
+    result = collector.collect()
+
+    assert result.signals == []
+
+
+@responses.activate
+def test_job_boards_ignores_domain_relevant_role_without_founding_title(tmp_path: Path):
+    db = _seeded_db(tmp_path, "Photon Forge")
+    responses.add(responses.GET, "https://boards-api.greenhouse.io/v1/boards/photonforge/jobs", status=404)
+    responses.add(responses.GET, "https://api.lever.co/v0/postings/photonforge", status=404)
+    responses.add(responses.GET, "https://boards-api.greenhouse.io/v1/boards/photon-forge/jobs", json={
+        "jobs": [{
+            "id": 3, "title": "Senior Chiplet Interconnect Engineer",
+            "content": "Join our established chiplet interconnect team.",
+            "absolute_url": "https://boards.greenhouse.io/photon-forge/jobs/3",
+        }],
+    }, status=200)
+    responses.add(responses.GET, "https://api.lever.co/v0/postings/photon-forge", status=404)
+
+    collector = JobBoardsCollector(_job_cfg(), db)
+    result = collector.collect()
+
+    assert result.signals == []
