@@ -19,3 +19,18 @@ jobs:
           cache: pip
       - run: python -m pip install -e ".[dev]"
       - run: python -m pytest -q
+      - name: Upload source snapshot
+        uses: actions/upload-artifact@v4
+        with:
+          name: spinout-radar-source
+          include-hidden-files: true
+          if-no-files-found: error
+          path: |
+            .
+            !.git/**
+            !data/*.db
+            !output/**
+            !*.log
+            !*.zip
+            !**/__pycache__/**
+            !*.egg-info/**
