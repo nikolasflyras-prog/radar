@@ -7,7 +7,15 @@ from dateutil.parser import parse as parse_date
 
 from .base import BaseCollector
 from ..models import CollectorResult, Signal
-from ..relevance import build_formation_queries, classify_public_signal, extract_candidate_entity, matched_employers, has_departure_context, watchlist_identity_matches
+from ..relevance import (
+    build_formation_queries,
+    classify_public_signal,
+    extract_candidate_entity,
+    matched_employers,
+    matched_terms,
+    has_departure_context,
+    watchlist_identity_matches,
+)
 
 
 class GdeltNewsCollector(BaseCollector):
@@ -78,7 +86,11 @@ class GdeltNewsCollector(BaseCollector):
                 employer_hits = matched_employers(blob, employers)
                 departure_context = has_departure_context(blob, keyword_cfg, employers)
                 candidate = extract_candidate_entity(title, blob)
-                promoted_spinout = classification.category == "industry" and departure_context
+                weak_startup = matched_terms(blob, keyword_cfg.get("startup_weak_language", []))
+                # "startup" by itself is weak evidence. Promote it only when the headline
+                # yields a credible named company plus semiconductor-domain evidence.
+                candidate_startup = bool(candidate and weak_startup and classification.domain_terms)
+                promoted_spinout = classification.category == "industry" and (departure_context or candidate_startup)
 
                 if identity_names and classification.category == "suppressed" and not departure_context:
                     signal_type, category, base_weight = "watchlist_public_mention", "watchlist", 4
@@ -96,6 +108,7 @@ class GdeltNewsCollector(BaseCollector):
                     "matched_strong_terms": list(classification.strong_terms),
                     "matched_contextual_terms": list(classification.contextual_terms),
                     "startup_language": list(classification.startup_terms),
+                    "weak_startup_language": weak_startup,
                     "matched_watchlist_people": identity_names,
                     "matched_watchlist_employers": employer_hits,
                     "departure_context": departure_context,
