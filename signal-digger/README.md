@@ -1,8 +1,11 @@
 # Signal Digger
 
 On-demand deep research CLI. Point it at a company, a sector, or a person; it
-fans out across public sources in parallel and compiles one Markdown report —
-M&A activity, staff movement, and the quiet stuff that doesn't make the news.
+fans out across public sources in parallel and compiles one report — M&A
+activity, staff movement, and the quiet stuff that doesn't make the news.
+Every run writes both a Markdown report and a matching self-contained HTML
+version (light/dark aware, no external assets — open it straight in a
+browser).
 
 This is a one-shot tool, not a monitor. There's no watchlist, no cadence, no
 scoring tier. You run it, it researches, it writes a report. Re-running on the
@@ -38,8 +41,10 @@ digger list-sources                              # see every source and its supp
 ```
 
 Exactly one of the `COMPANY` argument, `--sector`, or `--person` must be
-given. The report is written to `output/<mode>-<slug>-<timestamp>.md` (or
-wherever `--output` / `config.report.output_dir` points).
+given. Each run writes a `.md` and a `.html` report sharing the same name —
+`output/<mode>-<slug>-<timestamp>.{md,html}` (or wherever `--output` /
+`config.report.output_dir` points) — built from the same underlying data, so
+they never disagree on what's quiet or how things are sorted.
 
 ## How a run works
 

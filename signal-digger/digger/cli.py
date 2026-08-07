@@ -9,7 +9,7 @@ import click
 from .cache import ResponseCache
 from .config import load_config
 from .models import SourceResult, Target
-from .report import compile_report, write_report
+from .report import write_reports
 from .sources import SOURCES
 
 
@@ -75,10 +75,10 @@ def run_cmd(company, sector, person, config_path, sources, since_days, no_cache,
     for result in sorted(results, key=lambda r: r.source):
         click.echo(f"{result.source}: {result.status} — {len(result.findings)} findings, {result.rows_fetched} rows, {len(result.errors)} errors")
 
-    markdown = compile_report(target, results, config)
     out_dir = Path(output_dir) if output_dir else root_path() / config.get("report", {}).get("output_dir", "output")
-    path = write_report(markdown, out_dir, target)
-    click.echo(f"Report written to {path}")
+    md_path, html_path = write_reports(target, results, config, out_dir)
+    click.echo(f"Report written to {md_path}")
+    click.echo(f"HTML report written to {html_path}")
 
 
 @main.command("list-sources")
