@@ -182,6 +182,24 @@ def has_departure_context(text: str, keyword_cfg: dict, employers: Iterable[str]
     return bool(matched_terms(text, movement) and (matched_employers(text, employers) or matched_terms(text, keyword_cfg.get("strong_terms", []))))
 
 
+def person_departure_matches(text: str, keyword_cfg: dict, people: Sequence[dict]) -> list[dict]:
+    """Watchlist people whose OWN last-known employer co-occurs with departure
+    language in *text* — a specific former-employer + departure combination,
+    not just any watchlist employer appearing anywhere in the same article."""
+    movement = keyword_cfg.get("departure_language") or keyword_cfg.get("movement_language", [])
+    if not matched_terms(text, movement):
+        return []
+    output: list[dict] = []
+    for person in people:
+        employer = person.get("last_known_employer") or ""
+        if not employer or not contains_term(text, employer):
+            continue
+        names = [person.get("name", ""), *person.get("known_aliases", [])]
+        if any(contains_term(text, name) for name in names if name):
+            output.append(person)
+    return output
+
+
 def watchlist_identity_matches(text: str, people: Sequence[dict]) -> list[dict]:
     output: list[dict] = []
     for person in people:

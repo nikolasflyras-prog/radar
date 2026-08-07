@@ -61,6 +61,9 @@ def _signal_score(row, keywords: dict, spinout: bool) -> tuple[float, str]:
     if spinout and watched:
         score += 8
         reasons.append("watchlist: " + ", ".join(watched[:3]))
+    if spinout and raw.get("own_employer_departure"):
+        score += 4
+        reasons.append("departure from own last-known employer: " + ", ".join(raw["own_employer_departure"][:3]))
     if spinout and raw.get("candidate_entity"):
         score += 3
         reasons.append("candidate entity: " + raw["candidate_entity"])

@@ -5,7 +5,13 @@ from urllib.parse import quote
 
 from .base import BaseCollector
 from ..models import CollectorResult, Signal
-from ..relevance import classify_public_signal, extract_candidate_entity, matched_terms, watchlist_identity_matches
+from ..relevance import (
+    classify_public_signal,
+    extract_candidate_entity,
+    matched_terms,
+    person_departure_matches,
+    watchlist_identity_matches,
+)
 
 
 class HNAlgoliaCollector(BaseCollector):
@@ -59,8 +65,11 @@ class HNAlgoliaCollector(BaseCollector):
                 promoted_spinout = bool(
                     classification.category == "industry" and candidate and weak_startup and classification.domain_terms
                 )
+                own_employer_departures = person_departure_matches(text, keyword_cfg, identities)
 
-                if people and (classification.category == "spinout" or promoted_spinout):
+                if own_employer_departures:
+                    signal_type, category, weight = "news_departure_stealth", "spinout", 20
+                elif people and (classification.category == "spinout" or promoted_spinout):
                     signal_type, category, weight = "hn_watchlist_person", "spinout", 12
                 elif people:
                     signal_type, category, weight = "watchlist_public_mention", "watchlist", 4
@@ -81,6 +90,7 @@ class HNAlgoliaCollector(BaseCollector):
                     "startup_language": list(classification.startup_terms),
                     "weak_startup_language": weak_startup,
                     "matched_watchlist_people": people,
+                    "own_employer_departure": [p["name"] for p in own_employer_departures],
                     "points": hit.get("points") or 0,
                 })
                 observed = datetime.fromtimestamp(hit["created_at_i"], tz=timezone.utc)

@@ -13,6 +13,7 @@ from ..relevance import (
     matched_employers,
     matched_terms,
     has_departure_context,
+    person_departure_matches,
     watchlist_identity_matches,
 )
 
@@ -57,12 +58,15 @@ class NewsRSSCollector(BaseCollector):
                 classification = classify_public_signal(blob, keyword_cfg, watched_names)
                 employer_hits = matched_employers(blob, employers)
                 departure_context = has_departure_context(blob, keyword_cfg, employers)
+                own_employer_departures = person_departure_matches(blob, keyword_cfg, identity_rows)
                 candidate = extract_candidate_entity(title, blob)
                 weak_startup = matched_terms(blob, keyword_cfg.get("startup_weak_language", []))
                 candidate_startup = bool(candidate and weak_startup and classification.domain_terms)
                 promoted_spinout = classification.category == "industry" and (departure_context or candidate_startup)
 
-                if people and (classification.category == "spinout" or promoted_spinout):
+                if own_employer_departures:
+                    signal_type, category, weight = "news_departure_stealth", "spinout", 20
+                elif people and (classification.category == "spinout" or promoted_spinout):
                     signal_type, category, weight = "news_watchlist_person", "spinout", 14
                 elif people:
                     signal_type, category, weight = "watchlist_public_mention", "watchlist", 4
@@ -84,6 +88,7 @@ class NewsRSSCollector(BaseCollector):
                     "matched_watchlist_people": people,
                     "matched_watchlist_employers": employer_hits,
                     "departure_context": departure_context,
+                    "own_employer_departure": [p["name"] for p in own_employer_departures],
                     "feed_name": feed.get("name"),
                 })
                 result.signals.append(Signal(

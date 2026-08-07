@@ -24,6 +24,21 @@ def test_signal_deduplication_and_scoring(tmp_path: Path):
     assert row["tier"] == "Investigate now"
 
 
+def test_departure_signal_carries_formation_intent_to_watching(tmp_path: Path):
+    db = Database(tmp_path / "radar.db"); db.initialize()
+    now = datetime.now(timezone.utc)
+    db.insert_signal(Signal(source="rss", signal_type="news_departure_stealth",
+        title="Jane Chen has left Marvell to build a stealth startup",
+        observed_at=now, entity_name="Stealth Photon Co", person_names=["Jane Chen"],
+        base_weight=20, source_key="rss:departure:1"))
+    db.insert_signal(Signal(source="hn", signal_type="hn_keyword",
+        title="HN discussion mentions Stealth Photon Co",
+        observed_at=now, entity_name="Stealth Photon Co", base_weight=3, source_key="hn:1"))
+    score_all(db, {"scoring":{"half_life_days":60,"investigate_threshold":60,"watching_threshold":25,"discovery_threshold":8}})
+    row = db.rows("SELECT * FROM scores")[0]
+    assert row["tier"] in {"Watching", "Investigate now"}
+
+
 def test_corroboration_without_formation_intent_cannot_reach_watching(tmp_path: Path):
     db = Database(tmp_path / "radar.db"); db.initialize()
     now = datetime.now(timezone.utc)
