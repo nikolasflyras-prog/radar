@@ -104,14 +104,13 @@ entity_morphemes:
   - risc
   - optic
 
+# These phrases are strong enough to imply company formation / founder movement.
+# Generic use of the word "startup" is intentionally separated below.
 startup_language:
   - stealth
-  - startup
   - founded
   - founder
   - co-founder
-  - launches
-  - launched
   - formed
   - incorporated
   - spinout
@@ -124,12 +123,15 @@ startup_language:
   - hiring founding
   - founding team
   - quietly working on
-  - launch hn
-  - show hn
-  - raises
-  - raised
+  - raises seed
+  - raised seed
   - seed round
-  - series a
+  - starts new venture
+  - launching a startup
+  - new startup
+
+startup_weak_language:
+  - startup
 
 exclude_entity_terms:
   - investment fund
@@ -168,9 +170,6 @@ departure_language:
   - founded
   - co-founder
 
-# High-intent combinations for GDELT and HN discovery. Generic technical
-# articles remain in Industry Intelligence unless they also contain formation
-# or personnel-movement language.
 news_query_domain_terms:
   - semiconductor startup
   - chip startup

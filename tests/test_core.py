@@ -23,3 +23,17 @@ def test_signal_deduplication_and_scoring(tmp_path: Path):
     assert row["score"] >= 60
     assert row["tier"] == "Investigate now"
 
+
+def test_corroboration_without_formation_intent_cannot_reach_watching(tmp_path: Path):
+    db = Database(tmp_path / "radar.db"); db.initialize()
+    now = datetime.now(timezone.utc)
+    db.insert_signal(Signal(source="domains", signal_type="domain_hiring", title="Domain careers page",
+        observed_at=now, entity_name="Established Matrix", base_weight=15, source_key="domain:1"))
+    db.insert_signal(Signal(source="domains", signal_type="domain_hiring", title="Second domain careers page",
+        observed_at=now, entity_name="Established Matrix", base_weight=15, source_key="domain:2"))
+    db.insert_signal(Signal(source="conferences", signal_type="conference_watchlist_mention", title="Conference mention",
+        observed_at=now, entity_name="Established Matrix", person_names=["Jane Chen"], base_weight=4, source_key="conf:1"))
+    score_all(db, {"scoring":{"half_life_days":60,"investigate_threshold":60,"watching_threshold":25,"discovery_threshold":8}})
+    row = db.rows("SELECT * FROM scores")[0]
+    assert row["score"] >= 25
+    assert row["tier"] == "Discovery"

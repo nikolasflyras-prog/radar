@@ -23,8 +23,22 @@ _FINANCIAL_VEHICLE_PATTERNS = (
 _GENERIC_ENTITY_CANDIDATES = {
     "new", "startup", "company", "semiconductor", "silicon", "technology", "technologies",
     "research", "white paper", "show hn", "launch hn", "former", "exclusive", "report",
-    "chip startup", "semiconductor startup", "stealth startup", "ai startup",
+    "chip startup", "semiconductor startup", "stealth startup", "ai startup", "startup policy",
 }
+
+_NON_COMPANY_ENTITY_PATTERNS = (
+    r"\bpolicy\b", r"\breport\b", r"\bconference\b", r"\bconsortium\b", r"\bmission\b",
+    r"\binitiative\b", r"\bprogram\b", r"\bmarket forecast\b", r"\bwhite paper\b",
+    r"\bmeeting request\b", r"\barchive\b", r"\bexhibit hall\b", r"\bmailing list\b",
+    r"\bsocial media\b", r"\bmap your\b", r"\bopens? in new tab\b", r"\bclick here\b",
+    r"\bpress release\b", r"\bwebinar\b", r"\broundup\b", r"\bnewsletter\b",
+)
+
+_BAD_AFFILIATION_PATTERNS = (
+    r"opens? in new tab", r"click here", r"learn more", r"read more", r"register now",
+    r"conference archive", r"meeting request", r"exhibit hall", r"mailing list", r"social media",
+    r"map your", r"view program", r"download pdf", r"sister conferences",
+)
 
 
 @dataclass(frozen=True)
@@ -81,6 +95,18 @@ def looks_like_person(name: str) -> bool:
     return all(re.fullmatch(r"[A-Za-zÀ-ÖØ-öø-ÿ.'\-]+", part) for part in parts)
 
 
+def looks_like_affiliation(value: str) -> bool:
+    value = " ".join((value or "").split()).strip(" ,.;:-")
+    if not value or len(value) > 100 or len(value.split()) > 10:
+        return False
+    lower = value.casefold()
+    if any(re.search(pattern, lower, re.IGNORECASE) for pattern in _BAD_AFFILIATION_PATTERNS):
+        return False
+    if not re.search(r"[A-Za-z]", value):
+        return False
+    return True
+
+
 def entity_is_financial_vehicle(name: str, context: str = "") -> bool:
     blob = " ".join(f"{name} {context}".split())
     return any(re.search(pattern, blob, re.IGNORECASE) for pattern in _FINANCIAL_VEHICLE_PATTERNS)
@@ -91,6 +117,19 @@ def entity_is_excluded(name: str, context: str, excluded_terms: Iterable[str]) -
     return entity_is_financial_vehicle(name, context) or bool(matched_terms(blob, excluded_terms))
 
 
+def looks_like_company_candidate(name: str) -> bool:
+    value = " ".join((name or "").split()).strip(" ,.;:-")
+    if not value or value.casefold() in _GENERIC_ENTITY_CANDIDATES:
+        return False
+    if entity_is_financial_vehicle(value):
+        return False
+    if any(re.search(pattern, value, re.IGNORECASE) for pattern in _NON_COMPANY_ENTITY_PATTERNS):
+        return False
+    if len(value.split()) > 6 or len(value) > 80:
+        return False
+    return bool(re.search(r"[A-Za-z]", value))
+
+
 def startup_language_matches(text: str, language: Iterable[str]) -> list[str]:
     return matched_terms(text, language)
 
@@ -99,10 +138,13 @@ def classify_public_signal(text: str, keyword_cfg: dict, watchlist_people: Itera
     strong = tuple(matched_terms(text, keyword_cfg.get("strong_terms", keyword_cfg.get("terms", []))))
     contextual = tuple(matched_terms(text, keyword_cfg.get("contextual_terms", [])))
     startup = tuple(startup_language_matches(text, keyword_cfg.get("startup_language", [])))
+    weak_startup = tuple(startup_language_matches(text, keyword_cfg.get("startup_weak_language", [])))
     watched = tuple(matched_people(text, watchlist_people))
     distinct_domain = tuple(dict.fromkeys((*strong, *contextual)))
     has_domain = bool(strong) or len(distinct_domain) >= 2
     if startup and (has_domain or watched):
+        category = "spinout"
+    elif weak_startup and watched and has_domain:
         category = "spinout"
     elif strong or len(distinct_domain) >= 2:
         category = "industry"
@@ -130,9 +172,7 @@ def extract_candidate_entity(title: str, body: str = "") -> str | None:
         if not match:
             continue
         candidate = " ".join(match.group(1).split()).strip(" ,.;:-")
-        if candidate.casefold() in _GENERIC_ENTITY_CANDIDATES:
-            continue
-        if 1 <= len(candidate.split()) <= 6 and not entity_is_financial_vehicle(candidate):
+        if looks_like_company_candidate(candidate):
             return candidate
     return None
 

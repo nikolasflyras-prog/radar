@@ -3,6 +3,7 @@ database: data/radar.db
 rate_limit_seconds: 1.0
 timeout_seconds: 30
 max_collector_failures: 7
+domain_recent_registration_days: 730
 lookback_days: {edgar: 14, uspto: 30, github: 14, hn: 14, rss: 14, gdelt: 14, incorporation: 30}
 rate_limits:
   www.sec.gov: 0.12

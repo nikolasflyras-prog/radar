@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 from .base import BaseCollector
 from ..db import normalize_name
 from ..models import CollectorResult, Signal
-from ..relevance import contains_term, looks_like_person
+from ..relevance import contains_term, looks_like_affiliation
 
 
 class ConferenceProgramsCollector(BaseCollector):
@@ -31,6 +31,15 @@ class ConferenceProgramsCollector(BaseCollector):
             return text[: radius * 2]
         return text[max(0, match.start() - radius): match.end() + radius]
 
+    @staticmethod
+    def _watch_row(person_name: str, people_cfg: list[dict]) -> dict | None:
+        target = normalize_name(person_name)
+        for person in people_cfg:
+            names = [person.get("name", ""), *person.get("known_aliases", [])]
+            if any(normalize_name(name) == target for name in names if name):
+                return person
+        return None
+
     def collect(self, since: datetime | None = None) -> CollectorResult:
         result = CollectorResult(source=self.name)
         org_rows = self.config.get("orgs", [])
@@ -51,6 +60,7 @@ class ConferenceProgramsCollector(BaseCollector):
                 except Exception as exc:
                     result.errors.append(f"{conf['name']} {program.get('year')}: {exc}")
                     continue
+
                 selector = program.get("item_selector", "tr, article, .session, .paper, li")
                 blocks = soup.select(selector)
                 if not blocks:
@@ -63,13 +73,21 @@ class ConferenceProgramsCollector(BaseCollector):
                     text = " ".join(block.stripped_strings)
                     if len(text) < 12:
                         continue
-                    observations: set[tuple[str, str]] = set()
-                    for person, affiliation in re.findall(
-                        r"([A-Z][\w'.-]+(?:\s+[A-Z][\w'.-]+){1,3})\s*\(([^()]{2,80})\)", text,
-                    ):
-                        if looks_like_person(person):
-                            observations.add((person.strip(), affiliation.strip()))
+                    observations: dict[str, str] = {}
 
+                    # Parenthetical conference parsing is only trusted for people already on
+                    # the watchlist. This avoids navigation labels such as "opens in new tab"
+                    # being promoted into people or companies.
+                    for parsed_person, affiliation in re.findall(
+                        r"([A-Z][\w'.-]+(?:\s+[A-Z][\w'.-]+){1,3})\s*\(([^()]{2,100})\)", text,
+                    ):
+                        watch_row = self._watch_row(parsed_person, people_cfg)
+                        if watch_row and looks_like_affiliation(affiliation):
+                            observations[watch_row["name"]] = affiliation.strip()
+
+                    # Explicitly scan every configured watchlist identity and aliases. If the
+                    # affiliation cannot be parsed confidently we still record a person mention,
+                    # but it remains entity-less and therefore cannot create a false company lead.
                     for person in people_cfg:
                         names = [person.get("name", ""), *person.get("known_aliases", [])]
                         matched_name = next((n for n in names if n and contains_term(text, n)), None)
@@ -77,18 +95,18 @@ class ConferenceProgramsCollector(BaseCollector):
                             continue
                         context = self._nearby(text, matched_name)
                         affiliations = [org for org in known_orgs if contains_term(context, org)]
-                        affiliation = affiliations[0] if len(affiliations) == 1 else ""
-                        observations.add((person["name"], affiliation))
+                        affiliation = affiliations[0] if len(affiliations) == 1 else observations.get(person["name"], "")
+                        if affiliation and not looks_like_affiliation(affiliation):
+                            affiliation = ""
+                        observations[person["name"]] = affiliation
 
-                    for person_name, affiliation in observations:
+                    for person_name, affiliation in observations.items():
                         key = (normalize_name(person_name), normalize_name(affiliation))
                         if key in emitted:
                             continue
                         emitted.add(key)
-                        watch_row = next(
-                            (p for p in people_cfg if normalize_name(p.get("name", "")) == normalize_name(person_name)), None,
-                        )
-                        last_employer = (watch_row or {}).get("last_known_employer") or ""
+                        watch_row = self._watch_row(person_name, people_cfg) or {}
+                        last_employer = watch_row.get("last_known_employer") or ""
                         changed = bool(
                             affiliation and last_employer and normalize_name(affiliation) != normalize_name(last_employer)
                         )
@@ -102,12 +120,12 @@ class ConferenceProgramsCollector(BaseCollector):
                             title=f"{person_name} at {conf['name']} {program['year']}",
                             url=program["url"],
                             summary=(
-                                f"Conference program mention; affiliation: {affiliation or 'not confidently parsed'}; "
+                                f"Watchlist conference mention; affiliation: {affiliation or 'not confidently parsed'}; "
                                 f"last known employer: {last_employer or 'unknown'}"
                             ),
                             raw={
                                 "conference": conf["name"], "year": program["year"], "text": text[:1200],
-                                "affiliation_changed": changed,
+                                "affiliation_changed": changed, "watchlist_only": True,
                             },
                             base_weight=25 if changed else 4,
                             source_key=f"conf:{conf['name']}:{program['year']}:{normalize_name(person_name)}:{normalize_name(affiliation)}",

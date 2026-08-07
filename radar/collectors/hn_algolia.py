@@ -5,7 +5,7 @@ from urllib.parse import quote
 
 from .base import BaseCollector
 from ..models import CollectorResult, Signal
-from ..relevance import classify_public_signal, extract_candidate_entity, watchlist_identity_matches
+from ..relevance import classify_public_signal, extract_candidate_entity, matched_terms, watchlist_identity_matches
 
 
 class HNAlgoliaCollector(BaseCollector):
@@ -55,11 +55,16 @@ class HNAlgoliaCollector(BaseCollector):
                 people = [p["name"] for p in identities]
                 classification = classify_public_signal(text, keyword_cfg, watched_names)
                 candidate = extract_candidate_entity(title, body)
-                if people and classification.category == "spinout":
+                weak_startup = matched_terms(text, keyword_cfg.get("startup_weak_language", []))
+                promoted_spinout = bool(
+                    classification.category == "industry" and candidate and weak_startup and classification.domain_terms
+                )
+
+                if people and (classification.category == "spinout" or promoted_spinout):
                     signal_type, category, weight = "hn_watchlist_person", "spinout", 12
                 elif people:
                     signal_type, category, weight = "watchlist_public_mention", "watchlist", 4
-                elif classification.category == "spinout":
+                elif classification.category == "spinout" or promoted_spinout:
                     signal_type, category, weight = "spinout_discovery", "spinout", 9
                 elif classification.category == "industry":
                     signal_type, category, weight = "industry_intelligence", "industry", 0
@@ -74,6 +79,7 @@ class HNAlgoliaCollector(BaseCollector):
                     "matched_strong_terms": list(classification.strong_terms),
                     "matched_contextual_terms": list(classification.contextual_terms),
                     "startup_language": list(classification.startup_terms),
+                    "weak_startup_language": weak_startup,
                     "matched_watchlist_people": people,
                     "points": hit.get("points") or 0,
                 })
