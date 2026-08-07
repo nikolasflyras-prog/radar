@@ -1,0 +1,97 @@
+# Copy this file to config/config.yaml and fill in what applies to you.
+# Every key here is optional — digger runs with sane defaults out of the box.
+
+# Sent as part of the User-Agent header on every outbound request, per each
+# source's etiquette (SEC, USPTO, and GitHub all ask for a contact point).
+# Can also be set via the DIGGER_CONTACT_EMAIL environment variable.
+contact_email: "you@example.com"
+
+# How far back each source looks, in days. Overridable per run with --since-days.
+lookback_days: 90
+
+# Per-domain delay (seconds) between requests. Anything not listed here falls
+# back to rate_limit_seconds.
+rate_limit_seconds: 1.0
+rate_limits:
+  www.sec.gov: 0.34
+  data.sec.gov: 0.34
+  efts.sec.gov: 0.34
+  api.github.com: 1.0
+  hn.algolia.com: 1.0
+
+# How long a cached raw response stays fresh before a re-run hits the source
+# again, per source name (see `digger list-sources`). "default" covers anything
+# not listed explicitly.
+cache:
+  path: "data/cache.db"
+  ttl_hours:
+    default: 24
+    sec_edgar: 12
+    ftc_hsr: 24
+    uspto_assignments: 168
+    news_gdelt: 6
+    news_rss: 6
+    github_people: 6
+    hackernews: 6
+    job_boards: 12
+    domain_whois: 168
+    conference_programs: 720
+
+# How many days apart a "quiet" source's finding (patent transfer, domain
+# re-registration, hiring surge) and the nearest news finding can be before it
+# still counts as "worth a second look" at the top of the report.
+quiet_signals:
+  correlation_window_days: 21
+
+# GitHub personal access token, used only to raise the GitHub API rate limit —
+# unauthenticated requests work but are throttled hard. Can also be set via
+# the GITHUB_TOKEN environment variable.
+tokens:
+  github: null
+
+# People to watch on GitHub. `employer` is compared against the profile's
+# public "company" field to flag a change; `github_usernames` skips the (very
+# best-effort) name-search fallback. Also used by conference_programs to spot
+# an affiliation that no longer matches.
+known_people:
+  - name: "Jane Chen"
+    github_usernames: ["jchen"]
+    employer: "Acme Semiconductor"
+
+# Greenhouse/Lever board slugs. Without an override, digger guesses a slug by
+# stripping punctuation from the company name — works for some companies,
+# not others, and fails soft (a 404 becomes one line in Source Run Health).
+job_boards:
+  slug_overrides:
+    "Acme Semiconductor":
+      greenhouse: ["acmesemi"]
+      lever: []
+  greenhouse_slugs: []
+  lever_slugs: []
+  surge_threshold: 3
+
+# Extra RSS feeds to search alongside the automatic Google News query. Each
+# entry needs a name and url; add `respect_robots: false` if the feed's
+# robots.txt blocks fetching (some publishers block bots from everything but
+# still intend the feed to be machine-read).
+rss_feeds:
+  - name: "TechCrunch"
+    url: "https://techcrunch.com/feed/"
+
+# Conference program / speaker-list pages to scan for the target's name.
+conferences:
+  - name: "Example Conference"
+    programs:
+      - year: 2026
+        url: "https://example.com/2026/program"
+        # item_selector: "tr, article, .session"  # optional CSS selector override
+
+# FTC HSR early-termination-notices listing page, in case the URL changes.
+ftc_hsr:
+  listing_url: "https://www.ftc.gov/legal-library/browse/early-termination-notices"
+
+domain_whois:
+  recent_registration_days: 365
+
+report:
+  output_dir: "output"
