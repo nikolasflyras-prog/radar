@@ -3,6 +3,8 @@ from radar.relevance import (
     entity_is_excluded,
     entity_is_financial_vehicle,
     extract_candidate_entity,
+    looks_like_affiliation,
+    looks_like_company_candidate,
     looks_like_person,
     matched_terms,
 )
@@ -12,7 +14,8 @@ def _cfg():
     return {
         "strong_terms": ["semiconductor", "silicon photonics", "ASIC", "RISC-V", "chiplet"],
         "contextual_terms": ["core", "logic", "power", "memory", "interconnect"],
-        "startup_language": ["startup", "founded", "founder", "launched", "stealth", "seed round"],
+        "startup_language": ["founded", "founder", "stealth", "seed round", "new startup"],
+        "startup_weak_language": ["startup"],
     }
 
 
@@ -35,11 +38,13 @@ def test_financial_vehicle_is_excluded_even_on_core_match():
 
 
 def test_public_signal_classification_separates_spinout_from_industry():
-    spinout = classify_public_signal("Acme launched a silicon photonics startup", _cfg())
+    spinout = classify_public_signal("Acme founded a silicon photonics startup", _cfg())
     industry = classify_public_signal("New silicon photonics interconnect research", _cfg())
+    generic_startup = classify_public_signal("Startup policy for the semiconductor ecosystem", _cfg())
     suppressed = classify_public_signal("Core Plus Fixed Income Trust", _cfg())
     assert spinout.category == "spinout"
     assert industry.category == "industry"
+    assert generic_startup.category == "industry"
     assert suppressed.category == "suppressed"
 
 
@@ -51,6 +56,17 @@ def test_contextual_term_alone_does_not_qualify():
 def test_candidate_entity_extraction_is_conservative():
     assert extract_candidate_entity("PhotonForge raises seed round for chiplet interconnect") == "PhotonForge"
     assert extract_candidate_entity("Can you reverse engineer an ASIC?") is None
+    assert extract_candidate_entity("Startup Policy Launches The Semicon Consortium") is None
+    assert not looks_like_company_candidate("Conference Archive")
+    assert not looks_like_company_candidate("Semiconductor Market Forecast Report")
+
+
+def test_affiliation_filter_rejects_navigation_labels():
+    assert looks_like_affiliation("NVIDIA")
+    assert looks_like_affiliation("Massachusetts Institute of Technology")
+    assert not looks_like_affiliation("opens in new tab")
+    assert not looks_like_affiliation("Conference Archive")
+    assert not looks_like_affiliation("Exhibit Hall Floor Plan")
 
 
 def test_watchlist_name_matching_avoids_substrings():
