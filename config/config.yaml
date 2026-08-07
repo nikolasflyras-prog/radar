@@ -4,12 +4,13 @@ rate_limit_seconds: 1.0
 timeout_seconds: 30
 max_collector_failures: 7
 domain_recent_registration_days: 730
-lookback_days: {edgar: 14, uspto: 30, github: 14, hn: 14, rss: 14, gdelt: 14, incorporation: 30}
+lookback_days: {edgar: 14, uspto: 30, github: 14, hn: 14, rss: 14, gdelt: 14, googlenews: 14, incorporation: 30}
 rate_limits:
   www.sec.gov: 0.12
   api.github.com: 1.0
   assignment-api.uspto.gov: 1.0
   api.gdeltproject.org: 2.0
+  news.google.com: 1.0
 scoring:
   half_life_days: 60
   cluster_window_days: 90
@@ -66,3 +67,11 @@ feeds:
   - {name: SemiWiki, url: "https://semiwiki.com/feed/"}
   - {name: Crunchbase News, url: "https://news.crunchbase.com/feed/"}
   - {name: TechCrunch, url: "https://techcrunch.com/feed/"}
+  - {name: IEEE Spectrum, url: "https://spectrum.ieee.org/feeds/feed.rss"}
+  - {name: Semiconductor Engineering, url: "https://semiengineering.com/feed/"}
+  - {name: EE Journal, url: "https://www.eejournal.com/feed/"}
+  - {name: Ars Technica, url: "https://arstechnica.com/feed/"}
+  - {name: VentureBeat, url: "https://venturebeat.com/feed/"}
+  - {name: SiliconANGLE, url: "https://siliconangle.com/feed/"}
+  - {name: Data Center Dynamics, url: "https://www.datacenterdynamics.com/en/rss/"}
+  - {name: The Register, url: "https://www.theregister.com/headlines.atom"}
