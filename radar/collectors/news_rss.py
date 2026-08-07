@@ -7,7 +7,14 @@ from dateutil.parser import parse as parse_date
 
 from .base import BaseCollector
 from ..models import CollectorResult, Signal
-from ..relevance import classify_public_signal, extract_candidate_entity, matched_employers, has_departure_context, watchlist_identity_matches
+from ..relevance import (
+    classify_public_signal,
+    extract_candidate_entity,
+    matched_employers,
+    matched_terms,
+    has_departure_context,
+    watchlist_identity_matches,
+)
 
 
 class NewsRSSCollector(BaseCollector):
@@ -51,7 +58,10 @@ class NewsRSSCollector(BaseCollector):
                 employer_hits = matched_employers(blob, employers)
                 departure_context = has_departure_context(blob, keyword_cfg, employers)
                 candidate = extract_candidate_entity(title, blob)
-                promoted_spinout = classification.category == "industry" and departure_context
+                weak_startup = matched_terms(blob, keyword_cfg.get("startup_weak_language", []))
+                candidate_startup = bool(candidate and weak_startup and classification.domain_terms)
+                promoted_spinout = classification.category == "industry" and (departure_context or candidate_startup)
+
                 if people and (classification.category == "spinout" or promoted_spinout):
                     signal_type, category, weight = "news_watchlist_person", "spinout", 14
                 elif people:
@@ -70,6 +80,7 @@ class NewsRSSCollector(BaseCollector):
                     "matched_strong_terms": list(classification.strong_terms),
                     "matched_contextual_terms": list(classification.contextual_terms),
                     "startup_language": list(classification.startup_terms),
+                    "weak_startup_language": weak_startup,
                     "matched_watchlist_people": people,
                     "matched_watchlist_employers": employer_hits,
                     "departure_context": departure_context,
