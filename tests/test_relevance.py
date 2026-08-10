@@ -7,6 +7,7 @@ from radar.relevance import (
     looks_like_company_candidate,
     looks_like_person,
     matched_terms,
+    person_departure_matches,
 )
 
 
@@ -74,6 +75,39 @@ def test_watchlist_name_matching_avoids_substrings():
     assert matched_people("Jane Chen founded PhotonForge", ["Jane Chen", "Chen Li"]) == ["Jane Chen"]
     people = [{"name": "Jane Chen", "known_aliases": ["Jane Q. Chen"]}]
     assert watchlist_identity_matches("Jane Q. Chen has left Marvell", people)[0]["name"] == "Jane Chen"
+
+
+def _watched_pair():
+    return [
+        {"name": "Jane Chen", "known_aliases": [], "last_known_employer": "Marvell"},
+        {"name": "Sam Lee", "known_aliases": [], "last_known_employer": "Intel"},
+    ]
+
+
+def test_person_departure_matches_requires_own_employer_and_departure_language():
+    cfg = {"departure_language": ["has left", "departed"]}
+    hits = person_departure_matches(
+        "Jane Chen has left Marvell to work on something new", cfg, _watched_pair(),
+    )
+    assert [p["name"] for p in hits] == ["Jane Chen"]
+
+
+def test_person_departure_matches_does_not_attribute_unrelated_employer():
+    # "has left" is present and Intel is someone's employer, but Intel is not
+    # Jane Chen's own employer -- this must not be attributed to her.
+    cfg = {"departure_language": ["has left", "departed"]}
+    hits = person_departure_matches(
+        "Jane Chen commented after an engineer has left Intel", cfg, _watched_pair(),
+    )
+    assert hits == []
+
+
+def test_person_departure_matches_requires_departure_language_not_just_employer_mention():
+    cfg = {"departure_language": ["has left", "departed"]}
+    hits = person_departure_matches(
+        "Jane Chen still works at Marvell and gave a keynote", cfg, _watched_pair(),
+    )
+    assert hits == []
 
 
 def test_formation_query_builder_is_bounded_and_high_intent():
