@@ -3,6 +3,7 @@ name: ATTENUA Daily Intelligence
 on:
   schedule:
     - cron: "15 11 * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -18,7 +19,49 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  decide:
+    runs-on: ubuntu-latest
+    outputs:
+      should_run: ${{ steps.decision.outputs.should_run }}
+    steps:
+      - name: Check for a queued website refresh
+        id: decision
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const isQueuePoll =
+              context.eventName === 'schedule' &&
+              context.payload.schedule === '*/5 * * * *';
+
+            if (!isQueuePoll) {
+              core.setOutput('should_run', 'true');
+              core.info('Daily, manual, or workflow-change run approved.');
+              return;
+            }
+
+            const audience =
+              'https://boston-semiconductor-research.nfl77.chatgpt.site/api/intelligence/run/claim';
+            const token = await core.getIDToken(audience);
+            const response = await fetch(audience, {
+              method: 'POST',
+              headers: {
+                authorization: `Bearer ${token}`,
+                accept: 'application/json',
+              },
+            });
+
+            if (!response.ok) {
+              core.setFailed(`Refresh queue check failed with HTTP ${response.status}`);
+              return;
+            }
+
+            const result = await response.json();
+            core.setOutput('should_run', result.claimed === true ? 'true' : 'false');
+            core.info(result.claimed ? 'Website refresh request claimed.' : 'No website refresh request is waiting.');
+
   collect-and-publish:
+    needs: decide
+    if: needs.decide.outputs.should_run == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 45
     defaults:
