@@ -1,12 +1,14 @@
 from __future__ import annotations
 
+import json
 import logging
+import os
 from pathlib import Path
 
 import click
 
 from .config import load_config
-from .daily import load_query_specs, run_daily, write_daily_payload
+from .daily import load_query_specs, publish_daily_payload, run_daily, write_daily_payload
 from .models import Target
 from .report import write_reports
 from .sources import SOURCES
@@ -82,14 +84,18 @@ def list_sources_cmd():
 @click.option("--output", "output_dir", type=click.Path(path_type=Path), help="Override the daily JSON output directory.")
 @click.option("--include-seen", is_flag=True, help="Include previously published findings in this run.")
 @click.option("--no-cache", is_flag=True, help="Bypass source response caches.")
-def daily_cmd(queries_path, config_path, output_dir, include_seen, no_cache):
+@click.option("--no-publish", is_flag=True, help="Build and save the edition without publishing it.")
+def daily_cmd(queries_path, config_path, output_dir, include_seen, no_cache, no_publish):
     """Run every configured research query, deduplicate, score, and optionally publish one daily feed."""
     if not queries_path.exists():
         raise click.UsageError(f"Queries file not found: {queries_path}. Copy config/searches.example.yaml first.")
     config = load_config(config_path if config_path.exists() else None)
     specs = load_query_specs(queries_path)
     click.echo(f"Running {len(specs)} configured intelligence searches...")
-    payload = run_daily(specs, config, cache_root=root_path(), use_cache=not no_cache, include_seen=include_seen)
+    payload = run_daily(
+        specs, config, cache_root=root_path(), use_cache=not no_cache,
+        include_seen=include_seen, publish=not no_publish,
+    )
     configured_output = config.get("daily", {}).get("output_dir", "output/daily")
     archive, latest = write_daily_payload(payload, output_dir or root_path() / configured_output)
     click.echo(
@@ -98,8 +104,33 @@ def daily_cmd(queries_path, config_path, output_dir, include_seen, no_cache):
     )
     click.echo(f"Archive written to {archive}")
     click.echo(f"Latest feed written to {latest}")
-    if config.get("daily", {}).get("publish_url"):
+    if not no_publish and config.get("daily", {}).get("publish_url"):
         click.echo("ATTENUA intelligence page updated.")
+
+
+@main.command("publish")
+@click.argument("feed_path", type=click.Path(path_type=Path, exists=True, dir_okay=False))
+@click.option("--config", "config_path", type=click.Path(path_type=Path), default=Path("config/config.yaml"), show_default=True)
+@click.option("--url", help="Override daily.publish_url from configuration.")
+@click.option("--token-env", help="Override daily.publish_token_env from configuration.")
+@click.option("--timeout", type=float, default=60.0, show_default=True)
+def publish_cmd(feed_path, config_path, url, token_env, timeout):
+    """Publish a previously generated daily JSON edition."""
+    config = load_config(config_path if config_path.exists() else None)
+    daily_config = config.get("daily", {})
+    publish_url = url or daily_config.get("publish_url")
+    if not publish_url:
+        raise click.UsageError("No publish URL configured; set daily.publish_url or pass --url.")
+    token_name = token_env or daily_config.get("publish_token_env", "ATTENUA_INGEST_TOKEN")
+    token = os.getenv(token_name, "")
+    if not token:
+        raise click.UsageError(f"{token_name} must be set before publishing.")
+    try:
+        payload = json.loads(feed_path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        raise click.UsageError(f"Invalid JSON feed: {exc}") from exc
+    publish_daily_payload(payload, publish_url, token, timeout=timeout)
+    click.echo(f"Daily edition published from {feed_path}.")
 
 
 if __name__ == "__main__":

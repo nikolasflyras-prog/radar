@@ -1,6 +1,6 @@
 from datetime import datetime, timezone
 
-from digger.daily import DailySeenStore, QuerySpec, build_daily_payload, canonical_url, load_query_specs
+from digger.daily import DailySeenStore, QuerySpec, build_daily_payload, canonical_url, load_query_specs, run_daily
 from digger.models import Finding
 
 
@@ -50,3 +50,9 @@ def test_payload_suppresses_previously_seen_items(tmp_path):
     second = build_daily_payload([(spec, _finding())], [], store)
     assert len(first["findings"]) == 1
     assert second["findings"] == []
+
+
+def test_run_daily_can_collect_without_publishing(tmp_path):
+    config = {"daily": {"publish_url": "https://example.com/ingest", "state_path": "daily.db"}}
+    payload = run_daily([], config, cache_root=tmp_path, publish=False)
+    assert payload["summary"]["published_findings"] == 0

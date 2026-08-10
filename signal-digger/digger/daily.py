@@ -222,6 +222,7 @@ def run_daily(
     cache_root: Path,
     use_cache: bool = True,
     include_seen: bool = False,
+    publish: bool = True,
 ) -> dict:
     daily_config = config.get("daily", {})
     matched: list[tuple[QuerySpec, Finding]] = []
@@ -254,7 +255,7 @@ def run_daily(
     )
     publish_url = daily_config.get("publish_url")
     token_env = daily_config.get("publish_token_env", "ATTENUA_INGEST_TOKEN")
-    if publish_url:
+    if publish and publish_url:
         token = os.getenv(token_env, "")
         if not token:
             raise RuntimeError(f"{token_env} must be set when daily.publish_url is configured")

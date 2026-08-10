@@ -42,6 +42,11 @@ jobs:
           test -f config/config.yaml || cp config/config.example.yaml config/config.yaml
           test -f config/searches.yaml || cp config/searches.example.yaml config/searches.yaml
 
+      - name: Collect and save daily edition
+        run: digger --verbose daily --no-publish --queries config/searches.yaml
+
+      # GitHub OIDC credentials are intentionally minted after the potentially
+      # slow external-source collection so the token is fresh for the POST.
       - name: Request short-lived ATTENUA credential
         id: attenua-token
         uses: actions/github-script@v7
@@ -49,10 +54,10 @@ jobs:
           script: return await core.getIDToken('https://boston-semiconductor-research.nfl77.chatgpt.site/api/intelligence/ingest')
           result-encoding: string
 
-      - name: Run and publish daily edition
+      - name: Publish daily edition
         env:
           ATTENUA_INGEST_TOKEN: ${{ steps.attenua-token.outputs.result }}
-        run: digger --verbose daily --queries config/searches.yaml
+        run: digger publish output/daily/latest.json
 
       - name: Upload edition for audit
         if: always()
