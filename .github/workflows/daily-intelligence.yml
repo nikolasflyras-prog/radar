@@ -59,7 +59,11 @@ jobs:
                 accept: 'application/json',
                 'content-type': 'application/json',
               },
-              body: JSON.stringify(requestedId ? { requestId: requestedId } : {}),
+              body: JSON.stringify({
+                ...(requestedId ? { requestId: requestedId } : {}),
+                workflowUrl: `https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`,
+                triggerType: isWebsiteDispatch ? 'website' : 'scheduled',
+              }),
             });
 
             if (!response.ok) {
@@ -120,10 +124,21 @@ jobs:
           script: return await core.getIDToken('https://boston-semiconductor-research.nfl77.chatgpt.site/api/intelligence/ingest')
           result-encoding: string
 
-      - name: Publish daily edition
+      - name: Publish daily edition with exact run identity
         env:
           ATTENUA_INGEST_TOKEN: ${{ steps.attenua-token.outputs.result }}
-        run: digger publish output/daily/latest.json
+          ATTENUA_REQUEST_ID: ${{ needs.decide.outputs.request_id }}
+          ATTENUA_TRIGGER: ${{ needs.decide.outputs.request_id != '' && 'website' || 'scheduled' }}
+        run: |
+          curl --fail-with-body --retry 3 --retry-all-errors \
+            --request POST \
+            --header "Authorization: Bearer ${ATTENUA_INGEST_TOKEN}" \
+            --header "Content-Type: application/json" \
+            --header "x-attenua-run-request-id: ${ATTENUA_REQUEST_ID}" \
+            --header "x-attenua-workflow-url: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            --header "x-attenua-trigger: ${ATTENUA_TRIGGER}" \
+            --data-binary @output/daily/latest.json \
+            https://boston-semiconductor-research.nfl77.chatgpt.site/api/intelligence/ingest
 
       - name: Report a failed website run
         if: ${{ failure() && needs.decide.outputs.request_id != '' }}
