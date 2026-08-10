@@ -34,6 +34,14 @@ jobs:
           cache: pip
           cache-dependency-path: signal-digger/pyproject.toml
 
+      - name: Restore event history
+        uses: actions/cache@v4
+        with:
+          path: signal-digger/data/daily.db
+          key: attenua-daily-state-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            attenua-daily-state-
+
       - name: Install Signal Digger
         run: pip install -e .
 
@@ -43,7 +51,7 @@ jobs:
           test -f config/searches.yaml || cp config/searches.example.yaml config/searches.yaml
 
       - name: Collect and save daily edition
-        run: digger --verbose daily --no-publish --queries config/searches.yaml
+        run: digger --verbose daily --no-publish --include-seen --queries config/searches.yaml
 
       # GitHub OIDC credentials are intentionally minted after the potentially
       # slow external-source collection so the token is fresh for the POST.
