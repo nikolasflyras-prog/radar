@@ -58,6 +58,16 @@ def test_odp_response_helpers():
     assert assignment_rows({"assignmentBag": [{"id": "a"}]}) == [{"id": "a"}]
 
 
+def test_assignment_rows_unwraps_official_patent_file_wrapper_response():
+    payload = {"patentFileWrapperDataBag": [{"applicationNumberText": "18123456", "assignmentBag": [{
+        "assignorName": "Acme Inc", "assigneeName": "Buyer Co", "recordedDate": "2026-08-01",
+        "documentIdentifier": "700011234",
+    }]}]}
+    rows = assignment_rows(payload)
+    assert len(rows) == 1
+    assert parse_assignment_doc(rows[0], "Acme")["reel_frame"] == "700011234"
+
+
 def test_source_skips_cleanly_without_required_odp_key():
     source = UsptoAssignmentsSource({"tokens": {}}, cache=None, use_cache=False)
     result = source.collect(Target(mode="company", query="Acme"))

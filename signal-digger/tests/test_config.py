@@ -8,6 +8,8 @@ def test_defaults_without_a_config_file(tmp_path: Path):
     assert cfg["contact_email"] == "replace-me@example.com"
     assert cfg["lookback_days"] == 90
     assert "sec_edgar" in cfg["cache"]["ttl_hours"]
+    assert cfg["rate_limits"]["api.gdeltproject.org"] == 10.0
+    assert cfg["daily"]["query_delay_seconds"] == 15
 
 
 def test_user_config_merges_over_defaults(tmp_path: Path):

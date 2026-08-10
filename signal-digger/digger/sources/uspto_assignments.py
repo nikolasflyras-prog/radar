@@ -27,6 +27,10 @@ def parse_assignment_doc(doc: dict, query: str) -> dict | None:
     the transfer names the target. Pure function for fixture-based unit testing."""
     assignors = _names(doc.get("assignors") or doc.get("assignorNames") or doc.get("assignorBag"))
     assignees = _names(doc.get("assignees") or doc.get("assigneeNames") or doc.get("assigneeBag"))
+    if not assignors and doc.get("assignorName"):
+        assignors = [str(doc["assignorName"])]
+    if not assignees and doc.get("assigneeName"):
+        assignees = [str(doc["assigneeName"])]
     assignor_text, assignee_text = ", ".join(assignors), ", ".join(assignees)
     if not (mentions_target(assignor_text, query) or mentions_target(assignee_text, query)):
         return None
@@ -34,7 +38,14 @@ def parse_assignment_doc(doc: dict, query: str) -> dict | None:
         "assignors": assignors,
         "assignees": assignees,
         "recorded_date": doc.get("recordedDate") or doc.get("recorded_date") or doc.get("assignmentReceivedDate") or "",
-        "reel_frame": str(doc.get("reelFrame") or doc.get("reelAndFrameNumber") or doc.get("id") or f"{assignor_text}:{assignee_text}"),
+        "reel_frame": str(
+            doc.get("reelFrame")
+            or doc.get("reelAndFrameNumber")
+            or doc.get("documentIdentifier")
+            or (f"{doc.get('reelNumber')}/{doc.get('frameNumber')}" if doc.get("reelNumber") is not None else "")
+            or doc.get("id")
+            or f"{assignor_text}:{assignee_text}"
+        ),
         "url": doc.get("assignmentUrl") or doc.get("documentUrl"),
         "correspondent": doc.get("correspondentName") or doc.get("correspondentAddress"),
     }
@@ -61,13 +72,19 @@ def application_number(row: dict) -> str:
 
 
 def assignment_rows(payload: dict) -> list[dict]:
-    return list(
+    direct = list(
         payload.get("assignmentBag")
         or payload.get("patentAssignmentDataBag")
         or payload.get("assignments")
         or payload.get("results")
         or []
     )
+    if direct:
+        return direct
+    rows: list[dict] = []
+    for wrapper in payload.get("patentFileWrapperDataBag") or []:
+        rows.extend(wrapper.get("assignmentBag") or [])
+    return rows
 
 
 class UsptoAssignmentsSource(BaseSource):
@@ -78,7 +95,7 @@ class UsptoAssignmentsSource(BaseSource):
     name = "uspto_assignments"
     modes: tuple[Mode, ...] = ("company", "sector")
     search_endpoint = "https://api.uspto.gov/api/v1/patent/applications/search"
-    assignment_endpoint = "https://api.uspto.gov/api/v1/patent/applications/{application_number}/assignments"
+    assignment_endpoint = "https://api.uspto.gov/api/v1/patent/applications/{application_number}/assignment"
 
     def collect(self, target: Target) -> SourceResult:
         result = SourceResult(source=self.name)

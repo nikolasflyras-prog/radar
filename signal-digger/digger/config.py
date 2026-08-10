@@ -17,7 +17,7 @@ DEFAULTS: dict[str, Any] = {
         "api.github.com": 1.0,
         "hn.algolia.com": 1.0,
         "www.ftc.gov": 1.0,
-        "api.gdeltproject.org": 1.0,
+        "api.gdeltproject.org": 10.0,
         "rdap.org": 1.0,
     },
     "cache": {
@@ -49,6 +49,7 @@ DEFAULTS: dict[str, Any] = {
     "known_people": [],
     "tokens": {"github": None, "uspto": None, "openalex": None},
     "report": {"output_dir": "output"},
+    "daily": {"query_delay_seconds": 15},
 }
 
 
