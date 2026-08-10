@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: "15 11 * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/daily-intelligence.yml"
 
 permissions:
   contents: read
