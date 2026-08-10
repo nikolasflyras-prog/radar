@@ -1,97 +1,73 @@
 # Spinout Radar — Weekly Digest
-_Generated 2026-08-06 18:57 UTC_
+_Generated 2026-08-10 14:52 UTC_
 
-## 1. Top alerts
-No entities crossed the investigate-now threshold this week.
-## 2. New this week
-- Stairway Invest LLC — first seen 2026-08-04
-- Peachtree Credit Fund IV, LP — first seen 2026-08-03
-- Sila Nanotechnologies, Inc. — first seen 2026-07-31
-- Cedar Breaks Partnership, LP — first seen 2026-07-31
-- ORF Biologics, Inc. — first seen 2026-07-31
-- Cedar Snow Fund LLC - Series 7 — first seen 2026-07-31
-- Full Health Clarity, Inc. — first seen 2026-07-31
+## 1. Investigate now
+- None currently qualify.
+## 2. Watching
+- None currently qualify.
+## 3. Emerging entity leads
+### The Semicon Censortium to Bring Together — 9.4
+Startup Policy Launches The Semicon Censortium to Bring Together All Stakeholders in the Semiconductor Ecosystem ; Convenes High - Level Dialogue on India Semiconductor Mission ( ISM ) 2 . 0
+- [Startup Policy Launches The Semicon Censortium to Bring Together All Stakeholders in the Semiconductor Ecosystem ; Convenes High - Level Dialogue on India Semiconductor Mission ( ISM ) 2 . 0](https://www.thehindu.com/brandhub/pr-release/startup-policy-launches-the-semicon-censortium-to-bring-together-all-stakeholders-in-the-semiconductor-ecosystem-convenes-high-level-dialogue-on-india-semiconductor-mission-ism-20/article71309425.ece) — GDELT news discovery from thehindu.com; query: "semiconductor startup" (startup OR stealth OR founder OR spinout OR launched OR "raises seed" OR "has left" OR former); employer matches: none
 
-## 3. Cluster watch
-- Daniel Siegel ↔ Michael Harper (co_edgar)
-- Brian Waldman ↔ Michael Harper (co_edgar)
-- Brian Waldman ↔ Daniel Siegel (co_edgar)
-- Kevin Cadin ↔ Michael Harper (co_edgar)
-- Kevin Cadin ↔ Daniel Siegel (co_edgar)
-- Kevin Cadin ↔ Brian Waldman (co_edgar)
-- Mitul Patel ↔ Michael Harper (co_edgar)
-- Mitul Patel ↔ Daniel Siegel (co_edgar)
-- Mitul Patel ↔ Brian Waldman (co_edgar)
-- Mitul Patel ↔ Kevin Cadin (co_edgar)
-- Jatin Desai ↔ Michael Harper (co_edgar)
-- Jatin Desai ↔ Daniel Siegel (co_edgar)
-- Jatin Desai ↔ Brian Waldman (co_edgar)
-- Jatin Desai ↔ Kevin Cadin (co_edgar)
-- Jatin Desai ↔ Mitul Patel (co_edgar)
-- Gregory Friedman ↔ Michael Harper (co_edgar)
-- Gregory Friedman ↔ Daniel Siegel (co_edgar)
-- Gregory Friedman ↔ Brian Waldman (co_edgar)
-- Gregory Friedman ↔ Kevin Cadin (co_edgar)
-- Gregory Friedman ↔ Mitul Patel (co_edgar)
-- Gregory Friedman ↔ Jatin Desai (co_edgar)
-- N/A PCF IV General Partner, LLC ↔ Michael Harper (co_edgar)
-- N/A PCF IV General Partner, LLC ↔ Daniel Siegel (co_edgar)
-- N/A PCF IV General Partner, LLC ↔ Brian Waldman (co_edgar)
-- N/A PCF IV General Partner, LLC ↔ Kevin Cadin (co_edgar)
-- N/A PCF IV General Partner, LLC ↔ Mitul Patel (co_edgar)
-- N/A PCF IV General Partner, LLC ↔ Jatin Desai (co_edgar)
-- N/A PCF IV General Partner, LLC ↔ Gregory Friedman (co_edgar)
-- N/A Peachtree Hotel Group II, LLC ↔ Michael Harper (co_edgar)
-- N/A Peachtree Hotel Group II, LLC ↔ Daniel Siegel (co_edgar)
-- N/A Peachtree Hotel Group II, LLC ↔ Brian Waldman (co_edgar)
-- N/A Peachtree Hotel Group II, LLC ↔ Kevin Cadin (co_edgar)
-- N/A Peachtree Hotel Group II, LLC ↔ Mitul Patel (co_edgar)
-- N/A Peachtree Hotel Group II, LLC ↔ Jatin Desai (co_edgar)
-- N/A Peachtree Hotel Group II, LLC ↔ Gregory Friedman (co_edgar)
-- N/A Peachtree Hotel Group II, LLC ↔ N/A PCF IV General Partner, LLC (co_edgar)
-- Joseph Ortiz ↔ Keith Williams (co_edgar)
-- Roger Baker ↔ John Huiskamp (co_edgar)
-- Nicholas Taiber ↔ John Huiskamp (co_edgar)
-- Nicholas Taiber ↔ Roger Baker (co_edgar)
-- Sara Ternes ↔ John Huiskamp (co_edgar)
-- Sara Ternes ↔ Roger Baker (co_edgar)
-- Sara Ternes ↔ Nicholas Taiber (co_edgar)
-- Jay Kamath ↔ John Huiskamp (co_edgar)
-- Jay Kamath ↔ Roger Baker (co_edgar)
-- Jay Kamath ↔ Nicholas Taiber (co_edgar)
-- Jay Kamath ↔ Sara Ternes (co_edgar)
-- Anant Kamath ↔ John Huiskamp (co_edgar)
-- Anant Kamath ↔ Roger Baker (co_edgar)
-- Anant Kamath ↔ Nicholas Taiber (co_edgar)
+## 4. Spinout discovery inbox
+Formation, founder-movement, or stealth signals not yet tied confidently to a scored entity.
+- **12.7 — [CEO Interview with Brendan Emery of iQ Sense](https://semiwiki.com/semiconductor-services/372028-ceo-interview-with-brendan-emery-of-iq-sense/)** (rss) — domain: semiconductor; formation/movement: founder, co-founder
 
-## 4. Manual LinkedIn review sheet
-Use LinkedIn manually; this system never accesses it.
-- [ ] Check Austin Fowler — form_d_keyword_issuer; look for title/company change. Feed back with `radar note person "Austin Fowler" "observation"`.
-- [ ] Check Michael Harper — form_d_keyword_issuer; look for title/company change. Feed back with `radar note person "Michael Harper" "observation"`.
-- [ ] Check Daniel Siegel — form_d_keyword_issuer; look for title/company change. Feed back with `radar note person "Daniel Siegel" "observation"`.
-- [ ] Check Brian Waldman — form_d_keyword_issuer; look for title/company change. Feed back with `radar note person "Brian Waldman" "observation"`.
-- [ ] Check Kevin Cadin — form_d_keyword_issuer; look for title/company change. Feed back with `radar note person "Kevin Cadin" "observation"`.
-- [ ] Check Mitul Patel — form_d_keyword_issuer; look for title/company change. Feed back with `radar note person "Mitul Patel" "observation"`.
-- [ ] Check Jatin Desai — form_d_keyword_issuer; look for title/company change. Feed back with `radar note person "Jatin Desai" "observation"`.
-- [ ] Check Gregory Friedman — form_d_keyword_issuer; look for title/company change. Feed back with `radar note person "Gregory Friedman" "observation"`.
-- [ ] Check N/A PCF IV General Partner, LLC — form_d_keyword_issuer; look for title/company change. Feed back with `radar note person "N/A PCF IV General Partner, LLC" "observation"`.
-- [ ] Check N/A Peachtree Hotel Group II, LLC — form_d_keyword_issuer; look for title/company change. Feed back with `radar note person "N/A Peachtree Hotel Group II, LLC" "observation"`.
-- [ ] Check Keith Williams — form_d_keyword_issuer; look for title/company change. Feed back with `radar note person "Keith Williams" "observation"`.
-- [ ] Check Joseph Ortiz — form_d_keyword_issuer; look for title/company change. Feed back with `radar note person "Joseph Ortiz" "observation"`.
-- [ ] Check Hamed Zaher — form_d_keyword_issuer; look for title/company change. Feed back with `radar note person "Hamed Zaher" "observation"`.
-- [ ] Check John Huiskamp — form_d_keyword_issuer; look for title/company change. Feed back with `radar note person "John Huiskamp" "observation"`.
-- [ ] Check Roger Baker — form_d_keyword_issuer; look for title/company change. Feed back with `radar note person "Roger Baker" "observation"`.
+## 5. Industry intelligence
+Relevant technical or market context without company-formation evidence. These are not spinout alerts.
+- **8.0 — [Read HN twice a day for the last decade. Here's my list of S-Tier HN links](https://news.ycombinator.com/item?id=49183198)** (hn) — domain: semiconductor, GPU
+- **6.8 — [The Systemic Collapse of the AI Industry: Ideology, Hardware, and CapEx Crisis](https://news.ycombinator.com/item?id=49232136)** (hn) — domain: HBM
+- **6.8 — [Show HN: A Project Oberon System version running on RISC-V instead of RISC-5](https://github.com/rochus-keller/OberonSystem/tree/op2-rv32)** (hn) — domain: RISC-V
+- **6.4 — [Can you reverse engineer an ASIC?](https://blog.janestreet.com/can-you-reverse-engineer-an-asic/)** (hn) — domain: ASIC
+- **5.9 — [CEO Interview with David Reeder from Entegris](https://semiwiki.com/ceo-interviews/371583-ceo-interview-with-david-reeder-from-entegris/)** (rss) — domain: semiconductor, foundry
+- **5.6 — [Show HN: Alyph, a manual transmission for LLM context](https://www.alyph.ai/)** (hn) — domain: chiplet
+- **5.6 — [Intel and TSMC Take Different Paths to High-NA EUV](https://semiwiki.com/semiconductor-manufacturers/tsmc/371838-intel-and-tsmc-take-different-paths-to-high-na-euv/)** (rss) — domain: semiconductor, lithography
+- **4.9 — [Optimizing a GPT-2-Class Transformer on a GPU](http://martinkristiansen.com/llm-gpu-optimization/index.html)** (hn) — domain: GPU
+- **4.9 — [Show HN: Lumabri – What if LLMs worked like Napster?](https://github.com/JustVugg/lumabri)** (hn) — domain: GPU
+- **4.7 — [BIWIN and Tera Indústria de Semicondutores Sign Strategic Partnership Agreement](https://www.eetimes.com/biwin-and-tera-industria-de-semicondutores-sign-strategic-partnership-agreement/)** (rss) — domain: semiconductor
+- **4.6 — [RISC-V rave: WASM-based RISC-V emulator](https://writethat.blog/rave.html)** (hn) — domain: RISC-V
+- **4.4 — [VCSELs : Superior sources for AI data centres ? - Compound Semiconductor News](https://compoundsemiconductor.net/article/124991/VCSELs_Superior_sources_for_AI_data_centres)** (gdelt) — domain: semiconductor
+- **4.3 — [Crealights Locks In Forward Supply of 10 Million DSP Chips , Fortifying AI Optical Interconnect Leadership](https://www.jcnnewswire.com/pressrelease/108905/3/Crealights-Locks-In-Forward-Supply-of-10-Million-DSP-Chips,-Fortifying-AI-Optical-Interconnect-Leade)** (gdelt) — domain: optical interconnect
+- **4.0 — [DAC 2026: How Undo Makes AI for Chip Design Work Better](https://semiwiki.com/eda/undo/372034-dac-2026-how-undo-makes-ai-for-chip-design-work-better/)** (rss) — domain: EDA
+- **3.9 — [Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry](https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/)** (rss) — domain: foundry
 
-## 5. Possible entity merges
-- Revelstoke Capital Partners Executive Fund IV, L.P. ↔ Revelstoke Capital Partners Fund IV, L.P. (89%)
-- Sycamore Tree High Grade CLO Debt Fund, L.P. ↔ Sycamore Tree CLO Fund II, L.P. (79%)
+## 6. Watchlist people mentioned publicly
+Recent public signals tied to people already on the watchlist.
+- **Zach Belateche** — [Zach Belateche at Hot Chips 2026](https://hotchips.org/advance-program/) (conferences, conference_watchlist_mention)
 
-## 6. Source health
-- conferences: 0 rows, 0 new signals, errors: []
-- domains: 2 rows, 0 new signals, errors: []
-- edgar: 2238 rows, 0 new signals, errors: ["2026-08-06: 403 Client Error: Forbidden for url: https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/master.20260806.idx"]
-- github: 0 rows, 0 new signals, errors: []
-- hn: 738 rows, 0 new signals, errors: []
-- incorporation: 0 rows, 0 new signals, errors: ["OpenCorporates token absent; set OPENCORPORATES_TOKEN. Delaware has no free bulk search and is intentionally unsupported."]
-- rss: 15 rows, 0 new signals, errors: ["The Register Silicon: robots.txt disallows https://www.theregister.com/headlines.atom", "ServeTheHome: robots.txt disallows https://www.servethehome.com/feed/"]
-- uspto: 0 rows, 0 new signals, errors: ["Intel: live API unavailable (HTTPSConnectionPool(host='assignment-api.uspto.gov', port=443): Max retries exceeded with url: /patent/basicSearch?query=Intel&startDate=2026-07-07&rows=100 (Caused by NameResolutionError(\"HTTPSConnection(host='assignment-api.uspto.gov', port=443): Failed to resolve 'assignment-api.uspto.gov' ([Errno -5] No address associated with hostname)\"))); use bulk XML backfill", "AMD: live API unavailable (HTTPSConnectionPool(host='assignment-api.uspto.gov', port=443): Max retries exceeded with url: /patent/basicSearch?query=AMD&startDate=2026-07-07&rows=100 (Caused by NameResolutionError(\"HTTPSConnection(host='assignment-api.uspto.gov', port=443): Failed to resolve 'assignment-api.uspto.gov' ([Errno -5] No address associated with hostname)\"))); use bulk XML backfill", "NVIDIA: live API unavailable (HTTPSConnectionPool(host='assignment-api.uspto.gov', port=443): Max retries exceeded with url: /patent/basicSearch?query=NVIDIA&startDate=2026-07-07&rows=100 (Caused by NameResolutionError(\"HTTPSConnection(host='assignment-api.uspto.gov', port=443): Failed to resolve 'assignment-api.uspto.gov' ([Errno -5] No address associated with hostname)\"))); use bulk XML backfill", "Apple: live API unavailable (HTTPSConnectionPool(host='assignment-api.uspto.gov', port=443): Max retries exceeded with url: /patent/basicSearch?query=Apple&startDate=2026-07-07&rows=100 (Caused by NameResolutionError(\"HTTPSConnection(host='assignment-api.uspto.gov', port=443): Failed to resolve 'assignment-api.uspto.gov' ([Errno -5] No address associated with hostname)\"))); use bulk XML backfill", "Google: live API unavailable (HTTPSConnectionPool(host='assignment-api.uspto.gov', port=443): Max retries exceeded with url: /patent/basicSearch?query=Google&startDate=2026-07-07&rows=100 (Caused by NameResolutionError(\"HTTPSConnection(host='assignment-api.uspto.gov', port=443): Failed to resolve 'assignment-api.uspto.gov' ([Errno -5] No address associated with hostname)\"))); use bulk XML backfill", "Meta: live API unavailable (HTTPSConnectionPool(host='assignment-api.uspto.gov', port=443): Max retries exceeded with url: /patent/basicSearch?query=Meta&startDate=2026-07-07&rows=100 (Caused by NameResolutionError(\"HTTPSConnection(host='assignment-api.uspto.gov', port=443): Failed to resolve 'assignment-api.uspto.gov' ([Errno -5] No address associated with hostname)\"))); use bulk XML backfill", "Qualcomm: live API unavailable (HTTPSConnectionPool(host='assignment-api.uspto.gov', port=443): Max retries exceeded with url: /patent/basicSearch?query=Qualcomm&startDate=2026-07-07&rows=100 (Caused by NameResolutionError(\"HTTPSConnection(host='assignment-api.uspto.gov', port=443): Failed to resolve 'assignment-api.uspto.gov' ([Errno -5] No address associated with hostname)\"))); use bulk XML backfill", "Broadcom: live API unavailable (HTTPSConnectionPool(host='assignment-api.uspto.gov', port=443): Max retries exceeded with url: /patent/basicSearch?query=Broadcom&startDate=2026-07-07&rows=100 (Caused by NameResolutionError(\"HTTPSConnection(host='assignment-api.uspto.gov', port=443): Failed to resolve 'assignment-api.uspto.gov' ([Errno -5] No address associated with hostname)\"))); use bulk XML backfill", "Marvell: live API unavailable (HTTPSConnectionPool(host='assignment-api.uspto.gov', port=443): Max retries exceeded with url: /patent/basicSearch?query=Marvell&startDate=2026-07-07&rows=100 (Caused by NameResolutionError(\"HTTPSConnection(host='assignment-api.uspto.gov', port=443): Failed to resolve 'assignment-api.uspto.gov' ([Errno -5] No address associated with hostname)\"))); use bulk XML backfill", "Micron: live API unavailable (HTTPSConnectionPool(host='assignment-api.uspto.gov', port=443): Max retries exceeded with url: /patent/basicSearch?query=Micron&startDate=2026-07-07&rows=100 (Caused by NameResolutionError(\"HTTPSConnection(host='assignment-api.uspto.gov', port=443): Failed to resolve 'assignment-api.uspto.gov' ([Errno -5] No address associated with hostname)\"))); use bulk XML backfill", "TSMC North America: live API unavailable (HTTPSConnectionPool(host='assignment-api.uspto.gov', port=443): Max retries exceeded with url: /patent/basicSearch?query=TSMC+North+America&startDate=2026-07-07&rows=100 (Caused by NameResolutionError(\"HTTPSConnection(host='assignment-api.uspto.gov', port=443): Failed to resolve 'assignment-api.uspto.gov' ([Errno -5] No address associated with hostname)\"))); use bulk XML backfill", "Samsung Semiconductor: live API unavailable (HTTPSConnectionPool(host='assignment-api.uspto.gov', port=443): Max retries exceeded with url: /patent/basicSearch?query=Samsung+Semiconductor&startDate=2026-07-07&rows=100 (Caused by NameResolutionError(\"HTTPSConnection(host='assignment-api.uspto.gov', port=443): Failed to resolve 'assignment-api.uspto.gov' ([Errno -5] No address associated with hostname)\"))); use bulk XML backfill", "Tenstorrent: live API unavailable (HTTPSConnectionPool(host='assignment-api.uspto.gov', port=443): Max retries exceeded with url: /patent/basicSearch?query=Tenstorrent&startDate=2026-07-07&rows=100 (Caused by NameResolutionError(\"HTTPSConnection(host='assignment-api.uspto.gov', port=443): Failed to resolve 'assignment-api.uspto.gov' ([Errno -5] No address associated with hostname)\"))); use bulk XML backfill", "Rivos: live API unavailable (HTTPSConnectionPool(host='assignment-api.uspto.gov', port=443): Max retries exceeded with url: /patent/basicSearch?query=Rivos&startDate=2026-07-07&rows=100 (Caused by NameResolutionError(\"HTTPSConnection(host='assignment-api.uspto.gov', port=443): Failed to resolve 'assignment-api.uspto.gov' ([Errno -5] No address associated with hostname)\"))); use bulk XML backfill", "SiFive: live API unavailable (HTTPSConnectionPool(host='assignment-api.uspto.gov', port=443): Max retries exceeded with url: /patent/basicSearch?query=SiFive&startDate=2026-07-07&rows=100 (Caused by NameResolutionError(\"HTTPSConnection(host='assignment-api.uspto.gov', port=443): Failed to resolve 'assignment-api.uspto.gov' ([Errno -5] No address associated with hostname)\"))); use bulk XML backfill", "Ampere Computing: live API unavailable (HTTPSConnectionPool(host='assignment-api.uspto.gov', port=443): Max retries exceeded with url: /patent/basicSearch?query=Ampere+Computing&startDate=2026-07-07&rows=100 (Caused by NameResolutionError(\"HTTPSConnection(host='assignment-api.uspto.gov', port=443): Failed to resolve 'assignment-api.uspto.gov' ([Errno -5] No address associated with hostname)\"))); use bulk XML backfill", "Cerebras Systems: live API unavailable (HTTPSConnectionPool(host='assignment-api.uspto.gov', port=443): Max retries exceeded with url: /patent/basicSearch?query=Cerebras+Systems&startDate=2026-07-07&rows=100 (Caused by NameResolutionError(\"HTTPSConnection(host='assignment-api.uspto.gov', port=443): Failed to resolve 'assignment-api.uspto.gov' ([Errno -5] No address associated with hostname)\"))); use bulk XML backfill", "Groq: live API unavailable (HTTPSConnectionPool(host='assignment-api.uspto.gov', port=443): Max retries exceeded with url: /patent/basicSearch?query=Groq&startDate=2026-07-07&rows=100 (Caused by NameResolutionError(\"HTTPSConnection(host='assignment-api.uspto.gov', port=443): Failed to resolve 'assignment-api.uspto.gov' ([Errno -5] No address associated with hostname)\"))); use bulk XML backfill", "Microsoft: live API unavailable (HTTPSConnectionPool(host='assignment-api.uspto.gov', port=443): Max retries exceeded with url: /patent/basicSearch?query=Microsoft&startDate=2026-07-07&rows=100 (Caused by NameResolutionError(\"HTTPSConnection(host='assignment-api.uspto.gov', port=443): Failed to resolve 'assignment-api.uspto.gov' ([Errno -5] No address associated with hostname)\"))); use bulk XML backfill", "Amazon: live API unavailable (HTTPSConnectionPool(host='assignment-api.uspto.gov', port=443): Max retries exceeded with url: /patent/basicSearch?query=Amazon&startDate=2026-07-07&rows=100 (Caused by NameResolutionError(\"HTTPSConnection(host='assignment-api.uspto.gov', port=443): Failed to resolve 'assignment-api.uspto.gov' ([Errno -5] No address associated with hostname)\"))); use bulk XML backfill", "Configured USPTO bulk directory does not exist: /workspaces/radar/data/uspto-bulk"]
+## 7. GitHub identity candidates
+Verify each profile manually before adding it to the YAML watchlist.
+- No new GitHub identity candidates.
+
+## 8. New relevant entities this week
+- The Semicon Censortium to Bring Together — Discovery, 9.4, first seen 2026-08-05
+
+## 9. Cluster watch
+- No corroborated multi-person clusters.
+
+## 10. Signal-driven LinkedIn checks
+Human review only. These names have recent public signals.
+- No signal-driven profiles this week.
+
+## 11. Routine founder rotation
+Fallback review list, clearly separated from actual alerts.
+- [ ] **Himanshu Bhatnagar** — routine prior-founder rotation; last known at Excellicon. `radar note person "Himanshu Bhatnagar" "observation"`
+- [ ] **Eran Steinberg** — routine prior-founder rotation; last known at FotoNation. `radar note person "Eran Steinberg" "observation"`
+- [ ] **Deep Prasad** — routine prior-founder rotation; last known at GenMat. `radar note person "Deep Prasad" "observation"`
+- [ ] **Atul Sinha** — routine prior-founder rotation; last known at GrAI Matter Labs. `radar note person "Atul Sinha" "observation"`
+- [ ] **Ryad Benosman** — routine prior-founder rotation; last known at TempoCognita Labs. `radar note person "Ryad Benosman" "observation"`
+
+## 12. Possible entity merges
+- None.
+
+## 13. Source health
+- conferences: Healthy; 246 rows; 1 new; 0 errors
+- domains: Partial; 5 rows; 1 new; 2 errors
+- edgar: Unavailable; 0 rows; 0 new; 11 errors
+- gdelt: Partial; 185 rows; 21 new; 29 errors
+- github: Healthy; 30 rows; 0 new; 0 errors
+- hn: Healthy; 488 rows; 23 new; 0 errors
+- incorporation: Unavailable; 0 rows; 0 new; 1 errors
+- rss: Healthy; 45 rows; 9 new; 0 errors
+- uspto: Unavailable; 0 rows; 0 new; 21 errors
