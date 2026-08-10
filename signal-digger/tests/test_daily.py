@@ -1,4 +1,4 @@
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 from digger.daily import DailySeenStore, QuerySpec, build_daily_payload, canonical_url, load_query_specs, run_daily
 from digger.models import Finding
@@ -50,6 +50,50 @@ def test_payload_suppresses_previously_seen_items(tmp_path):
     second = build_daily_payload([(spec, _finding())], [], store)
     assert len(first["findings"]) == 1
     assert second["findings"] == []
+
+
+def test_payload_classifies_material_updates(tmp_path):
+    store = DailySeenStore(tmp_path / "daily.db")
+    spec = QuerySpec("Optical I/O", "sector", "optical interconnects")
+    first = build_daily_payload([(spec, _finding())], [], store)
+    changed = _finding()
+    changed.summary = "Financing summary with a newly disclosed $40 million amount"
+    second = build_daily_payload([(spec, changed)], [], store)
+    assert first["findings"][0]["status"] == "new"
+    assert second["findings"][0]["status"] == "updated"
+    assert second["summary"]["updated_events"] == 1
+
+
+def test_payload_classifies_new_source_as_corroboration(tmp_path):
+    store = DailySeenStore(tmp_path / "daily.db")
+    spec = QuerySpec("Optical I/O", "sector", "optical interconnects")
+    build_daily_payload([(spec, _finding("news_rss"))], [], store)
+    second = build_daily_payload([(spec, _finding("news_gdelt"))], [], store)
+    assert second["findings"][0]["status"] == "corroborated"
+
+
+def test_payload_marks_event_resurfaced_after_thirty_days(tmp_path):
+    store = DailySeenStore(tmp_path / "daily.db")
+    spec = QuerySpec("Optical I/O", "sector", "optical interconnects")
+    first_day = datetime(2026, 6, 1, tzinfo=timezone.utc)
+    build_daily_payload([(spec, _finding())], [], store, generated_at=first_day)
+    later = build_daily_payload(
+        [(spec, _finding())], [], store,
+        generated_at=first_day + timedelta(days=31),
+    )
+    assert later["findings"][0]["status"] == "resurfaced"
+
+
+def test_payload_clusters_syndicated_near_duplicate_titles(tmp_path):
+    store = DailySeenStore(tmp_path / "daily.db")
+    spec = QuerySpec("Optical I/O", "sector", "optical interconnects")
+    first = _finding("news_rss", "https://publisher.example/story")
+    second = _finding("news_gdelt", "https://syndicator.example/acme")
+    second.title = "Acme announces new financing round"
+    payload = build_daily_payload([(spec, first), (spec, second)], [], store)
+    assert len(payload["findings"]) == 1
+    assert payload["summary"]["duplicate_observations"] == 1
+    assert payload["findings"][0]["sources"] == ["news_rss", "news_gdelt"]
 
 
 def test_run_daily_can_collect_without_publishing(tmp_path):
