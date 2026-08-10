@@ -1,3 +1,6 @@
+import responses
+
+from digger.cache import ResponseCache
 from digger.models import Target
 from digger.sources.uspto_assignments import (
     UsptoAssignmentsSource,
@@ -60,3 +63,55 @@ def test_source_skips_cleanly_without_required_odp_key():
     result = source.collect(Target(mode="company", query="Acme"))
     assert result.status == "skipped"
     assert "USPTO_API_KEY" in result.skipped_reason
+
+
+@responses.activate
+def test_collect_uses_embedded_assignments_without_detail_request(tmp_path):
+    responses.add(
+        responses.GET,
+        UsptoAssignmentsSource.search_endpoint,
+        json={"patentFileWrapperDataBag": [{
+            "applicationNumberText": "18/123,456",
+            "assignmentBag": [{
+                "assignorBag": [{"assignorName": "Acme Inc"}],
+                "assigneeBag": [{"assigneeName": "Buyer Co"}],
+                "assignmentReceivedDate": "2026-08-01",
+                "reelAndFrameNumber": "70001/1234",
+            }],
+        }]},
+        status=200,
+    )
+    source = UsptoAssignmentsSource(
+        {"tokens": {"uspto": "test-key"}, "lookback_days": 90, "rate_limit_seconds": 0,
+         "cache": {"ttl_hours": {"default": 0}}},
+        cache=ResponseCache(tmp_path / "cache.db"), use_cache=False,
+    )
+    result = source.collect(Target(mode="company", query="Acme"))
+    assert len(result.findings) == 1
+    assert len(responses.calls) == 1
+
+
+@responses.activate
+def test_collect_stops_detail_requests_after_first_403(tmp_path):
+    responses.add(
+        responses.GET,
+        UsptoAssignmentsSource.search_endpoint,
+        json={"patentFileWrapperDataBag": [
+            {"applicationNumberText": "18/111,111"},
+            {"applicationNumberText": "18/222,222"},
+        ]},
+        status=200,
+    )
+    responses.add(
+        responses.GET,
+        UsptoAssignmentsSource.assignment_endpoint.format(application_number="18111111"),
+        json={"message": "Forbidden"}, status=403,
+    )
+    source = UsptoAssignmentsSource(
+        {"tokens": {"uspto": "test-key"}, "lookback_days": 90, "rate_limit_seconds": 0,
+         "cache": {"ttl_hours": {"default": 0}}},
+        cache=ResponseCache(tmp_path / "cache.db"), use_cache=False,
+    )
+    result = source.collect(Target(mode="company", query="Acme"))
+    assert len(responses.calls) == 2
+    assert any("skipped remaining detail requests" in error for error in result.errors)

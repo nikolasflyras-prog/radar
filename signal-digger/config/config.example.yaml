@@ -21,6 +21,7 @@ rate_limits:
   export.arxiv.org: 3.0
   api.openalex.org: 1.0
   api.usaspending.gov: 1.0
+  api.gdeltproject.org: 10.0
 
 # How long a cached raw response stays fresh before a re-run hits the source
 # again, per source name (see `digger list-sources`). "default" covers anything
@@ -124,7 +125,7 @@ daily:
   state_path: "data/daily.db"
   output_dir: "output/daily"
   max_findings: 150
-  query_delay_seconds: 5
+  query_delay_seconds: 15
   # Authenticated endpoint on the ATTENUA website. Set to null for local-only runs.
   publish_url: "https://boston-semiconductor-research.nfl77.chatgpt.site/api/intelligence/ingest"
   publish_token_env: "ATTENUA_INGEST_TOKEN"

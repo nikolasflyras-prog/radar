@@ -24,6 +24,10 @@ def test_parse_award_normalizes_human_readable_fields():
 def test_collect_posts_advanced_search_and_returns_award(tmp_path):
     responses.add(
         responses.POST, "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+        json={"results": []}, status=200,
+    )
+    responses.add(
+        responses.POST, "https://api.usaspending.gov/api/v2/search/spending_by_award/",
         json={"results": [{
             "Award ID": "FA123", "Recipient Name": "Photonics Labs", "Start Date": "2026-08-01",
             "Award Amount": 2500000, "Awarding Agency": "Department of Defense",
@@ -36,4 +40,8 @@ def test_collect_posts_advanced_search_and_returns_award(tmp_path):
     result = source.collect(Target(mode="sector", query="optical interconnects"))
     assert len(result.findings) == 1
     assert "$2,500,000" in result.findings[0].summary
-    assert responses.calls[0].request.method == "POST"
+    assert len(responses.calls) == 2
+    request_groups = [call.request.body.decode() if isinstance(call.request.body, bytes) else call.request.body
+                      for call in responses.calls]
+    assert '"award_type_codes": ["A", "B", "C", "D"]' in request_groups[0]
+    assert '"award_type_codes": ["02", "03", "04", "05"]' in request_groups[1]

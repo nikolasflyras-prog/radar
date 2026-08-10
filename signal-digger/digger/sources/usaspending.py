@@ -6,7 +6,12 @@ from ..models import SourceResult, Target
 from .base import BaseSource
 
 
-AWARD_TYPE_CODES = ["A", "B", "C", "D", "02", "03", "04", "05"]
+# USAspending validates award types as mutually exclusive groups. Contracts and
+# grants therefore need separate searches even when the user wants both.
+AWARD_TYPE_GROUPS = {
+    "contracts": ["A", "B", "C", "D"],
+    "grants": ["02", "03", "04", "05"],
+}
 
 
 def parse_award(row: dict, fallback: datetime) -> dict:
@@ -38,23 +43,29 @@ class UsaSpendingSource(BaseSource):
         result = SourceResult(source=self.name)
         lookback = int(self.config.get("lookback_days", 90))
         since = self.utcnow() - timedelta(days=lookback)
-        body = {
-            "filters": {
-                "time_period": [{"start_date": since.date().isoformat(), "end_date": self.utcnow().date().isoformat()}],
-                "keywords": [target.query],
-                "award_type_codes": AWARD_TYPE_CODES,
-            },
-            "fields": ["Award ID", "Recipient Name", "Start Date", "Award Amount", "Awarding Agency", "Description"],
-            "page": 1,
-            "limit": max(1, min(100, int(self.config.get("usaspending", {}).get("limit", 50)))),
-            "subawards": False,
-        }
-        try:
-            payload = self.fetch_json(self.endpoint, method="POST", json_data=body, respect_robots=False)
-        except Exception as exc:
-            result.errors.append(f"award search: {exc}")
-            return result
-        rows = payload.get("results") or []
+        limit = max(1, min(100, int(self.config.get("usaspending", {}).get("limit", 50))))
+        rows_by_key: dict[str, dict] = {}
+        for group_name, award_codes in AWARD_TYPE_GROUPS.items():
+            body = {
+                "filters": {
+                    "time_period": [{"start_date": since.date().isoformat(), "end_date": self.utcnow().date().isoformat()}],
+                    "keywords": [target.query],
+                    "award_type_codes": award_codes,
+                },
+                "fields": ["Award ID", "Recipient Name", "Start Date", "Award Amount", "Awarding Agency", "Description"],
+                "page": 1,
+                "limit": limit,
+                "subawards": False,
+            }
+            try:
+                payload = self.fetch_json(self.endpoint, method="POST", json_data=body, respect_robots=False)
+            except Exception as exc:
+                result.errors.append(f"{group_name} award search: {exc}")
+                continue
+            for index, row in enumerate(payload.get("results") or []):
+                key = str(row.get("generated_internal_id") or row.get("Award ID") or row.get("award_id") or f"{group_name}:{index}")
+                rows_by_key[key] = row
+        rows = list(rows_by_key.values())[:limit]
         result.rows_fetched = len(rows)
         for raw_row in rows:
             award = parse_award(raw_row, self.utcnow())

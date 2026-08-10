@@ -101,6 +101,12 @@ class UsptoAssignmentsSource(BaseSource):
             number = application_number(application)
             if not number:
                 continue
+            embedded = assignment_rows(application)
+            if embedded:
+                for assignment in embedded:
+                    assignment.setdefault("applicationNumberText", number)
+                    docs.append(assignment)
+                continue
             try:
                 assignment_payload = self.fetch_json(
                     self.assignment_endpoint.format(application_number=number),
@@ -108,6 +114,12 @@ class UsptoAssignmentsSource(BaseSource):
                 )
             except Exception as exc:
                 result.errors.append(f"assignments for {number}: {exc}")
+                status = getattr(getattr(exc, "response", None), "status_code", None)
+                if status in {401, 403}:
+                    result.errors.append(
+                        "USPTO assignment detail access was denied; skipped remaining detail requests"
+                    )
+                    break
                 continue
             for assignment in assignment_rows(assignment_payload):
                 assignment.setdefault("applicationNumberText", number)
