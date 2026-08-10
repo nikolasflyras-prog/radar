@@ -1,0 +1,25 @@
+searches:
+  - name: Optical Interconnects
+    mode: sector
+    query: optical interconnects
+    sources: [news_rss, news_gdelt, sec_edgar, sec_form_d, arxiv, openalex, uspto_assignments, usaspending]
+
+  - name: Co-Packaged Optics
+    mode: sector
+    query: co-packaged optics
+    sources: [news_rss, news_gdelt, arxiv, openalex, uspto_assignments, usaspending]
+
+  - name: Chiplets and UCIe
+    mode: sector
+    query: chiplet UCIe interconnect
+    sources: [news_rss, news_gdelt, sec_edgar, arxiv, openalex, uspto_assignments, usaspending]
+
+  - name: Advanced Packaging
+    mode: sector
+    query: advanced semiconductor packaging
+    sources: [news_rss, news_gdelt, sec_edgar, sec_form_d, arxiv, openalex, uspto_assignments, usaspending]
+
+  - name: Silicon Photonics
+    mode: sector
+    query: silicon photonics
+    sources: [news_rss, news_gdelt, sec_edgar, sec_form_d, arxiv, openalex, uspto_assignments, usaspending]

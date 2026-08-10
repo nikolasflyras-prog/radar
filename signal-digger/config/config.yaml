@@ -1,0 +1,130 @@
+# Copy this file to config/config.yaml and fill in what applies to you.
+# Every key here is optional — digger runs with sane defaults out of the box.
+
+# Sent as part of the User-Agent header on every outbound request, per each
+# source's etiquette (SEC, USPTO, and GitHub all ask for a contact point).
+# Can also be set via the DIGGER_CONTACT_EMAIL environment variable.
+contact_email: "you@example.com"
+
+# How far back each source looks, in days. Overridable per run with --since-days.
+lookback_days: 90
+
+# Per-domain delay (seconds) between requests. Anything not listed here falls
+# back to rate_limit_seconds.
+rate_limit_seconds: 1.0
+rate_limits:
+  www.sec.gov: 0.34
+  data.sec.gov: 0.34
+  efts.sec.gov: 0.34
+  api.github.com: 1.0
+  hn.algolia.com: 1.0
+  export.arxiv.org: 3.0
+  api.openalex.org: 1.0
+  api.usaspending.gov: 1.0
+
+# How long a cached raw response stays fresh before a re-run hits the source
+# again, per source name (see `digger list-sources`). "default" covers anything
+# not listed explicitly.
+cache:
+  path: "data/cache.db"
+  ttl_hours:
+    default: 24
+    sec_edgar: 12
+    ftc_hsr: 24
+    uspto_assignments: 168
+    news_gdelt: 6
+    news_rss: 6
+    github_people: 6
+    hackernews: 6
+    job_boards: 12
+    domain_whois: 168
+    conference_programs: 720
+    arxiv: 12
+    openalex: 24
+    usaspending: 24
+    sec_form_d: 12
+
+# How many days apart a "quiet" source's finding (patent transfer, domain
+# re-registration, hiring surge) and the nearest news finding can be before it
+# still counts as "worth a second look" at the top of the report.
+quiet_signals:
+  correlation_window_days: 21
+
+# GitHub personal access token, used only to raise the GitHub API rate limit —
+# unauthenticated requests work but are throttled hard. Can also be set via
+# the GITHUB_TOKEN environment variable.
+tokens:
+  github: null
+  # Both services now require free API keys. Environment variables are
+  # preferred: USPTO_API_KEY and OPENALEX_API_KEY.
+  uspto: null
+  openalex: null
+
+# GDELT can throttle shared cloud IPs. These bounded retries run only on HTTP
+# 429/5xx responses and preserve fail-soft behavior if the service stays busy.
+news_search:
+  records_per_query: 75
+  gdelt_retry_attempts: 2
+  gdelt_retry_backoff_seconds: 5
+
+# People to watch on GitHub. `employer` is compared against the profile's
+# public "company" field to flag a change; `github_usernames` skips the (very
+# best-effort) name-search fallback. Also used by conference_programs to spot
+# an affiliation that no longer matches.
+known_people:
+  - name: "Jane Chen"
+    github_usernames: ["jchen"]
+    employer: "Acme Semiconductor"
+
+# Greenhouse/Lever board slugs. Without an override, digger guesses a slug by
+# stripping punctuation from a company name — works for some companies, not
+# others, and fails soft (a 404 becomes one line in Source Run Health). Sector
+# runs never guess a slug; add explicit greenhouse_slugs / lever_slugs for the
+# employers you want included in a sector search.
+job_boards:
+  slug_overrides:
+    "Acme Semiconductor":
+      greenhouse: ["acmesemi"]
+      lever: []
+  greenhouse_slugs: []
+  lever_slugs: []
+  surge_threshold: 3
+
+# Extra RSS feeds to search alongside the automatic Google News query. Each
+# entry needs a name and url; add `respect_robots: false` if the feed's
+# robots.txt blocks fetching (some publishers block bots from everything but
+# still intend the feed to be machine-read).
+rss_feeds:
+  - name: "TechCrunch"
+    url: "https://techcrunch.com/feed/"
+
+# Conference program / speaker-list pages to scan for the target's name.
+conferences:
+  - name: "Example Conference"
+    programs:
+      - year: 2026
+        url: "https://example.com/2026/program"
+        # item_selector: "tr, article, .session"  # optional CSS selector override
+
+# FTC HSR early-termination-notices listing page, in case the URL changes.
+ftc_hsr:
+  listing_url: "https://www.ftc.gov/legal-library/browse/early-termination-notices"
+
+domain_whois:
+  # Domain events older than these windows are not useful as "quiet" signals.
+  # Separate settings let you widen new-domain discovery without treating an
+  # annual registrar update as a fresh company event.
+  recent_registration_days: 90
+  recent_change_days: 90
+
+report:
+  output_dir: "output"
+
+daily:
+  state_path: "data/daily.db"
+  output_dir: "output/daily"
+  max_findings: 150
+  query_delay_seconds: 5
+  # Authenticated endpoint on the ATTENUA website. Set to null for local-only runs.
+  publish_url: "https://boston-semiconductor-research.nfl77.chatgpt.site/api/intelligence/ingest"
+  publish_token_env: "ATTENUA_INGEST_TOKEN"
