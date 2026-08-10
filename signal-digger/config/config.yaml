@@ -124,7 +124,7 @@ report:
 daily:
   state_path: "data/daily.db"
   output_dir: "output/daily"
-  max_findings: 150
+  max_findings: 300
   query_delay_seconds: 15
   # Authenticated endpoint on the ATTENUA website. Set to null for local-only runs.
   publish_url: "https://boston-semiconductor-research.nfl77.chatgpt.site/api/intelligence/ingest"
