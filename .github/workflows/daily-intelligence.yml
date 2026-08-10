@@ -5,10 +5,11 @@ on:
     - cron: "15 11 * * *"
     - cron: "*/5 * * * *"
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - ".github/workflows/daily-intelligence.yml"
+    inputs:
+      request_id:
+        description: "Website run-request identifier"
+        required: false
+        type: string
 
 permissions:
   contents: read
@@ -23,19 +24,28 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       should_run: ${{ steps.decision.outputs.should_run }}
+      request_id: ${{ steps.decision.outputs.request_id }}
     steps:
-      - name: Check for a queued website refresh
+      - name: Decide whether collection should run
         id: decision
         uses: actions/github-script@v7
         with:
           script: |
+            const requestedId =
+              context.eventName === 'workflow_dispatch'
+                ? String(context.payload.inputs?.request_id || '').trim()
+                : '';
             const isQueuePoll =
               context.eventName === 'schedule' &&
               context.payload.schedule === '*/5 * * * *';
+            const isWebsiteDispatch =
+              context.eventName === 'workflow_dispatch' &&
+              requestedId.length > 0;
 
-            if (!isQueuePoll) {
+            if (!isQueuePoll && !isWebsiteDispatch) {
               core.setOutput('should_run', 'true');
-              core.info('Daily, manual, or workflow-change run approved.');
+              core.setOutput('request_id', '');
+              core.info('Daily or manual run approved.');
               return;
             }
 
@@ -47,7 +57,9 @@ jobs:
               headers: {
                 authorization: `Bearer ${token}`,
                 accept: 'application/json',
+                'content-type': 'application/json',
               },
+              body: JSON.stringify(requestedId ? { requestId: requestedId } : {}),
             });
 
             if (!response.ok) {
@@ -57,7 +69,8 @@ jobs:
 
             const result = await response.json();
             core.setOutput('should_run', result.claimed === true ? 'true' : 'false');
-            core.info(result.claimed ? 'Website refresh request claimed.' : 'No website refresh request is waiting.');
+            core.setOutput('request_id', result.requestId || '');
+            core.info(result.claimed ? `Website refresh request ${result.requestId} claimed.` : 'No matching website refresh request is waiting.');
 
   collect-and-publish:
     needs: decide
@@ -100,8 +113,6 @@ jobs:
       - name: Collect and save daily edition
         run: digger --verbose daily --no-publish --include-seen --queries config/searches.yaml
 
-      # GitHub OIDC credentials are intentionally minted after the potentially
-      # slow external-source collection so the token is fresh for the POST.
       - name: Request short-lived ATTENUA credential
         id: attenua-token
         uses: actions/github-script@v7
@@ -113,6 +124,33 @@ jobs:
         env:
           ATTENUA_INGEST_TOKEN: ${{ steps.attenua-token.outputs.result }}
         run: digger publish output/daily/latest.json
+
+      - name: Report a failed website run
+        if: ${{ failure() && needs.decide.outputs.request_id != '' }}
+        uses: actions/github-script@v7
+        env:
+          REQUEST_ID: ${{ needs.decide.outputs.request_id }}
+        with:
+          script: |
+            const audience =
+              'https://boston-semiconductor-research.nfl77.chatgpt.site/api/intelligence/run/report';
+            const token = await core.getIDToken(audience);
+            const response = await fetch(audience, {
+              method: 'POST',
+              headers: {
+                authorization: `Bearer ${token}`,
+                accept: 'application/json',
+                'content-type': 'application/json',
+              },
+              body: JSON.stringify({
+                requestId: process.env.REQUEST_ID,
+                status: 'failed',
+                message: `GitHub Actions run ${context.runId} failed before publication completed`,
+              }),
+            });
+            if (!response.ok) {
+              core.warning(`Could not report website run failure (HTTP ${response.status})`);
+            }
 
       - name: Upload edition for audit
         if: always()
