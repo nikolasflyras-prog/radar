@@ -1,47 +1,44 @@
 # Spinout Radar — Weekly Digest
-_Generated 2026-08-17 12:05 UTC_
+_Generated 2026-08-24 12:12 UTC_
 
 ## 1. Investigate now
 - None currently qualify.
 ## 2. Watching
 - None currently qualify.
 ## 3. Emerging entity leads
-### The Semicon Censortium to Bring Together — 8.7
+### The Semicon Censortium to Bring Together — 8.0
 Startup Policy Launches The Semicon Censortium to Bring Together All Stakeholders in the Semiconductor Ecosystem ; Convenes High - Level Dialogue on India Semiconductor Mission ( ISM ) 2 . 0
 - [Startup Policy Launches The Semicon Censortium to Bring Together All Stakeholders in the Semiconductor Ecosystem ; Convenes High - Level Dialogue on India Semiconductor Mission ( ISM ) 2 . 0](https://www.thehindu.com/brandhub/pr-release/startup-policy-launches-the-semicon-censortium-to-bring-together-all-stakeholders-in-the-semiconductor-ecosystem-convenes-high-level-dialogue-on-india-semiconductor-mission-ism-20/article71309425.ece) — GDELT news discovery from thehindu.com; query: "semiconductor startup" (startup OR stealth OR founder OR spinout OR launched OR "raises seed" OR "has left" OR former); employer matches: none
 
 ## 4. Spinout discovery inbox
 Formation, founder-movement, or stealth signals not yet tied confidently to a scored entity.
-- **14.5 — [Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots](https://cactuscompute.com/needle)** (hn) — domain: NPU; formation/movement: incorporated
-- **13.7 — [Launch HN: Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers](https://www.stoaexchange.com)** (hn) — domain: GPU; formation/movement: founded
-- **12.1 — [ASML’s Path to Lithography Dominance—and the Coming Maskless Revolution](https://semiwiki.com/lithography/372177-asmls-path-to-lithography-dominance-and-the-coming-maskless-revolution/)** (rss) — domain: lithography; formation/movement: founded
+- No qualifying spinout signals.
 
 ## 5. Industry intelligence
 Relevant technical or market context without company-formation evidence. These are not spinout alerts.
-- **7.9 — [Show HN: I shrank DeepSeek V4 Flash to 57GB and it wrote a compiler on my Mac](https://huggingface.co/steadfastgaze/DeepSeek-V4-Flash-0731-Coder-56.8GB-MoEspressoV2)** (hn) — domain: EDA
-- **6.9 — [A third world engineer responds to “RISC-V: They should have known better”](https://rvembedded.com/blog_post/12/)** (hn) — domain: RISC-V
-- **6.6 — [RISC-V: They should have known better](https://dmitry.gr/?r=06.%20Thoughts&proj=12.%20RV)** (hn) — domain: RISC-V
-- **6.3 — [Show HN: FEDERaiDE, a TUI harness with P2P multi-agent routing and built in IDE](https://federaide.rocklab.in)** (hn) — domain: chiplet
-- **5.6 — [Show HN: A painting engine that lets you sculpt drawings (tech demo)](https://softedge-techdemo.jign.workers.dev/)** (hn) — domain: GPU
-- **5.6 — [Open Silicon Photonics for AI Systems Initiative](https://lightmatter.co/press-release/industry-leaders-formally-launch-cpo-system-architecture-initiative-within-the-open-compute-project/)** (hn) — domain: silicon photonics
-- **4.9 — [Spectre on RISC-V Silicon [pdf]](https://lukasgerlach.me/publication/2026-speculative-execution-attacks-on-risc-v-silicon/riscv_spectre_sec26.pdf)** (hn) — domain: RISC-V
-- **4.9 — [RISC-V: What Matters](https://thechipletter.substack.com/p/risc-v-what-really-matters-and-what)** (hn) — domain: RISC-V
-- **4.7 — [Spectre on RISC-V Silicon](https://lukasgerlach.me/blog/2026-spectre-on-riscv-silicon-usenix/)** (hn) — domain: RISC-V
-- **4.6 — [Show HN: Lark, OSS realtime database, drop-in compatible with Firebase SDKs](https://github.com/lark-sh/lark)** (hn) — semiconductor industry item
-- **4.3 — [RISC-V: Public Review for the RVA23.1 and RVB23.1 Profiles](https://groups.google.com/a/groups.riscv.org/g/isa-dev/c/JBT5kq4ryLc)** (hn) — domain: RISC-V
-- **4.3 — [Comu – $6 RISC-V board that fits inside a USB port](https://www.cnx-software.com/2026/08/10/comu-6-tiny-ch32v203-risc-v-development-board-that-fits-inside-a-usb-port/)** (hn) — domain: RISC-V
-- **4.3 — [South Korea to launch $3.5B chip fund, speed development of semiconductor hubs](https://www.reuters.com/world/asia-pacific/south-koreas-lee-wants-military-airbase-relocated-by-mid-2028-chip-cluster-2026-08-10/)** (hn) — domain: semiconductor
-- **4.0 — [Semiconductor Giants Are Busy Backing Startups This Year](https://news.crunchbase.com/venture/semiconductor-giants-nvda-intc-backing-ai-robotics-starups-2026/)** (rss) — domain: semiconductor
-- **3.7 — [A 0.42-Nanometer Breakthrough From TSMC Could Push Transistors Beyond Silicon](https://semiwiki.com/semiconductor-manufacturers/tsmc/372146-a-0-42-nanometer-breakthrough-from-tsmc-could-push-transistors-beyond-silicon/)** (rss) — domain: semiconductor
+- **8.1 — [Launch HN: OneCLI (YC S26) – OSS sandboxed agent harness for teams](https://github.com/onecli/onecli)** (hn) — domain: ASIC
+- **7.1 — [λλ: A Programming Language for Silicon Photonics](https://dl.acm.org/doi/10.1145/3789240.3829151)** (hn) — domain: silicon photonics
+- **6.4 — [Offline RAG on iOS with Spatial Integration](https://news.ycombinator.com/item?id=49371913)** (hn) — domain: chiplet
+- **6.1 — [Show HN: K7d – Fork live Kubernetes clusters in <1s –> GRPO-train AI on infra](https://github.com/katakate/k7d)** (hn) — domain: SerDes
+- **5.9 — [Reducing EUV Exposure Dose Through Underlayer Engineering](https://semiwiki.com/lithography/372293-reducing-euv-exposure-dose-through-underlayer-engineering/)** (rss) — domain: semiconductor, lithography
+- **5.7 — [ESP32-S31 dual-core RISC-V SoC is getting official Linux support](https://www.cnx-software.com/2026/08/22/espressif-systems-releases-a-linux-bsp-developer-preview-for-esp32-s31-risc-v-microprocessor/)** (hn) — domain: RISC-V
+- **5.4 — [Show HN: I fixed a dead Bitcoin ASIC and made a foundry that engraves your words](https://strikeablock.com/)** (hn) — domain: ASIC, foundry
+- **4.8 — [Where are people finding GPU capacity?](https://news.ycombinator.com/item?id=49403759)** (hn) — domain: GPU
+- **4.8 — [Linus Torvalds uses AI to debug an Intel GPU driver bug](https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c)** (hn) — domain: GPU
+- **4.6 — [NetBSD 11 lands with RISC-V support and fast VM boots](https://www.theregister.com/os-platforms/2026/08/20/netbsd-11-lands-with-risc-v-support-and-lightning-fast-vm-boots/5289713)** (hn) — domain: RISC-V
+- **4.4 — [Humble Bundle: Embedded Firmware Books on ARM, RTOS, RISC-V and Linux](https://www.humblebundle.com/books/embedded-firmware-developer-toolkit-packt-books)** (hn) — domain: RISC-V
+- **4.3 — [RISC-V Extension Landscape](https://rpsene.github.io/riscv-extensions-landscape/)** (hn) — domain: RISC-V
+- **4.0 — [India semiconductor market seen reaching $155 billion by 2031 : Report](https://www.thehindubusinessline.com/info-tech/indias-semiconductor-market-seen-reaching-155-billion-by-2031-report/article71383324.ece)** (gdelt) — domain: semiconductor
+- **4.0 — [India semiconductor market seen reaching USD 155 bn by CY31 , share of global consumption to rise to 9 pc : Report](https://aninews.in/news/business/indias-semiconductor-market-seen-reaching-usd-155-bn-by-cy31-share-of-global-consumption-to-rise-to-9-pc-report20260824104834/)** (gdelt) — domain: semiconductor
+- **4.0 — [India semiconductor market : India semiconductor market seen reaching $155 billion by CY31 , share of global consumption to rise to 9 %: Report](https://economictimes.indiatimes.com/tech/technology/indias-semiconductor-market-seen-reaching-155-billion-by-cy31-share-of-global-consumption-to-rise-to-9-report/articleshow/133452119.cms)** (gdelt) — domain: semiconductor
 
 ## 6. Watchlist people mentioned publicly
 Recent public signals tied to people already on the watchlist.
 - **Zach Belateche** — [Zach Belateche at Hot Chips 2026](https://hotchips.org/advance-program/) (conferences, conference_watchlist_mention)
-- **Giacomo Indiveri** — [Possible GitHub identity: Giacomo Indiveri → @giacomoi](https://github.com/giacomoi) (github, github_identity_candidate)
 
 ## 7. GitHub identity candidates
 Verify each profile manually before adding it to the YAML watchlist.
-- **Giacomo Indiveri → @giacomoi** — confidence 8/10; exact profile-name match, company matches last known employer. https://github.com/giacomoi `radar confirm-github "Giacomo Indiveri" giacomoi`
+- No new GitHub identity candidates.
 
 ## 8. New relevant entities this week
 - None.
@@ -55,22 +52,22 @@ Human review only. These names have recent public signals.
 
 ## 11. Routine founder rotation
 Fallback review list, clearly separated from actual alerts.
-- [ ] **Bernard Gilly** — routine prior-founder rotation; last known at Brainever. `radar note person "Bernard Gilly" "observation"`
-- [ ] **Giacomo Indiveri** — routine prior-founder rotation; last known at University of Zurich. `radar note person "Giacomo Indiveri" "observation"`
-- [ ] **Predrag Markovic** — routine prior-founder rotation; last known at Bajkovina, Capgemini. `radar note person "Predrag Markovic" "observation"`
-- [ ] **Stan Boland** — routine prior-founder rotation; last known at Icera. `radar note person "Stan Boland" "observation"`
-- [ ] **Steve Allpress** — routine prior-founder rotation; last known at Icera. `radar note person "Steve Allpress" "observation"`
+- [ ] **Ehud (Udi) Shaked** — routine prior-founder rotation; last known at Inomize. `radar note person "Ehud (Udi) Shaked" "observation"`
+- [ ] **Pim Tuyls** — routine prior-founder rotation; last known at Intrinsic ID. `radar note person "Pim Tuyls" "observation"`
+- [ ] **Andreas Hugi** — routine prior-founder rotation; last known at IRsweep. `radar note person "Andreas Hugi" "observation"`
+- [ ] **Markus Mangold** — routine prior-founder rotation; last known at IRsweep. `radar note person "Markus Mangold" "observation"`
+- [ ] **Markus Geiser** — routine prior-founder rotation; last known at IRsweep. `radar note person "Markus Geiser" "observation"`
 
 ## 12. Possible entity merges
 - None.
 
 ## 13. Source health
-- conferences: Healthy; 246 rows; 0 new; 0 errors
-- domains: Partial; 5 rows; 0 new; 3 errors
+- conferences: Healthy; 244 rows; 0 new; 0 errors
+- domains: Partial; 11 rows; 0 new; 3 errors
 - edgar: Unavailable; 0 rows; 0 new; 11 errors
-- gdelt: Partial; 121 rows; 4 new; 27 errors
-- github: Healthy; 12 rows; 1 new; 0 errors
-- hn: Healthy; 446 rows; 19 new; 0 errors
+- gdelt: Partial; 148 rows; 17 new; 27 errors
+- github: Healthy; 2 rows; 0 new; 0 errors
+- hn: Healthy; 417 rows; 12 new; 0 errors
 - incorporation: Unavailable; 0 rows; 0 new; 1 errors
-- rss: Healthy; 45 rows; 5 new; 0 errors
+- rss: Healthy; 45 rows; 4 new; 0 errors
 - uspto: Unavailable; 0 rows; 0 new; 21 errors
