@@ -1,5 +1,5 @@
 # Spinout Radar — Weekly Digest
-_Generated 2026-08-31 11:24 UTC_
+_Generated 2026-09-07 16:23 UTC_
 
 ## 1. Investigate now
 - None currently qualify.
@@ -9,25 +9,25 @@ _Generated 2026-08-31 11:24 UTC_
 - None currently qualify.
 ## 4. Spinout discovery inbox
 Formation, founder-movement, or stealth signals not yet tied confidently to a scored entity.
-- No qualifying spinout signals.
+- **12.7 — [CEO Interview with Sander den Hoedt of Delmic](https://semiwiki.com/ceo-interviews/372406-ceo-interview-with-sander-den-hoedt-of-delmic/)** (rss) — domain: semiconductor; formation/movement: founder, co-founder
 
 ## 5. Industry intelligence
 Relevant technical or market context without company-formation evidence. These are not spinout alerts.
-- **8.9 — [Cores in space: The core memory module from a 1980 Spacelab computer](https://www.righto.com/2026/08/spacelab-core-memory.html)** (hn) — domain: HBM
-- **6.9 — [Why open source rocks – a new SM750 (Silicon Motion GPU) HDMI Driver](https://github.com/KodeMunkie/sm750hdmifb)** (hn) — domain: GPU
-- **6.2 — [OpenAI's 700W Jalapeño ASIC outpaces 1,400W Nvidia flagship GPU](https://www.tomshardware.com/tech-industry/semiconductors/openai-says-its-jalapeno-chip-beats-nvidias-gb300-in-first-published-benchmarks)** (hn) — domain: ASIC, GPU
-- **6.0 — [RISC-V is now officially supported by CPython](https://blog.python.org/2026/08/riscv-now-officially-supported/)** (hn) — domain: RISC-V
-- **6.0 — [Hot Chips 2026: CUDA Targets RISC-V](https://chipsandcheese.com/p/hot-chips-2026-cuda-targets-risc)** (hn) — domain: RISC-V
-- **5.9 — [Five Billion Pulses Later: What DUV Optics Testing Reveals About Semiconductor Tool Uptime](https://semiwiki.com/lithography/372789-five-billion-pulses-later-what-duv-optics-testing-reveals-about-semiconductor-tool-uptime/)** (rss) — domain: semiconductor, lithography
-- **5.6 — [Micron: HBM requires around three times as much wafer area as DDR5](https://www.igorslab.de/en/micron-hbm-requires-three-times-wafer-area-ddr5-gap-widens/)** (hn) — domain: HBM, wafer
-- **5.5 — [First Benchmarks Revealed for Jalapeño, OpenAI’s Clean-Sheet General Purpose AI Accelerator ASIC](https://www.eetimes.com/first-benchmarks-revealed-for-jalapeno-openais-clean-sheet-general-purpose-ai-accelerator-asic/)** (rss) — domain: ASIC, GPU
-- **4.9 — [Live cloud GPU rental prices](https://gputable.dev/)** (hn) — domain: GPU
-- **4.9 — [Musk’s faster path to more gas turbines comes with pollution problem](https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/)** (rss) — domain: foundry
-- **4.8 — [Tell HN: STOP making Vibe Slop websites that LAG on my MBP and workstation](https://news.ycombinator.com/item?id=49495392)** (hn) — domain: GPU
-- **4.8 — [Nvidia’s AI advantage is moving beyond the GPU](https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/)** (rss) — domain: GPU
-- **4.6 — [SK Hynix holds groundbreaking ceremony for $4B HBM packaging facility at Purdue](https://www.reuters.com/world/asia-pacific/sk-hynix-holds-groundbreaking-ceremony-4-billion-indiana-ai-chip-packaging-2026-08-27/)** (hn) — domain: HBM
-- **4.4 — [ArXiv: CTTE: An Open Dual-Protocol RISC-V Trace Encoder for N-Trace and E-Trace](https://arxiv.org/abs/2608.18170)** (hn) — domain: RISC-V
-- **4.3 — [SiFive Accelerates RISC-V Datacenter Adoption with the BigSky Development Server](https://www.businesswire.com/news/home/20260824644642/en/SiFive-Paves-the-Path-to-Accelerated-Adoption-of-RISC-V-in-the-Datacenter-with-the-BigSky-Development-Server)** (hn) — domain: RISC-V
+- **9.8 — [Comparing Advanced Packaging from TSMC, Intel Foundry, and Samsung Foundry](https://semiwiki.com/3dic/372087-comparing-advanced-packaging-from-tsmc-intel-foundry-and-samsung-foundry/)** (rss) — domain: semiconductor, advanced packaging, foundry
+- **7.1 — [Show HN: Aura – a Rust agent that investigates and fixes production incidents](https://github.com/mezmo/aura)** (hn) — domain: chiplet
+- **6.0 — [When Design Gets Faster, the Bottleneck Moves Through the Physical Stack](https://semiwiki.com/eda/372881-when-design-gets-faster-the-bottleneck-moves-through-the-physical-stack/)** (rss) — domain: semiconductor, EDA
+- **6.0 — [Taiwan eyes silicon photonics as next big tech leap](https://www.taipeitimes.com/News/front/archives/2026/09/07/2003863802)** (hn) — domain: silicon photonics
+- **5.6 — [CEO Interview with Timothy Regan of IN2FAB](https://semiwiki.com/ceo-interviews/372531-ceo-interview-with-timothy-regan-of-in2fab/)** (rss) — domain: EDA
+- **5.0 — [Reverse Engineering an ASIC](https://kjartanvandriel.github.io/asic/)** (hn) — domain: ASIC
+- **4.9 — [Where Will RISC-V Be in 20 Years? Poll Results](https://thechipletter.substack.com/p/where-will-risc-v-be-in-20-years)** (hn) — domain: RISC-V
+- **4.7 — [Reverse Engineering an ASIC](https://www.outercloud.dev/blogs/reverse-asic/)** (hn) — domain: ASIC
+- **4.6 — [AMD Versal HBM Series (FPGA's with up to 32GB HBM2e)](https://www.amd.com/en/products/adaptive-socs-and-fpgas/versal/hbm-series.html)** (hn) — domain: HBM
+- **4.5 — [Update on RISC-V Standards and Adoption at Hot Chips 2026](https://www.servethehome.com/update-on-risc-v-standards-and-adoption-at-hot-chips-2026/)** (hn) — domain: RISC-V
+- **4.4 — [SERV – The SErial RISC-V CPU Topics](https://github.com/olofk/serv)** (hn) — domain: RISC-V
+- **4.4 — [XLS: Accelerated HW Synthesis by Google for ASIC/FPGA](https://github.com/google/xls)** (hn) — domain: ASIC
+- **4.3 — [RISC-V Interpreter from the Future](https://abundance.build/blog/2026-08-31-risc-v-interpreter-from-the-future/)** (hn) — domain: RISC-V
+- **4.0 — [Specialized GPU Kernel Generation](https://www.databricks.com/blog/achieving-extreme-efficiency-through-specialized-gpu-kernel-generation)** (hn) — domain: GPU
+- **3.9 — [Semicon West: Transforming Tomorrow One Chip at a Time](https://semiwiki.com/events/372515-semicon-west-transforming-tomorrow-one-chip-at-a-time/)** (rss) — domain: semiconductor
 
 ## 6. Watchlist people mentioned publicly
 Recent public signals tied to people already on the watchlist.
@@ -49,22 +49,22 @@ Human review only. These names have recent public signals.
 
 ## 11. Routine founder rotation
 Fallback review list, clearly separated from actual alerts.
-- [ ] **Moshik Cohen** — routine prior-founder rotation; last known at MAISENSE (Application Specific Semiconductors). `radar note person "Moshik Cohen" "observation"`
-- [ ] **Sumit Sanyal** — routine prior-founder rotation; last known at AMAT. `radar note person "Sumit Sanyal" "observation"`
-- [ ] **Tijmen Tieleman** — routine prior-founder rotation; last known at AMAT. `radar note person "Tijmen Tieleman" "observation"`
-- [ ] **Anil Hebbar** — routine prior-founder rotation; last known at Apple. `radar note person "Anil Hebbar" "observation"`
-- [ ] **Tuomas Hollman** — routine prior-founder rotation; last known at Bosch Sensortec GmbH. `radar note person "Tuomas Hollman" "observation"`
+- [ ] **Lauri Koskinen** — routine prior-founder rotation; last known at Kovilta Oy. `radar note person "Lauri Koskinen" "observation"`
+- [ ] **Gary DeBell** — routine prior-founder rotation; last known at MLD Technologies. `radar note person "Gary DeBell" "observation"`
+- [ ] **Tony Louderback** — routine prior-founder rotation; last known at MLD Technologies. `radar note person "Tony Louderback" "observation"`
+- [ ] **Len Mott** — routine prior-founder rotation; last known at MLD. `radar note person "Len Mott" "observation"`
+- [ ] **Paul Morton** — routine prior-founder rotation; last known at claims retired. `radar note person "Paul Morton" "observation"`
 
 ## 12. Possible entity merges
 - None.
 
 ## 13. Source health
-- conferences: Healthy; 246 rows; 0 new; 0 errors
-- domains: Partial; 11 rows; 0 new; 4 errors
+- conferences: Healthy; 251 rows; 0 new; 0 errors
+- domains: Partial; 9 rows; 0 new; 2 errors
 - edgar: Unavailable; 0 rows; 0 new; 11 errors
-- gdelt: Partial; 80 rows; 3 new; 29 errors
-- github: Healthy; 14 rows; 0 new; 0 errors
-- hn: Healthy; 340 rows; 13 new; 0 errors
+- gdelt: Partial; 125 rows; 5 new; 32 errors
+- github: Healthy; 18 rows; 0 new; 0 errors
+- hn: Healthy; 478 rows; 18 new; 0 errors
 - incorporation: Unavailable; 0 rows; 0 new; 1 errors
-- rss: Healthy; 45 rows; 6 new; 0 errors
+- rss: Healthy; 45 rows; 5 new; 0 errors
 - uspto: Unavailable; 0 rows; 0 new; 21 errors
