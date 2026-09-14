@@ -1,5 +1,5 @@
 # Spinout Radar — Weekly Digest
-_Generated 2026-09-07 16:23 UTC_
+_Generated 2026-09-14 16:50 UTC_
 
 ## 1. Investigate now
 - None currently qualify.
@@ -9,25 +9,25 @@ _Generated 2026-09-07 16:23 UTC_
 - None currently qualify.
 ## 4. Spinout discovery inbox
 Formation, founder-movement, or stealth signals not yet tied confidently to a scored entity.
-- **12.7 — [CEO Interview with Sander den Hoedt of Delmic](https://semiwiki.com/ceo-interviews/372406-ceo-interview-with-sander-den-hoedt-of-delmic/)** (rss) — domain: semiconductor; formation/movement: founder, co-founder
+- **14.1 — [Fabships Aim to Exploit ‘Free’ Space Vacuum for Compound Semiconductor Substrates](https://www.eetimes.com/fabships-aim-to-exploit-free-space-vacuum-for-compound-semiconductor-substrates/)** (rss) — domain: semiconductor, wafer; formation/movement: founded
 
 ## 5. Industry intelligence
 Relevant technical or market context without company-formation evidence. These are not spinout alerts.
-- **9.8 — [Comparing Advanced Packaging from TSMC, Intel Foundry, and Samsung Foundry](https://semiwiki.com/3dic/372087-comparing-advanced-packaging-from-tsmc-intel-foundry-and-samsung-foundry/)** (rss) — domain: semiconductor, advanced packaging, foundry
-- **7.1 — [Show HN: Aura – a Rust agent that investigates and fixes production incidents](https://github.com/mezmo/aura)** (hn) — domain: chiplet
-- **6.0 — [When Design Gets Faster, the Bottleneck Moves Through the Physical Stack](https://semiwiki.com/eda/372881-when-design-gets-faster-the-bottleneck-moves-through-the-physical-stack/)** (rss) — domain: semiconductor, EDA
-- **6.0 — [Taiwan eyes silicon photonics as next big tech leap](https://www.taipeitimes.com/News/front/archives/2026/09/07/2003863802)** (hn) — domain: silicon photonics
-- **5.6 — [CEO Interview with Timothy Regan of IN2FAB](https://semiwiki.com/ceo-interviews/372531-ceo-interview-with-timothy-regan-of-in2fab/)** (rss) — domain: EDA
-- **5.0 — [Reverse Engineering an ASIC](https://kjartanvandriel.github.io/asic/)** (hn) — domain: ASIC
-- **4.9 — [Where Will RISC-V Be in 20 Years? Poll Results](https://thechipletter.substack.com/p/where-will-risc-v-be-in-20-years)** (hn) — domain: RISC-V
-- **4.7 — [Reverse Engineering an ASIC](https://www.outercloud.dev/blogs/reverse-asic/)** (hn) — domain: ASIC
-- **4.6 — [AMD Versal HBM Series (FPGA's with up to 32GB HBM2e)](https://www.amd.com/en/products/adaptive-socs-and-fpgas/versal/hbm-series.html)** (hn) — domain: HBM
-- **4.5 — [Update on RISC-V Standards and Adoption at Hot Chips 2026](https://www.servethehome.com/update-on-risc-v-standards-and-adoption-at-hot-chips-2026/)** (hn) — domain: RISC-V
-- **4.4 — [SERV – The SErial RISC-V CPU Topics](https://github.com/olofk/serv)** (hn) — domain: RISC-V
-- **4.4 — [XLS: Accelerated HW Synthesis by Google for ASIC/FPGA](https://github.com/google/xls)** (hn) — domain: ASIC
-- **4.3 — [RISC-V Interpreter from the Future](https://abundance.build/blog/2026-08-31-risc-v-interpreter-from-the-future/)** (hn) — domain: RISC-V
-- **4.0 — [Specialized GPU Kernel Generation](https://www.databricks.com/blog/achieving-extreme-efficiency-through-specialized-gpu-kernel-generation)** (hn) — domain: GPU
-- **3.9 — [Semicon West: Transforming Tomorrow One Chip at a Time](https://semiwiki.com/events/372515-semicon-west-transforming-tomorrow-one-chip-at-a-time/)** (rss) — domain: semiconductor
+- **7.0 — [Show HN: AttaLambda: a language where types and data are made of untyped lambdas](https://attalambda.com)** (hn) — domain: EDA
+- **6.9 — [Show HN: I made a tiny MoE/Engram viz tool](https://sw-ml-study.github.io/moe-microscope/)** (hn) — domain: RISC-V, GPU
+- **6.1 — [Show HN: A browser IDE for m68000, Z80 assembly (and more), with graphics](https://asm-editor.specy.app/)** (hn) — domain: RISC-V
+- **6.0 — [Semiconductor Engineering Has a State-Continuity Problem](https://semiwiki.com/eda/373472-semiconductor-engineering-has-a-state-continuity-problem/)** (rss) — domain: semiconductor, EDA
+- **6.0 — [RISC-V Emulator and Linux System from Scratch](https://github.com/WerWolv/riscv-emulator)** (hn) — domain: RISC-V
+- **5.9 — [Samsung Might Be the Most Unusual Company on Earth](https://semiwiki.com/semiconductor-manufacturers/samsung-foundry/372471-samsung-might-be-the-most-unusual-company-on-earth/)** (rss) — domain: semiconductor, foundry
+- **5.6 — [Can you design a chip: The protocol emulator ASIC competition](https://blog.janestreet.com/protocol-emulator-asic-competition/)** (hn) — domain: ASIC
+- **5.6 — [Show HN: Clawfight.ai MCP-driven agentic game play](https://clawfight.ai/agents.md)** (hn) — domain: GPU
+- **5.4 — [ADI Snaps Alif Semiconductor to Push AI into Physical Systems](https://www.eetimes.com/adi-snaps-alif-semiconductor-to-push-ai-into-physical-systems/)** (rss) — domain: semiconductor
+- **5.0 — [Samtec Puts AI’s Interconnect Bottleneck on Display at ECOC and AI Infra Summit](https://semiwiki.com/semiconductor-services/samtec/373513-samtec-puts-ais-interconnect-bottleneck-on-display-at-ecoc-and-ai-infra-summit/)** (rss) — domain: semiconductor
+- **5.0 — [RISC-V emulator in pure Nix](https://github.com/eisbaw/nix-riscv)** (hn) — domain: RISC-V
+- **5.0 — [Pragtical 3.12 Adds an Opt-In SDL GPU Back End to a 50MB Code Editor](https://news.lavx.hu/article/pragtical-3-12-adds-an-opt-in-sdl-gpu-backend-to-a-50mb-code-editor)** (hn) — domain: GPU
+- **4.9 — [Infineon RISC-V for Automotive at Hot Chips 2026](https://www.servethehome.com/infineon-risc-v-for-automotive-at-hot-chips-2026/)** (hn) — domain: RISC-V
+- **4.8 — [TinyEMU is a system emulator for the RISC-V and x86 archs](https://github.com/dearchap/tinyemu)** (hn) — domain: RISC-V
+- **4.6 — [Arbel: Building the Impossible RISC-V CPU](https://www.nextsilicon.com/insights/elads-blog-Arbel-RISC-V-CPU/)** (hn) — domain: RISC-V
 
 ## 6. Watchlist people mentioned publicly
 Recent public signals tied to people already on the watchlist.
@@ -49,22 +49,22 @@ Human review only. These names have recent public signals.
 
 ## 11. Routine founder rotation
 Fallback review list, clearly separated from actual alerts.
-- [ ] **Lauri Koskinen** — routine prior-founder rotation; last known at Kovilta Oy. `radar note person "Lauri Koskinen" "observation"`
-- [ ] **Gary DeBell** — routine prior-founder rotation; last known at MLD Technologies. `radar note person "Gary DeBell" "observation"`
-- [ ] **Tony Louderback** — routine prior-founder rotation; last known at MLD Technologies. `radar note person "Tony Louderback" "observation"`
-- [ ] **Len Mott** — routine prior-founder rotation; last known at MLD. `radar note person "Len Mott" "observation"`
-- [ ] **Paul Morton** — routine prior-founder rotation; last known at claims retired. `radar note person "Paul Morton" "observation"`
+- [ ] **Jill Morton** — routine prior-founder rotation; last known at claims retired. `radar note person "Jill Morton" "observation"`
+- [ ] **Elad Sity** — routine prior-founder rotation; last known at NeuroBlade. `radar note person "Elad Sity" "observation"`
+- [ ] **Eliad Hillel** — routine prior-founder rotation; last known at NeuroBlade. `radar note person "Eliad Hillel" "observation"`
+- [ ] **Dominik Strasser** — routine prior-founder rotation; last known at OneSpin Solutions. `radar note person "Dominik Strasser" "observation"`
+- [ ] **Wolfram Buettner** — routine prior-founder rotation; last known at OneSpin Solutions. `radar note person "Wolfram Buettner" "observation"`
 
 ## 12. Possible entity merges
 - None.
 
 ## 13. Source health
-- conferences: Healthy; 251 rows; 0 new; 0 errors
-- domains: Partial; 9 rows; 0 new; 2 errors
+- conferences: Healthy; 252 rows; 0 new; 0 errors
+- domains: Partial; 8 rows; 0 new; 2 errors
 - edgar: Unavailable; 0 rows; 0 new; 11 errors
-- gdelt: Partial; 125 rows; 5 new; 32 errors
-- github: Healthy; 18 rows; 0 new; 0 errors
-- hn: Healthy; 478 rows; 18 new; 0 errors
+- gdelt: Partial; 86 rows; 1 new; 30 errors
+- github: Healthy; 10 rows; 0 new; 0 errors
+- hn: Healthy; 449 rows; 18 new; 0 errors
 - incorporation: Unavailable; 0 rows; 0 new; 1 errors
-- rss: Healthy; 45 rows; 5 new; 0 errors
+- rss: Healthy; 45 rows; 7 new; 0 errors
 - uspto: Unavailable; 0 rows; 0 new; 21 errors
