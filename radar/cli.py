@@ -79,7 +79,7 @@ def note(kind,name,observation):
     db.insert_signal(sig); click.echo("Observation recorded")
 
 @main.command("backfill")
-@click.option("--source", required=True, type=click.Choice(["uspto","edgar","hn","gdelt","rss"]))
+@click.option("--source", required=True, type=click.Choice(["uspto","edgar","hn","gdelt","rss","googlenews"]))
 @click.option("--months", default=6, type=click.IntRange(1,36))
 def backfill(source, months):
     ctx=click.get_current_context(); ctx.invoke(run_cmd, source=source, since_days=months*30)

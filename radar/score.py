@@ -19,7 +19,8 @@ DEFAULT_WEIGHTS = {
     "domain_hiring": 15,
     "domain_registered": 5,
     "new_incorporation_keyword": 5,
-    "news_departure_stealth": 10,
+    "news_departure_stealth": 20,
+    "hiring_board_founding": 18,
     "news_watchlist_person": 14,
     "watchlist_public_mention": 4,
     "spinout_discovery": 12,
@@ -45,6 +46,7 @@ FORMATION_INTENT_TYPES = {
     "news_departure_stealth",
     "news_watchlist_person",
     "spinout_discovery",
+    "hiring_board_founding",
     "hn_watchlist_person",
     "manual_note",
 }

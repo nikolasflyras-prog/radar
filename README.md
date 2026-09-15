@@ -41,6 +41,7 @@ Configure:
 radar init
 radar run
 radar run --source gdelt
+radar run --source googlenews
 radar run --source github
 radar digest --regenerate
 radar top --limit 20

@@ -14,6 +14,7 @@ from ..relevance import (
     matched_employers,
     matched_terms,
     has_departure_context,
+    person_departure_matches,
     watchlist_identity_matches,
 )
 
@@ -85,6 +86,7 @@ class GdeltNewsCollector(BaseCollector):
                 classification = classify_public_signal(blob, keyword_cfg, watched_names)
                 employer_hits = matched_employers(blob, employers)
                 departure_context = has_departure_context(blob, keyword_cfg, employers)
+                own_employer_departures = person_departure_matches(blob, keyword_cfg, identity_rows)
                 candidate = extract_candidate_entity(title, blob)
                 weak_startup = matched_terms(blob, keyword_cfg.get("startup_weak_language", []))
                 # "startup" by itself is weak evidence. Promote it only when the headline
@@ -92,7 +94,9 @@ class GdeltNewsCollector(BaseCollector):
                 candidate_startup = bool(candidate and weak_startup and classification.domain_terms)
                 promoted_spinout = classification.category == "industry" and (departure_context or candidate_startup)
 
-                if identity_names and classification.category == "suppressed" and not departure_context:
+                if own_employer_departures:
+                    signal_type, category, base_weight = "news_departure_stealth", "spinout", 20
+                elif identity_names and classification.category == "suppressed" and not departure_context:
                     signal_type, category, base_weight = "watchlist_public_mention", "watchlist", 4
                 elif classification.category == "spinout" or promoted_spinout:
                     signal_type = "news_watchlist_person" if identity_names else "spinout_discovery"
@@ -112,6 +116,7 @@ class GdeltNewsCollector(BaseCollector):
                     "matched_watchlist_people": identity_names,
                     "matched_watchlist_employers": employer_hits,
                     "departure_context": departure_context,
+                    "own_employer_departure": [p["name"] for p in own_employer_departures],
                     "publisher_domain": domain,
                 })
                 result.signals.append(Signal(
