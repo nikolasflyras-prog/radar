@@ -1,5 +1,5 @@
 # Spinout Radar — Weekly Digest
-_Generated 2026-09-28 18:29 UTC_
+_Generated 2026-10-05 19:36 UTC_
 
 ## 1. Investigate now
 - None currently qualify.
@@ -9,26 +9,23 @@ _Generated 2026-09-28 18:29 UTC_
 - None currently qualify.
 ## 4. Spinout discovery inbox
 Formation, founder-movement, or stealth signals not yet tied confidently to a scored entity.
-- **13.7 — [CEO Interview with Vivek Raghuraman of Mixx Technologies](https://semiwiki.com/ceo-interviews/373738-ceo-interview-with-vivek-raghuraman-of-mixx-technologies/)** (rss) — domain: silicon photonics; formation/movement: founder, co-founder
-- **12.6 — [Full-Stack Semiconductor Solutions for Smart, Secure Industry and Digital Energy](https://www.eetimes.com/full-stack-semiconductor-solutions-for-industry-and-digital-energy-applications/)** (rss) — domain: semiconductor; formation/movement: founded
+- No qualifying spinout signals.
 
 ## 5. Industry intelligence
 Relevant technical or market context without company-formation evidence. These are not spinout alerts.
-- **7.0 — [Ask HN: Can we translate normal Rust (axum) to Lean 4 without restrictions?](https://news.ycombinator.com/item?id=49880807)** (hn) — domain: EDA
-- **6.2 — [Show HN: Ox – A local agent that uses the internet for you](https://openox.ai/)** (hn) — domain: chiplet
-- **5.9 — [PDF Solutions CONNECT, the Premier Event for Semiconductor Analytics and AI, October 15 and 16 in San Francisco](https://semiwiki.com/eda/374089-pdf-solutions-connect-the-premier-event-for-semiconductor-analytics-and-ai-october-15-and-16-in-san-francisco/)** (rss) — domain: semiconductor, EDA
-- **4.9 — [Xcena Cuts Data Movement to Address Memory Bottlenecks](https://www.eetimes.com/xcena-cuts-data-movement-to-address-memory-bottlenecks/)** (rss) — domain: RISC-V
-- **4.6 — [Delos Data Targets Heterogeneous AI with Data Interface](https://www.eetimes.com/delos-data-targets-heterogeneous-ai-with-data-interface/)** (rss) — domain: chiplet
-- **4.0 — [From Frontend to the Frontiers of Silicon with Moores Lab AI](https://semiwiki.com/eda/374078-from-frontend-to-the-frontiers-of-silicon-with-moores-lab-ai/)** (rss) — domain: EDA
-- **4.0 — [Synopsys Announces AgentEngineer Solutions and Autopilot Platform for Autonomous Engineering](https://semiwiki.com/artificial-intelligence/374114-synopsys-announces-agentengineer-solutions-and-autopilot-platform-for-autonomous-engineering/)** (rss) — domain: EDA
-- **4.0 — [Show HN: EDA Benchmark Leaderboard](https://deepsense.ai/blog/eda-benchmark-leaderboard-july-14-2026-update/)** (hn) — domain: EDA
-- **3.9 — [18 - year - old entrepreneur enters Gujarats Rs 1 . 4 lakh crore semiconductor ecosystem to manufacture lead frames](https://news.webindia123.com/news/Articles/Business/20260927/4504046.html)** (gdelt) — domain: semiconductor
-- **3.7 — [Tiny-Vedas: RISC-V Infrastructure for AI Accelerator Design [pdf]](https://siliscale.com/papers/tiny-vedas.pdf)** (hn) — domain: RISC-V
-- **3.6 — [After IonQ Buyout, SkyWater Reiterates Role as Quantum Foundry](https://www.eetimes.com/after-ionq-buyout-skywater-reiterates-role-as-quantum-foundry/)** (rss) — domain: foundry
-- **3.6 — [SEMICON India 2026: Startup Mitra Sheds Light on Early-Stage Silicon Startup Funding](https://www.eetimes.com/semicon-india-2026-startup-mitra-sheds-light-on-early-stage-silicon-startup-funding/)** (rss) — domain: semiconductor
-- **3.6 — [The AI factory is becoming the computer and it changing the semiconductor race](https://siliconangle.com/2026/09/23/the-ai-factory-is-becoming-the-computer-and-its-changing-the-semiconductor-race/)** (gdelt) — domain: semiconductor
-- **3.6 — [Ask HN: Will software still matter when AI write all our programs?](https://news.ycombinator.com/item?id=49818484)** (hn) — domain: GPU
-- **3.5 — [Purdue , Illinois to partner on semiconductor workforce development – Inside INdiana Business](https://www.insideindianabusiness.com/articles/purdue-illinois-to-partner-on-semiconductor-workforce-development)** (gdelt) — domain: semiconductor
+- **7.3 — [Show HN: Breadcrumb, record everything on your mac + context manager for AI](https://innerloop.works/breadcrumb)** (hn) — domain: chiplet
+- **7.1 — [Launch HN: Magnitude (YC S25) – Self-optimizing inference engine for agents](https://github.com/magnitudedev/magnitude)** (hn) — domain: GPU
+- **6.5 — [Results from the ASIC puzzle](https://blog.janestreet.com/asic-puzzle-results/)** (hn) — domain: ASIC
+- **6.5 — [Show HN: Our space game has a built-in RISC-V emulator that runs Linux](https://againstallodds.games/blog/2026/10/03/our-risc-v-emulator-pasriscv/)** (hn) — domain: RISC-V
+- **6.1 — [Releasing Open Source RISC-V Configurable In-Order/OoO Multi-Core+AI Processor](https://github.com/etcimon/GSys-LibreCore)** (hn) — domain: RISC-V
+- **6.0 — [Show HN: Twrctrl – Browser-Based Tower and Ground ATC Simulator](https://twrctrl.com/)** (hn) — domain: EDA
+- **5.0 — [Azure showed $21k in startup credits. Claude in Foundry billed our card $17k](https://vegalabs.no/azure-claude-billing.html)** (hn) — domain: foundry
+- **4.5 — [Show HN: OpenC6 v2.0 – Bare-metal BIOS and RISC-V microkernel for ESP32-C6](https://github.com/Rompass/openc6-bios)** (hn) — domain: RISC-V
+- **4.0 — [Trusted AI: Why Intelligence Alone Isn’t Enough](https://www.eetimes.com/trusted-ai-why-intelligence-alone-isnt-enough/)** (rss) — domain: semiconductor
+- **4.0 — [GPT-Synopsys Combines IC Design EDA with Agentic AI](https://www.eetimes.com/gpt-synopsys-combines-ic-design-eda-with-agentic-ai/)** (rss) — domain: EDA
+- **4.0 — [PasRISCV – A RISC-V RV64GCV/RVA23 Emulator Written in Object Pascal](https://github.com/BeRo1985/pasriscv)** (hn) — domain: RISC-V
+- **3.9 — [Modder brings Nvidia Pascal GPU support to Windows XP 32-bit](https://www.tomshardware.com/pc-components/gpu-drivers/modder-brings-nvidia-pascal-gpu-support-to-windows-xp-32-bit-modded-drivers-unlock-better-displayport-and-hdmi-support-for-modern-monitors)** (hn) — domain: GPU
+- **3.5 — [CanMV-K230D-Zero Development Board – RISC-V, 128MB LPDDR4 on MCU SoC](https://www.kendryte.com/k230_canmv/en/main/userguide/boards/canmv_k230d.html)** (hn) — domain: RISC-V
 
 ## 6. Watchlist people mentioned publicly
 Recent public signals tied to people already on the watchlist.
@@ -50,22 +47,22 @@ Human review only. These names have recent public signals.
 
 ## 11. Routine founder rotation
 Fallback review list, clearly separated from actual alerts.
-- [ ] **Moshe Twitto** — routine prior-founder rotation; last known at Pliops. `radar note person "Moshe Twitto" "observation"`
-- [ ] **Aryeh Mergi** — routine prior-founder rotation; last known at Pliops. `radar note person "Aryeh Mergi" "observation"`
-- [ ] **Claudia Hoessbacher** — routine prior-founder rotation; last known at Polariton Technologies. `radar note person "Claudia Hoessbacher" "observation"`
-- [ ] **Wolfgang Heni** — routine prior-founder rotation; last known at Polariton Technologies. `radar note person "Wolfgang Heni" "observation"`
-- [ ] **Benedikt Baeuerle** — routine prior-founder rotation; last known at Polariton Technologies. `radar note person "Benedikt Baeuerle" "observation"`
+- [ ] **Vijay Jayaraman** — routine prior-founder rotation; last known at Praevium Research. `radar note person "Vijay Jayaraman" "observation"`
+- [ ] **Shailendra Desai** — routine prior-founder rotation; last known at Provino Technologies. `radar note person "Shailendra Desai" "observation"`
+- [ ] **Sean Hackett** — routine prior-founder rotation; last known at Radical Semiconductor. `radar note person "Sean Hackett" "observation"`
+- [ ] **Zach Belateche** — routine prior-founder rotation; last known at Radical Semiconductor. `radar note person "Zach Belateche" "observation"`
+- [ ] **Jayanth Kuppambatti** — routine prior-founder rotation; last known at Seamless Microsystems. `radar note person "Jayanth Kuppambatti" "observation"`
 
 ## 12. Possible entity merges
 - None.
 
 ## 13. Source health
 - conferences: Healthy; 252 rows; 0 new; 0 errors
-- domains: Healthy; 2 rows; 0 new; 0 errors
+- domains: Healthy; 1 rows; 0 new; 0 errors
 - edgar: Unavailable; 0 rows; 0 new; 11 errors
-- gdelt: Partial; 111 rows; 6 new; 28 errors
-- github: Healthy; 0 rows; 0 new; 0 errors
-- hn: Healthy; 448 rows; 7 new; 0 errors
+- gdelt: Partial; 89 rows; 1 new; 32 errors
+- github: Healthy; 22 rows; 0 new; 0 errors
+- hn: Healthy; 370 rows; 12 new; 0 errors
 - incorporation: Unavailable; 0 rows; 0 new; 1 errors
-- rss: Healthy; 45 rows; 10 new; 0 errors
+- rss: Partial; 40 rows; 2 new; 1 errors
 - uspto: Unavailable; 0 rows; 0 new; 21 errors
