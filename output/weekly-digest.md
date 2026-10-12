@@ -1,31 +1,36 @@
 # Spinout Radar — Weekly Digest
-_Generated 2026-10-05 19:36 UTC_
+_Generated 2026-10-12 20:13 UTC_
 
 ## 1. Investigate now
 - None currently qualify.
 ## 2. Watching
 - None currently qualify.
 ## 3. Emerging entity leads
-- None currently qualify.
+### China Chip Startup EVAS — 8.6
+China Chip Startup EVAS Raises $295M for RISC - V AI
+- [China Chip Startup EVAS Raises $295M for RISC - V AI](https://www.electropages.com/blog/2026/09/china-chip-startups-evas-raises-295m-new-risc-v-architecture) — GDELT news discovery from electropages.com; query: EDA (startup OR founder OR stealth OR spinout); employer matches: none
+
 ## 4. Spinout discovery inbox
 Formation, founder-movement, or stealth signals not yet tied confidently to a scored entity.
-- No qualifying spinout signals.
+- **15.0 — [CTO Interview with Dr. Zakir Syed of ClockEdge](https://semiwiki.com/eda/clockedge/374633-cto-interview-with-dr-zakir-syed-of-clockedge/)** (rss) — domain: semiconductor, EDA; formation/movement: founder, co-founder
 
 ## 5. Industry intelligence
 Relevant technical or market context without company-formation evidence. These are not spinout alerts.
-- **7.3 — [Show HN: Breadcrumb, record everything on your mac + context manager for AI](https://innerloop.works/breadcrumb)** (hn) — domain: chiplet
-- **7.1 — [Launch HN: Magnitude (YC S25) – Self-optimizing inference engine for agents](https://github.com/magnitudedev/magnitude)** (hn) — domain: GPU
-- **6.5 — [Results from the ASIC puzzle](https://blog.janestreet.com/asic-puzzle-results/)** (hn) — domain: ASIC
-- **6.5 — [Show HN: Our space game has a built-in RISC-V emulator that runs Linux](https://againstallodds.games/blog/2026/10/03/our-risc-v-emulator-pasriscv/)** (hn) — domain: RISC-V
-- **6.1 — [Releasing Open Source RISC-V Configurable In-Order/OoO Multi-Core+AI Processor](https://github.com/etcimon/GSys-LibreCore)** (hn) — domain: RISC-V
-- **6.0 — [Show HN: Twrctrl – Browser-Based Tower and Ground ATC Simulator](https://twrctrl.com/)** (hn) — domain: EDA
-- **5.0 — [Azure showed $21k in startup credits. Claude in Foundry billed our card $17k](https://vegalabs.no/azure-claude-billing.html)** (hn) — domain: foundry
-- **4.5 — [Show HN: OpenC6 v2.0 – Bare-metal BIOS and RISC-V microkernel for ESP32-C6](https://github.com/Rompass/openc6-bios)** (hn) — domain: RISC-V
-- **4.0 — [Trusted AI: Why Intelligence Alone Isn’t Enough](https://www.eetimes.com/trusted-ai-why-intelligence-alone-isnt-enough/)** (rss) — domain: semiconductor
-- **4.0 — [GPT-Synopsys Combines IC Design EDA with Agentic AI](https://www.eetimes.com/gpt-synopsys-combines-ic-design-eda-with-agentic-ai/)** (rss) — domain: EDA
-- **4.0 — [PasRISCV – A RISC-V RV64GCV/RVA23 Emulator Written in Object Pascal](https://github.com/BeRo1985/pasriscv)** (hn) — domain: RISC-V
-- **3.9 — [Modder brings Nvidia Pascal GPU support to Windows XP 32-bit](https://www.tomshardware.com/pc-components/gpu-drivers/modder-brings-nvidia-pascal-gpu-support-to-windows-xp-32-bit-modded-drivers-unlock-better-displayport-and-hdmi-support-for-modern-monitors)** (hn) — domain: GPU
-- **3.5 — [CanMV-K230D-Zero Development Board – RISC-V, 128MB LPDDR4 on MCU SoC](https://www.kendryte.com/k230_canmv/en/main/userguide/boards/canmv_k230d.html)** (hn) — domain: RISC-V
+- **6.8 — [Ask HN: What to do with lots of spare compute in colocation?](https://news.ycombinator.com/item?id=50045494)** (hn) — domain: HBM
+- **5.6 — [Ubuntu now has official desktop images for RISC-V](https://www.omgubuntu.co.uk/2026/10/ubuntu-desktop-riscv-iso)** (hn) — domain: RISC-V
+- **5.3 — [Show HN: Datapuddle, a native macOS DuckDB client that doesn't page results](https://datapuddle.app/)** (hn) — domain: chiplet
+- **5.0 — [Kamino: GPU-Based Simulation of Rigid Multi-Body Physics with Kinematic Loops [video]](https://www.youtube.com/watch?v=_eYarcC8D9Y)** (hn) — domain: GPU
+- **5.0 — [Chips&Media targets AI memory bottlenecks with new compression IP](https://semiwiki.com/ip/chipsmedia/374498-chipsmedia-targets-ai-memory-bottlenecks-with-new-compression-ip/)** (rss) — domain: semiconductor
+- **5.0 — [RISC-V Bulk Normalization Algorithm](https://fprox.substack.com/p/risc-v-bulk-normalization-algorithm)** (hn) — domain: RISC-V
+- **4.9 — [Auto Vectorizing the RISC-V Linux Kernel Shows Promising Results](https://www.phoronix.com/news/Auto-Vectorize-RISC-V-Kernel)** (hn) — domain: RISC-V
+- **4.6 — [ML Drift: Google's open-source on-device GPU inference engine](https://developers.googleblog.com/ml-drift-next-gen-gpu-aiml-inference-at-the-edge/)** (hn) — domain: GPU
+- **4.5 — [AI agent designs a complete RISC-V CPU from a 219-word spec sheet in 12 hours](https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-designs-a-complete-risc-v-cpu-from-a-219-word-spec-in-just-12-hours)** (hn) — domain: RISC-V
+- **4.0 — [Applied Materials Bets $5B on a New Model for Chip Innovation](https://www.eetimes.com/applied-materials-bets-5b-on-a-new-model-for-chip-innovation/)** (rss) — domain: semiconductor
+- **4.0 — [Keysight Advances its Design Software with Agentic AI](https://semiwiki.com/eda/374576-keysight-advances-its-design-software-with-agentic-ai/)** (rss) — domain: EDA
+- **4.0 — [EU CRA Readiness: 5 Steps Manufacturers Need to Take Now](https://www.eetimes.com/eu-cra-readiness-5-steps-manufacturers-need-to-take-now/)** (rss) — domain: semiconductor
+- **4.0 — [Show HN: An open source AI leaderboard of the best models your machine can run](https://whatmodel.sh)** (hn) — domain: GPU
+- **3.9 — [DAC 2027 Opens Call for Contributions as AI Reshapes Chip Design](https://semiwiki.com/events/374512-dac-2027-opens-call-for-contributions-as-ai-reshapes-chip-design/)** (rss) — domain: semiconductor
+- **3.9 — [Practical application for the u32br RISC-V microprocessor (BlueMacaw) [video]](https://www.youtube.com/watch?v=Hvn6xEScHp4)** (hn) — domain: RISC-V
 
 ## 6. Watchlist people mentioned publicly
 Recent public signals tied to people already on the watchlist.
@@ -47,22 +52,22 @@ Human review only. These names have recent public signals.
 
 ## 11. Routine founder rotation
 Fallback review list, clearly separated from actual alerts.
-- [ ] **Vijay Jayaraman** — routine prior-founder rotation; last known at Praevium Research. `radar note person "Vijay Jayaraman" "observation"`
-- [ ] **Shailendra Desai** — routine prior-founder rotation; last known at Provino Technologies. `radar note person "Shailendra Desai" "observation"`
-- [ ] **Sean Hackett** — routine prior-founder rotation; last known at Radical Semiconductor. `radar note person "Sean Hackett" "observation"`
-- [ ] **Zach Belateche** — routine prior-founder rotation; last known at Radical Semiconductor. `radar note person "Zach Belateche" "observation"`
-- [ ] **Jayanth Kuppambatti** — routine prior-founder rotation; last known at Seamless Microsystems. `radar note person "Jayanth Kuppambatti" "observation"`
+- [ ] **R. Scott Hills** — routine prior-founder rotation; last known at Seamless Microsystems. `radar note person "R. Scott Hills" "observation"`
+- [ ] **Michael Shebanow** — routine prior-founder rotation; last known at SiliconBee. `radar note person "Michael Shebanow" "observation"`
+- [ ] **Margarida Sousa** — routine prior-founder rotation; last known at SiliconGate. `radar note person "Margarida Sousa" "observation"`
+- [ ] **Marcelino Santos** — routine prior-founder rotation; last known at SiliconGate. `radar note person "Marcelino Santos" "observation"`
+- [ ] **Mahesh Lingareddy** — routine prior-founder rotation; last known at Soft Machines. `radar note person "Mahesh Lingareddy" "observation"`
 
 ## 12. Possible entity merges
 - None.
 
 ## 13. Source health
 - conferences: Healthy; 252 rows; 0 new; 0 errors
-- domains: Healthy; 1 rows; 0 new; 0 errors
+- domains: Partial; 3 rows; 0 new; 1 errors
 - edgar: Unavailable; 0 rows; 0 new; 11 errors
-- gdelt: Partial; 89 rows; 1 new; 32 errors
+- gdelt: Partial; 128 rows; 2 new; 27 errors
 - github: Healthy; 22 rows; 0 new; 0 errors
-- hn: Healthy; 370 rows; 12 new; 0 errors
+- hn: Healthy; 499 rows; 13 new; 0 errors
 - incorporation: Unavailable; 0 rows; 0 new; 1 errors
-- rss: Partial; 40 rows; 2 new; 1 errors
+- rss: Healthy; 45 rows; 6 new; 0 errors
 - uspto: Unavailable; 0 rows; 0 new; 21 errors
