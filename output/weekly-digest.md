@@ -1,36 +1,33 @@
 # Spinout Radar — Weekly Digest
-_Generated 2026-10-12 20:13 UTC_
+_Generated 2026-10-19 17:22 UTC_
 
 ## 1. Investigate now
 - None currently qualify.
 ## 2. Watching
 - None currently qualify.
 ## 3. Emerging entity leads
-### China Chip Startup EVAS — 8.6
-China Chip Startup EVAS Raises $295M for RISC - V AI
-- [China Chip Startup EVAS Raises $295M for RISC - V AI](https://www.electropages.com/blog/2026/09/china-chip-startups-evas-raises-295m-new-risc-v-architecture) — GDELT news discovery from electropages.com; query: EDA (startup OR founder OR stealth OR spinout); employer matches: none
-
+- None currently qualify.
 ## 4. Spinout discovery inbox
 Formation, founder-movement, or stealth signals not yet tied confidently to a scored entity.
-- **15.0 — [CTO Interview with Dr. Zakir Syed of ClockEdge](https://semiwiki.com/eda/clockedge/374633-cto-interview-with-dr-zakir-syed-of-clockedge/)** (rss) — domain: semiconductor, EDA; formation/movement: founder, co-founder
+- **12.8 — [CTO Interview with Dr. Zakir Syed of ClockEdge](https://semiwiki.com/eda/clockedge/374633-cto-interview-with-dr-zakir-syed-of-clockedge/)** (rss) — domain: semiconductor, EDA; formation/movement: founder, co-founder
 
 ## 5. Industry intelligence
 Relevant technical or market context without company-formation evidence. These are not spinout alerts.
-- **6.8 — [Ask HN: What to do with lots of spare compute in colocation?](https://news.ycombinator.com/item?id=50045494)** (hn) — domain: HBM
-- **5.6 — [Ubuntu now has official desktop images for RISC-V](https://www.omgubuntu.co.uk/2026/10/ubuntu-desktop-riscv-iso)** (hn) — domain: RISC-V
-- **5.3 — [Show HN: Datapuddle, a native macOS DuckDB client that doesn't page results](https://datapuddle.app/)** (hn) — domain: chiplet
-- **5.0 — [Kamino: GPU-Based Simulation of Rigid Multi-Body Physics with Kinematic Loops [video]](https://www.youtube.com/watch?v=_eYarcC8D9Y)** (hn) — domain: GPU
-- **5.0 — [Chips&Media targets AI memory bottlenecks with new compression IP](https://semiwiki.com/ip/chipsmedia/374498-chipsmedia-targets-ai-memory-bottlenecks-with-new-compression-ip/)** (rss) — domain: semiconductor
-- **5.0 — [RISC-V Bulk Normalization Algorithm](https://fprox.substack.com/p/risc-v-bulk-normalization-algorithm)** (hn) — domain: RISC-V
-- **4.9 — [Auto Vectorizing the RISC-V Linux Kernel Shows Promising Results](https://www.phoronix.com/news/Auto-Vectorize-RISC-V-Kernel)** (hn) — domain: RISC-V
-- **4.6 — [ML Drift: Google's open-source on-device GPU inference engine](https://developers.googleblog.com/ml-drift-next-gen-gpu-aiml-inference-at-the-edge/)** (hn) — domain: GPU
-- **4.5 — [AI agent designs a complete RISC-V CPU from a 219-word spec sheet in 12 hours](https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-designs-a-complete-risc-v-cpu-from-a-219-word-spec-in-just-12-hours)** (hn) — domain: RISC-V
-- **4.0 — [Applied Materials Bets $5B on a New Model for Chip Innovation](https://www.eetimes.com/applied-materials-bets-5b-on-a-new-model-for-chip-innovation/)** (rss) — domain: semiconductor
-- **4.0 — [Keysight Advances its Design Software with Agentic AI](https://semiwiki.com/eda/374576-keysight-advances-its-design-software-with-agentic-ai/)** (rss) — domain: EDA
-- **4.0 — [EU CRA Readiness: 5 Steps Manufacturers Need to Take Now](https://www.eetimes.com/eu-cra-readiness-5-steps-manufacturers-need-to-take-now/)** (rss) — domain: semiconductor
-- **4.0 — [Show HN: An open source AI leaderboard of the best models your machine can run](https://whatmodel.sh)** (hn) — domain: GPU
-- **3.9 — [DAC 2027 Opens Call for Contributions as AI Reshapes Chip Design](https://semiwiki.com/events/374512-dac-2027-opens-call-for-contributions-as-ai-reshapes-chip-design/)** (rss) — domain: semiconductor
-- **3.9 — [Practical application for the u32br RISC-V microprocessor (BlueMacaw) [video]](https://www.youtube.com/watch?v=Hvn6xEScHp4)** (hn) — domain: RISC-V
+- **9.0 — [ChipAgents Expands AI Across Chip Design. The Test Is Faster, Verified Results](https://semiwiki.com/eda/chipagents-ai/375026-chipagents-expands-ai-across-chip-design-the-test-is-faster-verified-results/)** (rss) — domain: semiconductor, EDA, analog semiconductor
+- **8.0 — [Show HN: KiviDB, a faster Redis-compatible memory database and vector cache](https://github.com/kividbio/kividb)** (hn) — domain: EDA
+- **7.8 — [Maskless EUV Lithography: An Alternative to E-Beam](https://semiwiki.com/lithography/373583-maskless-euv-lithography-an-alternative-to-e-beam/)** (rss) — domain: semiconductor, lithography, wafer
+- **7.8 — [Show HN: Spotatui, a Spotify TUI/GUI without web API rate limits](https://github.com/LargeModGames/spotatui)** (hn) — domain: SerDes
+- **7.6 — [Show HN: I got tired of btop not seeing my Mac's chip, so I built siltop](https://github.com/CLoaKY233/siltop)** (hn) — domain: GPU
+- **7.0 — [Show HN: I built a task system to handle the drudgery so I could focus on tasks](https://3anddoneapp.com/try)** (hn) — domain: EDA
+- **6.0 — [Rethinking Phase Jitter: An Algorithmic Approach to Signal Integrity](https://semiwiki.com/eda/374737-rethinking-phase-jitter-an-algorithmic-approach-to-signal-integrity/)** (rss) — domain: semiconductor, EDA
+- **6.0 — [Siemens and NVIDIA Accelerate Lithography for Next-Generation AI Chips](https://semiwiki.com/eda/siemens-eda/374917-siemens-and-nvidia-accelerate-lithography-for-next-generation-ai-chips/)** (rss) — domain: EDA, lithography
+- **6.0 — [Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X](https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html)** (hn) — domain: GPU
+- **5.9 — [Silicon-photonics-enabled chip-based 3D printer (2024)](https://www.nature.com/articles/s41377-024-01478-2)** (hn) — domain: silicon photonics
+- **5.5 — [Show HN: Just gave Claude Code the website and ad budget to see what it would do](https://snitch.alphaventure.com/gate.php)** (hn) — domain: GPU
+- **5.4 — [Volantis – Our $88M Series A: Demolishing the Memory Wall with Photonics](https://volantissemi.ai/news-insights/our-88m-series-a-demolishing-the-memory-wall-with-photonics-post)** (hn) — domain: SerDes
+- **5.3 — [Show HN: T0: We trained a 256M SOTA open-weights time-series forecasting model](https://github.com/theforecastingcompany/tfc-t0)** (hn) — domain: GPU
+- **4.4 — [Qualcomm vs. Arm: Qualcomm's first RISC-V Data Center chip in 2029](https://www.tantraanalyst.com/ta/qualcomm-vs-arm-trial-day-2-ala-commitments-and-bloomberg-leak-in-focus/)** (hn) — domain: RISC-V
+- **4.4 — [Accelerating Audio Processing with SpeexDSP Optimizations for RISC-V](https://riseproject.dev/2026/10/13/accelerating-audio-processing-with-speexdsp-optimizations-for-risc-v/)** (hn) — domain: RISC-V
 
 ## 6. Watchlist people mentioned publicly
 Recent public signals tied to people already on the watchlist.
@@ -52,11 +49,11 @@ Human review only. These names have recent public signals.
 
 ## 11. Routine founder rotation
 Fallback review list, clearly separated from actual alerts.
-- [ ] **R. Scott Hills** — routine prior-founder rotation; last known at Seamless Microsystems. `radar note person "R. Scott Hills" "observation"`
-- [ ] **Michael Shebanow** — routine prior-founder rotation; last known at SiliconBee. `radar note person "Michael Shebanow" "observation"`
-- [ ] **Margarida Sousa** — routine prior-founder rotation; last known at SiliconGate. `radar note person "Margarida Sousa" "observation"`
-- [ ] **Marcelino Santos** — routine prior-founder rotation; last known at SiliconGate. `radar note person "Marcelino Santos" "observation"`
-- [ ] **Mahesh Lingareddy** — routine prior-founder rotation; last known at Soft Machines. `radar note person "Mahesh Lingareddy" "observation"`
+- [ ] **Mohammad Abdallah** — routine prior-founder rotation; last known at Soft Machines. `radar note person "Mohammad Abdallah" "observation"`
+- [ ] **Hesham Taha** — routine prior-founder rotation; last known at Teramount. `radar note person "Hesham Taha" "observation"`
+- [ ] **Avi Israel** — routine prior-founder rotation; last known at Teramount. `radar note person "Avi Israel" "observation"`
+- [ ] **Meir Gellis** — routine prior-founder rotation; last known at TestInsight. `radar note person "Meir Gellis" "observation"`
+- [ ] **Serge Maginot** — routine prior-founder rotation; last known at Tiempo Secure. `radar note person "Serge Maginot" "observation"`
 
 ## 12. Possible entity merges
 - None.
@@ -65,9 +62,9 @@ Fallback review list, clearly separated from actual alerts.
 - conferences: Healthy; 252 rows; 0 new; 0 errors
 - domains: Partial; 3 rows; 0 new; 1 errors
 - edgar: Unavailable; 0 rows; 0 new; 11 errors
-- gdelt: Partial; 128 rows; 2 new; 27 errors
-- github: Healthy; 22 rows; 0 new; 0 errors
-- hn: Healthy; 499 rows; 13 new; 0 errors
+- gdelt: Partial; 111 rows; 1 new; 33 errors
+- github: Healthy; 30 rows; 0 new; 0 errors
+- hn: Healthy; 378 rows; 12 new; 0 errors
 - incorporation: Unavailable; 0 rows; 0 new; 1 errors
-- rss: Healthy; 45 rows; 6 new; 0 errors
+- rss: Healthy; 45 rows; 7 new; 0 errors
 - uspto: Unavailable; 0 rows; 0 new; 21 errors
