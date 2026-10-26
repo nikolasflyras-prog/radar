@@ -1,5 +1,5 @@
 # Spinout Radar — Weekly Digest
-_Generated 2026-10-19 17:22 UTC_
+_Generated 2026-10-26 17:14 UTC_
 
 ## 1. Investigate now
 - None currently qualify.
@@ -9,33 +9,33 @@ _Generated 2026-10-19 17:22 UTC_
 - None currently qualify.
 ## 4. Spinout discovery inbox
 Formation, founder-movement, or stealth signals not yet tied confidently to a scored entity.
-- **12.8 — [CTO Interview with Dr. Zakir Syed of ClockEdge](https://semiwiki.com/eda/clockedge/374633-cto-interview-with-dr-zakir-syed-of-clockedge/)** (rss) — domain: semiconductor, EDA; formation/movement: founder, co-founder
+- No qualifying spinout signals.
 
 ## 5. Industry intelligence
 Relevant technical or market context without company-formation evidence. These are not spinout alerts.
-- **9.0 — [ChipAgents Expands AI Across Chip Design. The Test Is Faster, Verified Results](https://semiwiki.com/eda/chipagents-ai/375026-chipagents-expands-ai-across-chip-design-the-test-is-faster-verified-results/)** (rss) — domain: semiconductor, EDA, analog semiconductor
-- **8.0 — [Show HN: KiviDB, a faster Redis-compatible memory database and vector cache](https://github.com/kividbio/kividb)** (hn) — domain: EDA
-- **7.8 — [Maskless EUV Lithography: An Alternative to E-Beam](https://semiwiki.com/lithography/373583-maskless-euv-lithography-an-alternative-to-e-beam/)** (rss) — domain: semiconductor, lithography, wafer
-- **7.8 — [Show HN: Spotatui, a Spotify TUI/GUI without web API rate limits](https://github.com/LargeModGames/spotatui)** (hn) — domain: SerDes
-- **7.6 — [Show HN: I got tired of btop not seeing my Mac's chip, so I built siltop](https://github.com/CLoaKY233/siltop)** (hn) — domain: GPU
-- **7.0 — [Show HN: I built a task system to handle the drudgery so I could focus on tasks](https://3anddoneapp.com/try)** (hn) — domain: EDA
-- **6.0 — [Rethinking Phase Jitter: An Algorithmic Approach to Signal Integrity](https://semiwiki.com/eda/374737-rethinking-phase-jitter-an-algorithmic-approach-to-signal-integrity/)** (rss) — domain: semiconductor, EDA
-- **6.0 — [Siemens and NVIDIA Accelerate Lithography for Next-Generation AI Chips](https://semiwiki.com/eda/siemens-eda/374917-siemens-and-nvidia-accelerate-lithography-for-next-generation-ai-chips/)** (rss) — domain: EDA, lithography
-- **6.0 — [Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X](https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html)** (hn) — domain: GPU
-- **5.9 — [Silicon-photonics-enabled chip-based 3D printer (2024)](https://www.nature.com/articles/s41377-024-01478-2)** (hn) — domain: silicon photonics
-- **5.5 — [Show HN: Just gave Claude Code the website and ad budget to see what it would do](https://snitch.alphaventure.com/gate.php)** (hn) — domain: GPU
-- **5.4 — [Volantis – Our $88M Series A: Demolishing the Memory Wall with Photonics](https://volantissemi.ai/news-insights/our-88m-series-a-demolishing-the-memory-wall-with-photonics-post)** (hn) — domain: SerDes
-- **5.3 — [Show HN: T0: We trained a 256M SOTA open-weights time-series forecasting model](https://github.com/theforecastingcompany/tfc-t0)** (hn) — domain: GPU
-- **4.4 — [Qualcomm vs. Arm: Qualcomm's first RISC-V Data Center chip in 2029](https://www.tantraanalyst.com/ta/qualcomm-vs-arm-trial-day-2-ala-commitments-and-bloomberg-leak-in-focus/)** (hn) — domain: RISC-V
-- **4.4 — [Accelerating Audio Processing with SpeexDSP Optimizations for RISC-V](https://riseproject.dev/2026/10/13/accelerating-audio-processing-with-speexdsp-optimizations-for-risc-v/)** (hn) — domain: RISC-V
+- **7.5 — [Show HN: Corgi, a helpful {agent, terminal} multiplexer](https://corgi.computer/)** (hn) — domain: GPU
+- **7.0 — [Inside the Package Powering Modern AI](https://semiwiki.com/semiconductor-manufacturers/tsmc/371610-inside-the-package-powering-modern-ai/)** (rss) — domain: semiconductor, wafer
+- **7.0 — [Show HN: Render your Windows desktop GUI on the NPU](https://github.com/labscommunity/npu-render)** (hn) — domain: GPU, NPU
+- **6.0 — [Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT](https://github.com/FrigadeHQ/hob)** (hn) — domain: GPU
+- **6.0 — [The AI Packaging Challenge: 5 Reasons Panels Are Gaining Momentum](https://www.eetimes.com/the-ai-packaging-challenge-5-reasons-panels-are-gaining-momentum/)** (rss) — domain: advanced packaging, wafer
+- **5.9 — [Show HN: Tabverse – a free, open-source, with self-hostable server Workona clone](https://news.ycombinator.com/item?id=50240121)** (hn) — domain: HBM
+- **5.3 — [SpacemiT Vital Stone V100 RISC-V server processor](https://www.spacemit.com/products/keystone/v100)** (hn) — domain: RISC-V
+- **5.1 — [SpacemiT Announces the V100 Server-Class RISC-V Processor](https://www.phoronix.com/news/SpacemiT-V100)** (hn) — domain: RISC-V
+- **4.6 — [Tenstorrent Releases Open Source Beta of the Open Chiplet Atlas (OCA) Harness](https://tenstorrent.com/en/newsroom/tenstorrent-releases-open-source-beta-of-the-oca-harness)** (hn) — domain: chiplet
+- **4.5 — [Show HN: Embodsi – Embodied Super Intelligence](https://embodsi.com/)** (hn) — semiconductor industry item
+- **4.4 — [Android 17 for RISC-V Available for the RVA23 Profile Through Rise](https://riseproject.dev/2026/10/20/android-17-available-on-rva23-with-rise/)** (hn) — domain: RISC-V
+- **4.3 — [OpenPCIE – FPGA Root Complex, OpenBackplane, EduBOS5 RISC-V, Co-SIM](https://github.com/chili-chips-ba/openPCIE)** (hn) — domain: RISC-V
+- **4.3 — [RISC-V Silicon Fabricated on Intel 3 in Major Chip Milestone](https://hothardware.com/news/risc-v-fabbed-on-intel-3-bzl)** (hn) — domain: RISC-V
+- **4.0 — [Accellera’s FSL 1.0 Gives Functional Safety Data a Common Language](https://semiwiki.com/semiconductor-services/accellera/375280-accelleras-fsl-1-0-gives-functional-safety-data-a-common-language/)** (rss) — domain: semiconductor
+- **4.0 — [SpaceX locks in $40B GPU financing deal with Apollo](https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/)** (rss) — domain: GPU
 
 ## 6. Watchlist people mentioned publicly
 Recent public signals tied to people already on the watchlist.
-- No watchlist people mentioned this week.
+- **Darrick Wiebe** — [Possible GitHub identity: Darrick Wiebe → @pangloss](https://github.com/pangloss) (github, github_identity_candidate)
 
 ## 7. GitHub identity candidates
 Verify each profile manually before adding it to the YAML watchlist.
-- No new GitHub identity candidates.
+- **Darrick Wiebe → @pangloss** — confidence 8/10; exact profile-name match, company matches last known employer. https://github.com/pangloss `radar confirm-github "Darrick Wiebe" pangloss`
 
 ## 8. New relevant entities this week
 - None.
@@ -49,22 +49,22 @@ Human review only. These names have recent public signals.
 
 ## 11. Routine founder rotation
 Fallback review list, clearly separated from actual alerts.
-- [ ] **Mohammad Abdallah** — routine prior-founder rotation; last known at Soft Machines. `radar note person "Mohammad Abdallah" "observation"`
-- [ ] **Hesham Taha** — routine prior-founder rotation; last known at Teramount. `radar note person "Hesham Taha" "observation"`
-- [ ] **Avi Israel** — routine prior-founder rotation; last known at Teramount. `radar note person "Avi Israel" "observation"`
-- [ ] **Meir Gellis** — routine prior-founder rotation; last known at TestInsight. `radar note person "Meir Gellis" "observation"`
-- [ ] **Serge Maginot** — routine prior-founder rotation; last known at Tiempo Secure. `radar note person "Serge Maginot" "observation"`
+- [ ] **Marc Renaudin** — routine prior-founder rotation; last known at Tiempo Secure. `radar note person "Marc Renaudin" "observation"`
+- [ ] **Martin Snelgrove** — routine prior-founder rotation; last known at Untether AI. `radar note person "Martin Snelgrove" "observation"`
+- [ ] **Darrick Wiebe** — routine prior-founder rotation; last known at Untether AI. `radar note person "Darrick Wiebe" "observation"`
+- [ ] **Raymond Chik** — routine prior-founder rotation; last known at Untether AI. `radar note person "Raymond Chik" "observation"`
+- [ ] **Gilles Hamou** — routine prior-founder rotation; last known at UPMEM. `radar note person "Gilles Hamou" "observation"`
 
 ## 12. Possible entity merges
 - None.
 
 ## 13. Source health
-- conferences: Healthy; 252 rows; 0 new; 0 errors
+- conferences: Healthy; 253 rows; 0 new; 0 errors
 - domains: Partial; 3 rows; 0 new; 1 errors
 - edgar: Unavailable; 0 rows; 0 new; 11 errors
-- gdelt: Partial; 111 rows; 1 new; 33 errors
-- github: Healthy; 30 rows; 0 new; 0 errors
-- hn: Healthy; 378 rows; 12 new; 0 errors
+- gdelt: Partial; 138 rows; 3 new; 30 errors
+- github: Healthy; 8 rows; 1 new; 0 errors
+- hn: Healthy; 382 rows; 15 new; 0 errors
 - incorporation: Unavailable; 0 rows; 0 new; 1 errors
-- rss: Healthy; 45 rows; 7 new; 0 errors
+- rss: Healthy; 45 rows; 6 new; 0 errors
 - uspto: Unavailable; 0 rows; 0 new; 21 errors
