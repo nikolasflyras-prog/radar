@@ -1,5 +1,5 @@
 # Spinout Radar — Weekly Digest
-_Generated 2026-10-26 17:14 UTC_
+_Generated 2026-11-02 20:45 UTC_
 
 ## 1. Investigate now
 - None currently qualify.
@@ -9,33 +9,33 @@ _Generated 2026-10-26 17:14 UTC_
 - None currently qualify.
 ## 4. Spinout discovery inbox
 Formation, founder-movement, or stealth signals not yet tied confidently to a scored entity.
-- No qualifying spinout signals.
+- **13.0 — [Show HN: Mago, an open source AI video studio, runs locally with Comfy](https://github.com/MagoStudio/MagoStudio)** (hn) — domain: GPU; formation/movement: founder, co-founder
 
 ## 5. Industry intelligence
 Relevant technical or market context without company-formation evidence. These are not spinout alerts.
-- **7.5 — [Show HN: Corgi, a helpful {agent, terminal} multiplexer](https://corgi.computer/)** (hn) — domain: GPU
-- **7.0 — [Inside the Package Powering Modern AI](https://semiwiki.com/semiconductor-manufacturers/tsmc/371610-inside-the-package-powering-modern-ai/)** (rss) — domain: semiconductor, wafer
-- **7.0 — [Show HN: Render your Windows desktop GUI on the NPU](https://github.com/labscommunity/npu-render)** (hn) — domain: GPU, NPU
-- **6.0 — [Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT](https://github.com/FrigadeHQ/hob)** (hn) — domain: GPU
-- **6.0 — [The AI Packaging Challenge: 5 Reasons Panels Are Gaining Momentum](https://www.eetimes.com/the-ai-packaging-challenge-5-reasons-panels-are-gaining-momentum/)** (rss) — domain: advanced packaging, wafer
-- **5.9 — [Show HN: Tabverse – a free, open-source, with self-hostable server Workona clone](https://news.ycombinator.com/item?id=50240121)** (hn) — domain: HBM
-- **5.3 — [SpacemiT Vital Stone V100 RISC-V server processor](https://www.spacemit.com/products/keystone/v100)** (hn) — domain: RISC-V
-- **5.1 — [SpacemiT Announces the V100 Server-Class RISC-V Processor](https://www.phoronix.com/news/SpacemiT-V100)** (hn) — domain: RISC-V
-- **4.6 — [Tenstorrent Releases Open Source Beta of the Open Chiplet Atlas (OCA) Harness](https://tenstorrent.com/en/newsroom/tenstorrent-releases-open-source-beta-of-the-oca-harness)** (hn) — domain: chiplet
-- **4.5 — [Show HN: Embodsi – Embodied Super Intelligence](https://embodsi.com/)** (hn) — semiconductor industry item
-- **4.4 — [Android 17 for RISC-V Available for the RVA23 Profile Through Rise](https://riseproject.dev/2026/10/20/android-17-available-on-rva23-with-rise/)** (hn) — domain: RISC-V
-- **4.3 — [OpenPCIE – FPGA Root Complex, OpenBackplane, EduBOS5 RISC-V, Co-SIM](https://github.com/chili-chips-ba/openPCIE)** (hn) — domain: RISC-V
-- **4.3 — [RISC-V Silicon Fabricated on Intel 3 in Major Chip Milestone](https://hothardware.com/news/risc-v-fabbed-on-intel-3-bzl)** (hn) — domain: RISC-V
-- **4.0 — [Accellera’s FSL 1.0 Gives Functional Safety Data a Common Language](https://semiwiki.com/semiconductor-services/accellera/375280-accelleras-fsl-1-0-gives-functional-safety-data-a-common-language/)** (rss) — domain: semiconductor
-- **4.0 — [SpaceX locks in $40B GPU financing deal with Apollo](https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/)** (rss) — domain: GPU
+- **9.0 — [Show HN: Subvocal – Talk to your computer without making noise](https://news.ycombinator.com/item?id=50340088)** (hn) — domain: chiplet
+- **8.2 — [Launch HN: Simantic (YC F26) – Firmware Simulation for AI Agents](https://news.ycombinator.com/item?id=50291116)** (hn) — domain: SerDes
+- **6.3 — [Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5](https://divagr.com/blog/qwenputer)** (hn) — domain: RISC-V
+- **5.9 — [Intel’s Tiny Bridges Could Lead to Very Big Paychecks](https://semiwiki.com/semiconductor-manufacturers/intel/375827-intels-tiny-bridges-could-lead-to-very-big-paychecks/)** (rss) — domain: semiconductor, advanced packaging
+- **5.3 — [PIC64GX 64-bit RISC-V Quad-Core Microprocessors](https://www.microchip.com/en-us/products/microprocessors/64-bit-mpus/pic64gx)** (hn) — domain: RISC-V
+- **5.0 — [GPU-Accelerated Weight Teleportation](https://humansand.ai/blog/gpu-accelerated-weight-teleportation)** (hn) — domain: GPU
+- **4.9 — [European RISC-V Industrial Computing Initiative](https://erici.eu)** (hn) — domain: RISC-V
+- **4.7 — [Evolution of the RISC-V ISA. What next after RVA23?](https://ubuntu.com/blog/evolution-of-the-risc-v-isa-what-next-after-rva23)** (hn) — domain: RISC-V
+- **4.7 — [RISC-V Has a Nice Portable Performance Optimization with Linux 7.4](https://www.phoronix.com/news/Linux-7.4-RISC-V)** (hn) — domain: RISC-V
+- **4.5 — [Testing Silicon Photonics at Scale](https://www.semi.org/en/blogs/testing-silicon-photonics-at-scale)** (hn) — domain: silicon photonics
+- **4.4 — [A RISC-V CPU compiled into the weights of an LLM](https://github.com/divagr18/qwenputer)** (hn) — domain: RISC-V
+- **4.4 — [SiFive positions RISC-V as the control layer for AI accelerators](https://www.jonpeddie.com/news/sifive-makes-the-case-for-risc-v-as-the-control-layer-for-custom-ai-accelerators/)** (hn) — domain: RISC-V
+- **4.3 — [Show HN: ssh zydra.sh, a GPU Linux desktop in your terminal, with Doom](https://zydra.sh/)** (hn) — domain: GPU
+- **4.0 — [Interview with Sweta Gupta, VP of Engineering of Analog Bits](https://semiwiki.com/ip/analog-bits/375709-cto-interview-with-sweta-gupta-of-analog-bits/)** (rss) — semiconductor industry item
+- **4.0 — [Show HN: Open-source, Lightroom Alternative RAW editor made by photographer](https://github.com/Duecki1/CalibRaw)** (hn) — domain: GPU
 
 ## 6. Watchlist people mentioned publicly
 Recent public signals tied to people already on the watchlist.
-- **Darrick Wiebe** — [Possible GitHub identity: Darrick Wiebe → @pangloss](https://github.com/pangloss) (github, github_identity_candidate)
+- No watchlist people mentioned this week.
 
 ## 7. GitHub identity candidates
 Verify each profile manually before adding it to the YAML watchlist.
-- **Darrick Wiebe → @pangloss** — confidence 8/10; exact profile-name match, company matches last known employer. https://github.com/pangloss `radar confirm-github "Darrick Wiebe" pangloss`
+- No new GitHub identity candidates.
 
 ## 8. New relevant entities this week
 - None.
@@ -49,11 +49,11 @@ Human review only. These names have recent public signals.
 
 ## 11. Routine founder rotation
 Fallback review list, clearly separated from actual alerts.
-- [ ] **Marc Renaudin** — routine prior-founder rotation; last known at Tiempo Secure. `radar note person "Marc Renaudin" "observation"`
-- [ ] **Martin Snelgrove** — routine prior-founder rotation; last known at Untether AI. `radar note person "Martin Snelgrove" "observation"`
-- [ ] **Darrick Wiebe** — routine prior-founder rotation; last known at Untether AI. `radar note person "Darrick Wiebe" "observation"`
-- [ ] **Raymond Chik** — routine prior-founder rotation; last known at Untether AI. `radar note person "Raymond Chik" "observation"`
-- [ ] **Gilles Hamou** — routine prior-founder rotation; last known at UPMEM. `radar note person "Gilles Hamou" "observation"`
+- [ ] **Fabrice Devaux** — routine prior-founder rotation; last known at UPMEM. `radar note person "Fabrice Devaux" "observation"`
+- [ ] **Doug Smith** — routine prior-founder rotation; last known at Veevx. `radar note person "Doug Smith" "observation"`
+- [ ] **Balaji Baktha** — routine prior-founder rotation; last known at Ventana. `radar note person "Balaji Baktha" "observation"`
+- [ ] **Greg Favor** — routine prior-founder rotation; last known at Ventana. `radar note person "Greg Favor" "observation"`
+- [ ] **Andrea Zanotti** — routine prior-founder rotation; last known at Zanotti Energy Group. `radar note person "Andrea Zanotti" "observation"`
 
 ## 12. Possible entity merges
 - None.
@@ -62,9 +62,9 @@ Fallback review list, clearly separated from actual alerts.
 - conferences: Healthy; 253 rows; 0 new; 0 errors
 - domains: Partial; 3 rows; 0 new; 1 errors
 - edgar: Unavailable; 0 rows; 0 new; 11 errors
-- gdelt: Partial; 138 rows; 3 new; 30 errors
-- github: Healthy; 8 rows; 1 new; 0 errors
-- hn: Healthy; 382 rows; 15 new; 0 errors
+- gdelt: Partial; 124 rows; 1 new; 28 errors
+- github: Healthy; 16 rows; 0 new; 0 errors
+- hn: Healthy; 356 rows; 17 new; 0 errors
 - incorporation: Unavailable; 0 rows; 0 new; 1 errors
-- rss: Healthy; 45 rows; 6 new; 0 errors
+- rss: Healthy; 45 rows; 7 new; 0 errors
 - uspto: Unavailable; 0 rows; 0 new; 21 errors
