@@ -1,5 +1,5 @@
 # Spinout Radar — Weekly Digest
-_Generated 2026-11-09 21:22 UTC_
+_Generated 2026-11-16 20:53 UTC_
 
 ## 1. Investigate now
 - None currently qualify.
@@ -9,25 +9,23 @@ _Generated 2026-11-09 21:22 UTC_
 - None currently qualify.
 ## 4. Spinout discovery inbox
 Formation, founder-movement, or stealth signals not yet tied confidently to a scored entity.
-- **13.0 — [Golden Testcases You Can Check With a Calculator](https://semiwiki.com/eda/376069-golden-testcases-you-can-check-with-a-calculator/)** (rss) — domain: EDA; formation/movement: founder
+- **15.0 — [The AI-First Platform the Disaggregated Semiconductor Industry Needs](https://semiwiki.com/eda/pdf-solutions/376330-the-ai-first-platform-the-disaggregated-semiconductor-industry-needs/)** (rss) — domain: semiconductor, EDA; formation/movement: founder, co-founder
 
 ## 5. Industry intelligence
 Relevant technical or market context without company-formation evidence. These are not spinout alerts.
-- **9.0 — [Show HN: DBDelve – Open-Source DB Client Made with Rust and GPUI](https://news.ycombinator.com/item?id=50427934)** (hn) — domain: HBM
-- **8.1 — [Show HN: Waymark – A workflow engine that compiles jobs instead of replaying](https://github.com/piercefreeman/waymark)** (hn) — domain: ASIC
-- **7.0 — [Show HN: Every satellite that passed over any place this week, and its photos](https://www.watched.earth)** (hn) — domain: GPU
-- **6.9 — [Show HN: TimeScroll – an open-source, local replacement for Rewind on Mac](https://github.com/XInTheDark/TimeScrollApp)** (hn) — domain: chiplet
-- **6.0 — [Curvilinear OPC and next-gen photomask optimization](https://semiwiki.com/eda/siemens-eda/376032-curvilinear-opc-and-next-gen-photomask-optimization/)** (rss) — domain: semiconductor, EDA
-- **5.9 — [CEO Interview with Mark Rushworth of Finchetto](https://semiwiki.com/ceo-interviews/375759-ceo-interview-with-mark-rushworth-of-finchetto/)** (rss) — domain: optical networking
-- **5.6 — [Proprietory Firmware Bullshit](https://news.ycombinator.com/item?id=50399984)** (hn) — domain: RISC-V
-- **5.5 — [Running MicroPython on the Allwinner T527's XuanTie E906 RISC-V Core](http://allthingsembedded.blogspot.com/2026/10/micropython-on-e906.html)** (hn) — domain: RISC-V
-- **5.0 — [Show HN: WebGL2 GPU Liquidity Heatmap for Hyperliquid L2 Orderbooks](https://velqiris-acquisition.netlify.app/heatmap.html)** (hn) — domain: GPU
-- **5.0 — [M9B: A RISC-V computer in a Tang Nano 9K FPGA that runs Doom and Descent](https://github.com/the-parts-bin/m9b-system)** (hn) — domain: RISC-V
-- **4.8 — [A RISC-V Based Trusted Environment with AMD Zen 6 CPUs](https://www.phoronix.com/news/AMD-Zen-6-TEE-RISC-V-Based)** (hn) — domain: RISC-V
-- **4.6 — [Building an Order RISC-V CPU from scratch](https://prawns.dev/blogs/specula)** (hn) — domain: RISC-V
-- **4.5 — [Ask HN: Local AI Models for Coding and General Tasks?](https://news.ycombinator.com/item?id=50381045)** (hn) — domain: GPU
-- **4.4 — [Infineon announces RISC-V based AURIX RC1 automotive microcontroller platform](https://www.infineon.com/press-release/2026/infpr202611-026)** (hn) — domain: RISC-V
-- **4.4 — [Bosch to create semiconductor division from January 2028](https://www.reuters.com/world/asia-pacific/bosch-spin-off-semiconductor-division-january-2028-2026-11-03/)** (hn) — domain: semiconductor
+- **6.0 — [yieldWerx’s PhotonX traces photonic module failures back to the die](https://semiwiki.com/eda/yieldwerx/375995-yieldwerxs-photonx-traces-photonic-module-failures-back-to-the-die/)** (rss) — domain: EDA, wafer
+- **4.9 — [RISC-V Matrix Extensions](https://fprox.substack.com/p/risc-v-matrix-extensions)** (hn) — domain: RISC-V
+- **4.8 — [Building a Ethernet Switch ASIC chip](https://essenceia.github.io/projects/expresso/)** (hn) — domain: ASIC
+- **4.8 — [Show HN: Flipbook Foundry – animated stick figures baked into a font](https://flipbook-foundry.pages.dev/)** (hn) — domain: foundry
+- **4.5 — [A RISC-V Based TEE with AMD Zen 6 CPUs](https://www.phoronix.com/news/AMD-Zen-6-TEE-RISC-V-Based)** (hn) — domain: RISC-V
+- **4.0 — [CXO Interview with Vishal Moondhra of Perforce IPLM](https://semiwiki.com/eda/perforce/375968-cxo-interview-with-vishal-moondhra-of-perforce-iplm/)** (rss) — domain: EDA
+- **4.0 — [Silicon Catalyst 2026 Semiconductor Industry Forum – What’s Next for AI, Quantum, and Space](https://semiwiki.com/semiconductor-services/silicon-catalyst/376392-silicon-catalyst-2026-semiconductor-industry-forum-whats-next-for-ai-quantum-and-space/)** (rss) — domain: semiconductor
+- **4.0 — [GPU-Initiated DMA Copy Engines in RCCL and RocSHMEM](https://rocm.blogs.amd.com/software-tools-optimization/gpu-initiated-sdma/README.html)** (hn) — domain: GPU
+- **3.8 — [RISC-V assembly course – ASM Editor](https://asm-editor.specy.app/learn/courses/risc-v)** (hn) — domain: RISC-V
+- **3.7 — [How NovoGenius® MCU+ Devices Are Reshaping the Automotive Edge Node](https://www.eetimes.com/how-novogenius-mcu-devices-are-reshaping-the-automotive-edge-node/)** (rss) — semiconductor industry item
+- **3.4 — [Could the scandal at Nvidia rattle Korea semiconductor industry ?](http://english.hani.co.kr/arti/english_edition/e_business/1286584.html)** (gdelt) — domain: semiconductor
+- **3.4 — [Could the scandal at Nvidia rattle Korea semiconductor industry ?](https://english.hani.co.kr/arti/english_edition/e_business/1286584.html)** (gdelt) — domain: semiconductor
+- **3.4 — [Could the scandal at Nvidia rattle Korea semiconductor industry ?](https://www.hani.co.kr/arti/english_edition/e_business/1286584.html)** (gdelt) — domain: semiconductor
 
 ## 6. Watchlist people mentioned publicly
 Recent public signals tied to people already on the watchlist.
@@ -49,11 +47,11 @@ Human review only. These names have recent public signals.
 
 ## 11. Routine founder rotation
 Fallback review list, clearly separated from actual alerts.
-- [ ] **Manish Shah** — routine prior-founder rotation; last known at Tagore Technology. `radar note person "Manish Shah" "observation"`
-- [ ] **Eric Johnson** — routine prior-founder rotation; last known at Studio E2. `radar note person "Eric Johnson" "observation"`
-- [ ] **Stefan C. Lauxtermann** — routine prior-founder rotation; last known at Sensor Creations. `radar note person "Stefan C. Lauxtermann" "observation"`
-- [ ] **Christian Schmid** — routine prior-founder rotation; last known at Schmid Silicon Technology. `radar note person "Christian Schmid" "observation"`
-- [ ] **Larry Cain** — routine prior-founder rotation; last known at Safari Circuits. `radar note person "Larry Cain" "observation"`
+- [ ] **Tony Boswell** — routine prior-founder rotation; last known at Retronix Semiconductor. `radar note person "Tony Boswell" "observation"`
+- [ ] **Kathleen Boswell** — routine prior-founder rotation; last known at Retronix Semiconductor. `radar note person "Kathleen Boswell" "observation"`
+- [ ] **Robert Redden** — routine prior-founder rotation; last known at Redlen Technologies. `radar note person "Robert Redden" "observation"`
+- [ ] **Jim Hughins** — routine prior-founder rotation; last known at Qolibri. `radar note person "Jim Hughins" "observation"`
+- [ ] **Imad Mahawili** — routine prior-founder rotation; last known at Qolibri. `radar note person "Imad Mahawili" "observation"`
 
 ## 12. Possible entity merges
 - None.
@@ -62,9 +60,9 @@ Fallback review list, clearly separated from actual alerts.
 - conferences: Healthy; 253 rows; 0 new; 0 errors
 - domains: Healthy; 0 rows; 0 new; 0 errors
 - edgar: Unavailable; 0 rows; 0 new; 11 errors
-- gdelt: Partial; 103 rows; 0 new; 30 errors
-- github: Healthy; 32 rows; 0 new; 0 errors
-- hn: Healthy; 390 rows; 14 new; 0 errors
+- gdelt: Partial; 150 rows; 3 new; 34 errors
+- github: Healthy; 2 rows; 0 new; 0 errors
+- hn: Healthy; 379 rows; 10 new; 0 errors
 - incorporation: Unavailable; 0 rows; 0 new; 1 errors
 - rss: Healthy; 45 rows; 5 new; 0 errors
 - uspto: Unavailable; 0 rows; 0 new; 21 errors
